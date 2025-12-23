@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-12-24",
+    "totalProvinces": 34,
+    "description": "Comprehensive Vietnam location data including provinces, districts, wards, postal codes, and area codes",
+    "repository": "https://github.com/AlexanderPhan04/vietnam-location-data"
+  },
+  "provinces": [
+    {
+      "id": "VN-AG",
+      "code": "AG",
+      "name": "An Giang",
+      "type": "Tỉnh",
+      "region": "Đồng bằng sông Cửu Long",
+      "slug": "an-giang",
+      "area_code": "0296",
+      "postal_code_range": ["880000", "889999"],
+      "file": "VN/AnGiang/AnGiang.json"
+    },
+    {
+      "id": "VN-BN",
+      "code": "BN",
+      "name": "Bắc Ninh",
+      "type": "Tỉnh",
+      "region": "Đồng bằng sông Hồng",
+      "slug": "bac-ninh",
+      "area_code": "0222",
+      "postal_code_range": ["160000", "239999"],
+      "file": "VN/BacNinh/BacNinh.json"
+    },
+    {
+      "id": "VN-CM",
+      "code": "CM",
+      "name": "Cà Mau",
+      "type": "Tỉnh",
+      "region": "Đồng bằng sông Cửu Long",
+      "slug": "ca-mau",
+      "area_code": "0290",
+      "postal_code_range": ["970000", "979999"],
+      "file": "VN/CaMau/CaMau.json"
+    },
+    {
+      "id": "VN-CT",
+      "code": "CT",
+      "name": "Cần Thơ",
+      "type": "Thành phố trực thuộc Trung ương",
+      "region": "Đồng bằng sông Cửu Long",
+      "slug": "can-tho",
+      "area_code": "0292",
+      "postal_code_range": ["900000", "959999"],
+      "file": "VN/CanTho/CanTho.json"
+    },
+    {
+      "id": "VN-CB",
+      "code": "CB",
+      "name": "Cao Bằng",
+      "type": "Tỉnh",
+      "region": "Đông Bắc Bộ",
+      "slug": "cao-bang",
+      "area_code": "0206",
+      "postal_code_range": ["210000", "219999"],
+      "file": "VN/CaoBang/CaoBang.json"
+    },
+    {
+      "id": "VN-40",
+      "code": "40",
+      "name": "Đắk Lắk",
+      "type": "Tỉnh",
+      "region": "Tây Nguyên",
+      "slug": "dak-lak",
+      "area_code": "0262",
+      "postal_code_range": ["630000", "639999"],
+      "file": "VN/DakLak/DakLak.json"
+    },
+    {
+      "id": "VN-DN",
+      "code": "DN",
+      "name": "Đà Nẵng",
+      "type": "Thành phố trực thuộc Trung ương",
+      "region": "Duyên hải Nam Trung Bộ",
+      "slug": "da-nang",
+      "area_code": "0236",
+      "postal_code_range": ["550000", "560000"],
+      "file": "VN/DaNang/DaNang.json"
+    },
+    {
+      "id": "VN-DB",
+      "code": "DB",
+      "name": "Điện Biên",
+      "type": "Tỉnh",
+      "region": "Tây Bắc Bộ",
+      "slug": "dien-bien",
+      "area_code": "0215",
+      "postal_code_range": ["380000", "389999"],
+      "file": "VN/DienBien/DienBien.json"
+    },
+    {
+      "id": "VN-DNai",
+      "code": "DNai",
+      "name": "Đồng Nai",
+      "type": "Tỉnh",
+      "region": "Đông Nam Bộ",
+      "slug": "dong-nai",
+      "area_code": "0251",
+      "postal_code_range": ["810000", "829999"],
+      "file": "VN/DongNai/DongNai.json"
+    },
+    {
+      "id": "VN-DT",
+      "code": "DT",
+      "name": "Đồng Tháp",
+      "type": "Tỉnh",
+      "region": "Đồng bằng sông Cửu Long",
+      "slug": "dong-thap",
+      "area_code": "0277",
+      "postal_code_range": ["870000", "879999"],
+      "file": "VN/DongThap/DongThap.json"
+    },
+    {
+      "id": "VN-GL",
+      "code": "GL",
+      "name": "Gia Lai",
+      "type": "Tỉnh",
+      "region": "Tây Nguyên & Duyên hải Nam Trung Bộ",
+      "slug": "gia-lai",
+      "area_code": "0269",
+      "postal_code_range": ["590000", "609999"],
+      "file": "VN/GiaLai/GiaLai.json"
+    },
+    {
+      "id": "VN-HP",
+      "code": "HP",
+      "name": "Hải Phòng",
+      "type": "Thành phố trực thuộc Trung ương",
+      "region": "Miền Bắc",
+      "slug": "hai-phong",
+      "area_code": "0225",
+      "postal_code_range": ["180000", "189000"],
+      "file": "VN/HaiPhong/HaiPhong.json"
+    },
+    {
+      "id": "VN-HN",
+      "code": "HN",
+      "name": "Hà Nội",
+      "type": "Thành phố trực thuộc Trung ương",
+      "region": "Miền Bắc",
+      "slug": "ha-noi",
+      "area_code": "024",
+      "postal_code_range": ["100000", "150000"],
+      "file": "VN/HaNoi/HaNoi.json"
+    },
+    {
+      "id": "VN-HT",
+      "code": "HT",
+      "name": "Hà Tĩnh",
+      "type": "Tỉnh",
+      "region": "Bắc Trung Bộ",
+      "slug": "ha-tinh",
+      "area_code": "0239",
+      "postal_code_range": ["480000", "489999"],
+      "file": "VN/HaTinh/HaTinh.json"
+    },
+    {
+      "id": "VN-SG",
+      "code": "SG",
+      "name": "Hồ Chí Minh",
+      "type": "Thành phố trực thuộc Trung ương",
+      "region": "Miền Nam",
+      "slug": "ho-chi-minh",
+      "area_code": "028",
+      "postal_code_range": ["700000", "740000"],
+      "file": "VN/HoChiMinh/HoChiMinh.json"
+    },
+    {
+      "id": "VN-HUE",
+      "code": "HUE",
+      "name": "Huế",
+      "type": "Thành phố trực thuộc Trung ương",
+      "region": "Bắc Trung Bộ",
+      "slug": "hue",
+      "area_code": "0234",
+      "postal_code_range": ["530000", "539999"],
+      "file": "VN/Hue/Hue.json"
+    },
+    {
+      "id": "VN-HY",
+      "code": "HY",
+      "name": "Hưng Yên",
+      "type": "Tỉnh",
+      "region": "Đồng bằng sông Hồng",
+      "slug": "hung-yen",
+      "area_code": "0221",
+      "postal_code_range": ["170000", "419999"],
+      "file": "VN/HungYen/HungYen.json"
+    },
+    {
+      "id": "VN-KH",
+      "code": "KH",
+      "name": "Khánh Hòa",
+      "type": "Tỉnh",
+      "region": "Duyên hải Nam Trung Bộ",
+      "slug": "khanh-hoa",
+      "area_code": "0258",
+      "postal_code_range": ["620000", "659999"],
+      "file": "VN/KhanhHoa/KhanhHoa.json"
+    },
+    {
+      "id": "VN-LCA",
+      "code": "LCA",
+      "name": "Lai Châu",
+      "type": "Tỉnh",
+      "region": "Tây Bắc Bộ",
+      "slug": "lai-chau",
+      "area_code": "0213",
+      "postal_code_range": ["390000", "399999"],
+      "file": "VN/LaiChau/LaiChau.json"
+    },
+    {
+      "id": "VN-LD",
+      "code": "LD",
+      "name": "Lâm Đồng",
+      "type": "Tỉnh",
+      "region": "Tây Nguyên",
+      "slug": "lam-dong",
+      "area_code": "0263",
+      "postal_code_range": ["660000", "679999"],
+      "file": "VN/LamDong/LamDong.json"
+    },
+    {
+      "id": "VN-LS",
+      "code": "LS",
+      "name": "Lạng Sơn",
+      "type": "Tỉnh",
+      "region": "Đông Bắc Bộ",
+      "slug": "lang-son",
+      "area_code": "0205",
+      "postal_code_range": ["240000", "249999"],
+      "file": "VN/LangSon/LangSon.json"
+    },
+    {
+      "id": "VN-LC",
+      "code": "LC",
+      "name": "Lào Cai",
+      "type": "Tỉnh",
+      "region": "Tây Bắc Bộ",
+      "slug": "lao-cai",
+      "area_code": "0214",
+      "postal_code_range": ["320000", "339999"],
+      "file": "VN/LaoCai/LaoCai.json"
+    },
+    {
+      "id": "VN-NA",
+      "code": "NA",
+      "name": "Nghệ An",
+      "type": "Tỉnh",
+      "region": "Bắc Trung Bộ",
+      "slug": "nghe-an",
+      "area_code": "0238",
+      "postal_code_range": ["460000", "479999"],
+      "file": "VN/NgheAn/NgheAn.json"
+    },
+    {
+      "id": "VN-NB",
+      "code": "NB",
+      "name": "Ninh Bình",
+      "type": "Tỉnh",
+      "region": "Đồng bằng sông Hồng",
+      "slug": "ninh-binh",
+      "area_code": "0229",
+      "postal_code_range": ["400000", "440000"],
+      "file": "VN/NinhBinh/NinhBinh.json"
+    },
+    {
+      "id": "VN-PT",
+      "code": "PT",
+      "name": "Phú Thọ",
+      "type": "Tỉnh",
+      "region": "Trung du và miền núi phía Bắc",
+      "slug": "phu-tho",
+      "area_code": "0210",
+      "postal_code_range": ["280000", "359999"],
+      "file": "VN/PhuTho/PhuTho.json"
+    },
+    {
+      "id": "VN-QNg",
+      "code": "QNg",
+      "name": "Quảng Ngãi",
+      "type": "Tỉnh",
+      "region": "Duyên hải Nam Trung Bộ",
+      "slug": "quang-ngai",
+      "area_code": "0255",
+      "postal_code_range": ["570000", "589999"],
+      "file": "VN/QuangNgai/QuangNgai.json"
+    },
+    {
+      "id": "VN-QN",
+      "code": "QN",
+      "name": "Quảng Ninh",
+      "type": "Tỉnh",
+      "region": "Đông Bắc Bộ",
+      "slug": "quang-ninh",
+      "area_code": "0203",
+      "postal_code_range": ["200000", "209999"],
+      "file": "VN/QuangNinh/QuangNinh.json"
+    },
+    {
+      "id": "VN-QT",
+      "code": "QT",
+      "name": "Quảng Trị",
+      "type": "Tỉnh",
+      "region": "Bắc Trung Bộ",
+      "slug": "quang-tri",
+      "area_code": "0233",
+      "postal_code_range": ["510000", "529999"],
+      "file": "VN/QuangTri/QuangTri.json"
+    },
+    {
+      "id": "VN-SL",
+      "code": "SL",
+      "name": "Sơn La",
+      "type": "Tỉnh",
+      "region": "Tây Bắc Bộ",
+      "slug": "son-la",
+      "area_code": "0212",
+      "postal_code_range": ["360000", "369999"],
+      "file": "VN/SonLa/SonLa.json"
+    },
+    {
+      "id": "VN-TNh",
+      "code": "TNh",
+      "name": "Tây Ninh",
+      "type": "Tỉnh",
+      "region": "Đông Nam Bộ",
+      "slug": "tay-ninh",
+      "area_code": "0276",
+      "postal_code_range": ["840000", "849999"],
+      "file": "VN/TayNinh/TayNinh.json"
+    },
+    {
+      "id": "VN-TN",
+      "code": "TN",
+      "name": "Thái Nguyên",
+      "type": "Tỉnh",
+      "region": "Đông Bắc Bộ",
+      "slug": "thai-nguyen",
+      "area_code": "0208",
+      "postal_code_range": ["250000", "269999"],
+      "file": "VN/ThaiNguyen/ThaiNguyen.json"
+    },
+    {
+      "id": "VN-TH",
+      "code": "TH",
+      "name": "Thanh Hóa",
+      "type": "Tỉnh",
+      "region": "Bắc Trung Bộ",
+      "slug": "thanh-hoa",
+      "area_code": "0237",
+      "postal_code_range": ["440000", "459999"],
+      "file": "VN/ThanhHoa/ThanhHoa.json"
+    },
+    {
+      "id": "VN-TQ",
+      "code": "TQ",
+      "name": "Tuyên Quang",
+      "type": "Tỉnh",
+      "region": "Đông Bắc Bộ",
+      "slug": "tuyen-quang",
+      "area_code": "0207",
+      "postal_code_range": ["220000", "319999"],
+      "file": "VN/TuyenQuang/TuyenQuang.json"
+    },
+    {
+      "id": "VN-VL",
+      "code": "VL",
+      "name": "Vĩnh Long",
+      "type": "Tỉnh",
+      "region": "Đồng bằng sông Cửu Long",
+      "slug": "vinh-long",
+      "area_code": "0270",
+      "postal_code_range": ["890000", "899999"],
+      "file": "VN/VinhLong/VinhLong.json"
+    }
+  ],
+  "regions": [
+    {
+      "name": "Miền Bắc",
+      "provinces": ["Hà Nội", "Hải Phòng"]
+    },
+    {
+      "name": "Đồng bằng sông Hồng",
+      "provinces": ["Bắc Ninh", "Hưng Yên", "Ninh Bình"]
+    },
+    {
+      "name": "Đông Bắc Bộ",
+      "provinces": [
+        "Cao Bằng",
+        "Lạng Sơn",
+        "Quảng Ninh",
+        "Thái Nguyên",
+        "Tuyên Quang"
+      ]
+    },
+    {
+      "name": "Tây Bắc Bộ",
+      "provinces": ["Điện Biên", "Lai Châu", "Lào Cai", "Sơn La"]
+    },
+    {
+      "name": "Trung du và miền núi phía Bắc",
+      "provinces": ["Phú Thọ"]
+    },
+    {
+      "name": "Bắc Trung Bộ",
+      "provinces": ["Hà Tĩnh", "Huế", "Nghệ An", "Quảng Trị", "Thanh Hóa"]
+    },
+    {
+      "name": "Duyên hải Nam Trung Bộ",
+      "provinces": ["Đà Nẵng", "Khánh Hòa", "Quảng Ngãi"]
+    },
+    {
+      "name": "Tây Nguyên",
+      "provinces": ["Đắk Lắk", "Gia Lai", "Lâm Đồng"]
+    },
+    {
+      "name": "Tây Nguyên & Duyên hải Nam Trung Bộ",
+      "provinces": ["Gia Lai"]
+    },
+    {
+      "name": "Đông Nam Bộ",
+      "provinces": ["Đồng Nai", "Tây Ninh"]
+    },
+    {
+      "name": "Miền Nam",
+      "provinces": ["Hồ Chí Minh"]
+    },
+    {
+      "name": "Đồng bằng sông Cửu Long",
+      "provinces": ["An Giang", "Cà Mau", "Cần Thơ", "Đồng Tháp", "Vĩnh Long"]
+    }
+  ],
+  "usage": {
+    "examples": {
+      "find_by_code": "Filter provinces array by code property",
+      "find_by_region": "Filter provinces array by region property",
+      "get_province_details": "Use the file path to load complete province data"
+    }
+  }
+}
