@@ -1,0 +1,173 @@
+{
+  "province": {
+    "id": "VN-DT",
+    "code": "DT",
+    "name": "Đồng Tháp",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "slug": "dong-thap",
+    "description": "Đất Sen Hồng, vựa lúa và hoa kiểng của miền Tây. Tỉnh có 3 thành phố trực thuộc.",
+    "area_code": "0277",
+    "postal_code": {
+      "type": "range",
+      "value": ["870000", "879999"],
+      "note": "Mã bưu chính quốc gia (đầu số 87)"
+    }
+  },
+  "units": [
+    {
+      "id": "DT-CL",
+      "code": "CL",
+      "name": "TP. Cao Lãnh",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ - Trung tâm hành chính",
+      "postal_code": ["870000", "871000"],
+      "wards": [
+        { "id": "DT-CL-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "DT-CL-MP", "code": "MP", "name": "Mỹ Phú", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DT-SD",
+      "code": "SD",
+      "name": "TP. Sa Đéc",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thủ phủ hoa kiểng miền Tây",
+      "postal_code": ["872000", "872900"],
+      "wards": [
+        { "id": "DT-SD-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "DT-SD-TQD", "code": "TQD", "name": "Tân Quy Đông", "type": "Phường", "type_code": "WARD", "note": "Làng hoa Sa Đéc" }
+      ]
+    },
+    {
+      "id": "DT-HN",
+      "code": "HN",
+      "name": "TP. Hồng Ngự",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố biên giới (Cửa khẩu Thường Phước)",
+      "postal_code": ["873000", "873900"],
+      "wards": [
+        { "id": "DT-HN-AL", "code": "AL", "name": "An Lộc", "type": "Phường", "type_code": "WARD" },
+        { "id": "DT-HN-AT", "code": "AT", "name": "An Thạnh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DT-HCL",
+      "code": "HCL",
+      "name": "Cao Lãnh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện vành đai TP. Cao Lãnh (Khác với TP. Cao Lãnh)",
+      "postal_code": ["874000", "874900"],
+      "wards": [
+        { "id": "DT-HCL-MT", "code": "MT", "name": "TT. Mỹ Thọ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DT-CT",
+      "code": "CT",
+      "name": "Châu Thành",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa ngõ phía Nam (Giáp Vĩnh Long)",
+      "postal_code": ["875000", "875900"],
+      "wards": [
+        { "id": "DT-CT-CTH", "code": "CTH", "name": "TT. Cái Tàu Hạ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DT-HHN",
+      "code": "HHN",
+      "name": "Hồng Ngự",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện đầu nguồn (Khác với TP. Hồng Ngự)",
+      "postal_code": ["876000", "876900"],
+      "wards": [
+        { "id": "DT-HHN-TTT", "code": "TTT", "name": "TT. Thường Thới Tiền", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DT-LV",
+      "code": "LV",
+      "name": "Lấp Vò",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Nằm giữa sông Tiền và sông Hậu",
+      "postal_code": ["877000", "877900"],
+      "wards": [
+        { "id": "DT-LV-LV", "code": "LV", "name": "TT. Lấp Vò", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DT-LaiV",
+      "code": "LaiV",
+      "name": "Lai Vung",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Xứ quýt hồng, Nem Lai Vung",
+      "postal_code": ["878000", "878500"],
+      "wards": [
+        { "id": "DT-LaiV-LV", "code": "LV", "name": "TT. Lai Vung", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DT-TN",
+      "code": "TN",
+      "name": "Tam Nông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "VQG Tràm Chim (Sếu đầu đỏ)",
+      "postal_code": ["878600", "878900"],
+      "wards": [
+        { "id": "DT-TN-TC", "code": "TC", "name": "TT. Tràm Chim", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DT-TH",
+      "code": "TH",
+      "name": "Tân Hồng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện biên giới",
+      "postal_code": ["879000", "879500"],
+      "wards": [
+        { "id": "DT-TH-SR", "code": "SR", "name": "TT. Sa Rài", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DT-ThB",
+      "code": "ThB",
+      "name": "Thanh Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cù lao Tây",
+      "postal_code": ["879600", "879900"],
+      "wards": [
+        { "id": "DT-ThB-TB", "code": "TB", "name": "TT. Thanh Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DT-TM",
+      "code": "TM",
+      "name": "Tháp Mười",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu di tích Gò Tháp - Vùng sen Tháp Mười",
+      "postal_code": ["871500", "871900"],
+      "wards": [
+        { "id": "DT-TM-MA", "code": "MA", "name": "TT. Mỹ An", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_actual_2025",
+    "total_units": 12,
+    "composition": "3 Cities + 9 Rural Districts",
+    "note": "Stable administrative structure. Distinct administrative units for Cao Lanh (City/District) and Hong Ngu (City/District).",
+    "last_updated": "2025-01-01"
+  }
+}

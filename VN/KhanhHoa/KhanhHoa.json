@@ -1,0 +1,248 @@
+{
+  "province": {
+    "id": "VN-KH",
+    "code": "KH",
+    "name": "Khánh Hòa",
+    "type": "Tỉnh",
+    "region": "Duyên hải Nam Trung Bộ",
+    "slug": "khanh-hoa",
+    "description": "Thủ phủ du lịch và kinh tế biển, sáp nhập từ tỉnh Khánh Hòa cũ và tỉnh Phú Yên (Tái lập tỉnh Phú Khánh).",
+    "area_code": "0258",
+    "postal_code": {
+      "type": "range",
+      "value": ["620000", "659999"],
+      "note": "Bao gồm dải mã cũ của Phú Yên (62) và Khánh Hòa (65)"
+    }
+  },
+  "units": [
+    {
+      "id": "KH-TPNT",
+      "code": "TPNT",
+      "name": "TP. Nha Trang",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Thành phố du lịch biển quốc tế)",
+      "postal_code": ["650000", "651000"],
+      "wards": [
+        { "id": "KH-TPNT-LT", "code": "LT", "name": "Lộc Thọ", "type": "Phường", "type_code": "WARD" },
+        { "id": "KH-TPNT-XHR", "code": "XHR", "name": "Xương Huân", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "KH-TPTH",
+      "code": "TPTH",
+      "name": "TP. Tuy Hòa",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm kinh tế phía Bắc (Phú Yên cũ)",
+      "postal_code": ["620000", "621000"],
+      "wards": [
+        { "id": "KH-TPTH-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "KH-TPTH-P5", "code": "P5", "name": "Phường 5", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "KH-TPCR",
+      "code": "TPCR",
+      "name": "TP. Cam Ranh",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố Vịnh (Quân cảng - Sân bay quốc tế)",
+      "postal_code": ["654000", "654900"],
+      "wards": [
+        { "id": "KH-TPCR-CN", "code": "CN", "name": "Cam Nghĩa", "type": "Phường", "type_code": "WARD" },
+        { "id": "KH-TPCR-CP", "code": "CP", "name": "Cam Phú", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "KH-NH",
+      "code": "NH",
+      "name": "TX. Ninh Hòa",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Khu kinh tế Vân Phong (Nam Vân Phong)",
+      "postal_code": ["652000", "652900"],
+      "wards": [
+        { "id": "KH-NH-NH", "code": "NH", "name": "Ninh Hiệp", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "KH-SC",
+      "code": "SC",
+      "name": "TX. Sông Cầu",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Vịnh Xuân Đài (Phú Yên cũ)",
+      "postal_code": ["622000", "622900"],
+      "wards": [
+        { "id": "KH-SC-XL", "code": "XL", "name": "Xuân Lộc", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "KH-DH",
+      "code": "DH",
+      "name": "TX. Đông Hòa",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Cảng Vũng Rô - Mũi Điện (Phú Yên cũ)",
+      "postal_code": ["624000", "624900"],
+      "wards": [
+        { "id": "KH-DH-HP", "code": "HP", "name": "Hòa Phú", "type": "Xã", "type_code": "COMMUNE" },
+        { "id": "KH-DH-HV", "code": "HV", "name": "Hòa Vinh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "KH-VN",
+      "code": "VN",
+      "name": "Vạn Ninh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu kinh tế Bắc Vân Phong (Khánh Hòa cũ)",
+      "postal_code": ["653000", "653900"],
+      "wards": [
+        { "id": "KH-VN-VG", "code": "VG", "name": "TT. Vạn Giã", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-DK",
+      "code": "DK",
+      "name": "Diên Khánh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thành cổ Diên Khánh (Đang quy hoạch lên Thị xã)",
+      "postal_code": ["655000", "655900"],
+      "wards": [
+        { "id": "KH-DK-DK", "code": "DK", "name": "TT. Diên Khánh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-CL",
+      "code": "CL",
+      "name": "Cam Lâm",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ Resort Bãi Dài (Đang quy hoạch Đô thị sân bay)",
+      "postal_code": ["656000", "656900"],
+      "wards": [
+        { "id": "KH-CL-CD", "code": "CD", "name": "TT. Cam Đức", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-KV",
+      "code": "KV",
+      "name": "Khánh Vĩnh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đèo Khánh Lê (Nối Nha Trang - Đà Lạt)",
+      "postal_code": ["657000", "657900"],
+      "wards": [
+        { "id": "KH-KV-KV", "code": "KV", "name": "TT. Khánh Vĩnh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-KS",
+      "code": "KS",
+      "name": "Khánh Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng sầu riêng Khánh Sơn",
+      "postal_code": ["658000", "658900"],
+      "wards": [
+        { "id": "KH-KS-TH", "code": "TH", "name": "TT. Tô Hạp", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-TS",
+      "code": "TS",
+      "name": "Trường Sa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quần đảo Trường Sa (Chủ quyền thiêng liêng)",
+      "postal_code": ["654800", "654899"],
+      "wards": [
+        { "id": "KH-TS-TS", "code": "TS", "name": "TT. Trường Sa", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "KH-TS-SY", "code": "SY", "name": "Song Tử Tây", "type": "Xã", "type_code": "COMMUNE" },
+        { "id": "KH-TS-ST", "code": "ST", "name": "Sinh Tồn", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "KH-TA",
+      "code": "TA",
+      "name": "Tuy An",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gành Đá Đĩa, Đầm Ô Loan (Phú Yên cũ)",
+      "postal_code": ["623000", "623900"],
+      "wards": [
+        { "id": "KH-TA-CC", "code": "CC", "name": "TT. Chí Thạnh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-DX",
+      "code": "DX",
+      "name": "Đồng Xuân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Yên cũ",
+      "postal_code": ["625000", "625900"],
+      "wards": [
+        { "id": "KH-DX-LK", "code": "LK", "name": "TT. La Hai", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-SHo",
+      "code": "SHo",
+      "name": "Sơn Hòa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cao nguyên Vân Hòa (Phú Yên cũ)",
+      "postal_code": ["626000", "626900"],
+      "wards": [
+        { "id": "KH-SHo-CC", "code": "CC", "name": "TT. Cúng Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-SHi",
+      "code": "SHi",
+      "name": "Sông Hinh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Yên cũ",
+      "postal_code": ["627000", "627900"],
+      "wards": [
+        { "id": "KH-SHi-HB", "code": "HB", "name": "TT. Hai Riêng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-TayH",
+      "code": "TayH",
+      "name": "Tây Hòa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Yên cũ",
+      "postal_code": ["628000", "628900"],
+      "wards": [
+        { "id": "KH-TayH-PT", "code": "PT", "name": "TT. Phú Thứ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "KH-PH",
+      "code": "PH",
+      "name": "Phú Hòa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Yên cũ",
+      "postal_code": ["629000", "629900"],
+      "wards": [
+        { "id": "KH-PH-PH", "code": "PH", "name": "TT. Phú Hòa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 18,
+    "composition": "3 Cities + 3 Towns + 12 Rural Districts",
+    "note": "Combined administrative units of Khanh Hoa and Phu Yen (Re-establishing Phu Khanh province).",
+    "last_updated": "2025-07-01"
+  }
+}

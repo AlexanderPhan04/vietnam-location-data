@@ -1,0 +1,353 @@
+{
+  "province": {
+    "id": "VN-GL",
+    "code": "GL",
+    "name": "Gia Lai",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên & Duyên hải Nam Trung Bộ",
+    "slug": "gia-lai",
+    "description": "Tỉnh chiến lược Đông - Tây, sáp nhập từ tỉnh Gia Lai cũ và tỉnh Bình Định.",
+    "area_code": "0269",
+    "postal_code": {
+      "type": "range",
+      "value": ["590000", "609999"],
+      "note": "Bao gồm dải mã cũ của Bình Định (59) và Gia Lai (60)"
+    }
+  },
+  "units": [
+    {
+      "id": "GL-TPPL",
+      "code": "TPPL",
+      "name": "TP. Pleiku",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính - Đô thị cao nguyên)",
+      "postal_code": ["600000", "601000"],
+      "wards": [
+        { "id": "GL-TPPL-DK", "code": "DK", "name": "Diên Hồng", "type": "Phường", "type_code": "WARD" },
+        { "id": "GL-TPPL-YT", "code": "YT", "name": "Yên Thế", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "GL-TPQN",
+      "code": "TPQN",
+      "name": "TP. Quy Nhơn",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm kinh tế biển - Du lịch - Cảng quốc tế (Bình Định cũ)",
+      "postal_code": ["590000", "591000"],
+      "wards": [
+        { "id": "GL-TPQN-LHP", "code": "LHP", "name": "Lê Hồng Phong", "type": "Phường", "type_code": "WARD" },
+        { "id": "GL-TPQN-NN", "code": "NN", "name": "Ngô Mây", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "GL-AK",
+      "code": "AK",
+      "name": "TX. An Khê",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Cửa ngõ phía Đông Gia Lai",
+      "postal_code": ["606000", "606900"],
+      "wards": [
+        { "id": "GL-AK-AB", "code": "AB", "name": "An Bình", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "GL-AP",
+      "code": "AP",
+      "name": "TX. Ayun Pa",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Trung tâm vùng Đông Nam Gia Lai",
+      "postal_code": ["607000", "607500"],
+      "wards": [
+        { "id": "GL-AP-DB", "code": "DB", "name": "Đoàn Kết", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "GL-AN",
+      "code": "AN",
+      "name": "TX. An Nhơn",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Thủ phủ Mai vàng (Bình Định cũ)",
+      "postal_code": ["595000", "595900"],
+      "wards": [
+        { "id": "GL-AN-BD", "code": "BD", "name": "Bình Định", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "GL-HN",
+      "code": "HN",
+      "name": "TX. Hoài Nhơn",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Vùng dừa Tam Quan (Bình Định cũ)",
+      "postal_code": ["596000", "596900"],
+      "wards": [
+        { "id": "GL-HN-BB", "code": "BB", "name": "Bồng Sơn", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "GL-CP",
+      "code": "CP",
+      "name": "Chư Păh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủy điện Yaly, Núi lửa Chư Đăng Ya (Gia Lai cũ)",
+      "postal_code": ["604000", "604500"],
+      "wards": [
+        { "id": "GL-CP-PT", "code": "PT", "name": "TT. Phú Hòa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-CPr",
+      "code": "CPr",
+      "name": "Chư Prông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["605000", "605900"],
+      "wards": [
+        { "id": "GL-CPr-CP", "code": "CP", "name": "TT. Chư Prông", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-DD",
+      "code": "DD",
+      "name": "Đăk Đoa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["603000", "603900"],
+      "wards": [
+        { "id": "GL-DD-DD", "code": "DD", "name": "TT. Đăk Đoa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-CS",
+      "code": "CS",
+      "name": "Chư Sê",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ hồ tiêu (Gia Lai cũ)",
+      "postal_code": ["608000", "608900"],
+      "wards": [
+        { "id": "GL-CS-CS", "code": "CS", "name": "TT. Chư Sê", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-MY",
+      "code": "MY",
+      "name": "Mang Yang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "VQG Kon Ka Kinh (Gia Lai cũ)",
+      "postal_code": ["602000", "602900"],
+      "wards": [
+        { "id": "GL-MY-KD", "code": "KD", "name": "TT. Kon Dơng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-IG",
+      "code": "IG",
+      "name": "Ia Grai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["604600", "604900"],
+      "wards": [
+        { "id": "GL-IG-IK", "code": "IK", "name": "TT. Ia Kha", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-KB",
+      "code": "KB",
+      "name": "K'Bang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["606500", "606800"],
+      "wards": [
+        { "id": "GL-KB-KB", "code": "KB", "name": "TT. K'Bang", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-KP",
+      "code": "KP",
+      "name": "Krông Pa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["607600", "607900"],
+      "wards": [
+        { "id": "GL-KP-PT", "code": "PT", "name": "TT. Phú Túc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-DC",
+      "code": "DC",
+      "name": "Đức Cơ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa khẩu quốc tế Lệ Thanh (Gia Lai cũ)",
+      "postal_code": ["605500", "605800"],
+      "wards": [
+        { "id": "GL-DC-CY", "code": "CY", "name": "TT. Chư Ty", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-CPu",
+      "code": "CPu",
+      "name": "Chư Pưh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["608500", "608800"],
+      "wards": [
+        { "id": "GL-CPu-NT", "code": "NT", "name": "TT. Nhơn Hòa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-DP",
+      "code": "DP",
+      "name": "Đăk Pơ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["606200", "606400"],
+      "wards": [
+        { "id": "GL-DP-DP", "code": "DP", "name": "TT. Đăk Pơ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-IP",
+      "code": "IP",
+      "name": "Ia Pa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["607200", "607400"],
+      "wards": [
+        { "id": "GL-IP-KNH", "code": "KNH", "name": "Kim Tân", "type": "Xã", "type_code": "COMMUNE", "note": "Trung tâm hành chính huyện" }
+      ]
+    },
+    {
+      "id": "GL-PT",
+      "code": "PT",
+      "name": "Phú Thiện",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Gia Lai cũ",
+      "postal_code": ["607100", "607199"],
+      "wards": [
+        { "id": "GL-PT-PT", "code": "PT", "name": "TT. Phú Thiện", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-AL",
+      "code": "AL",
+      "name": "An Lão",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bình Định cũ",
+      "postal_code": ["597000", "597900"],
+      "wards": [
+        { "id": "GL-AL-AL", "code": "AL", "name": "TT. An Lão", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-HA",
+      "code": "HA",
+      "name": "Hoài Ân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bình Định cũ",
+      "postal_code": ["596500", "596800"],
+      "wards": [
+        { "id": "GL-HA-TN", "code": "TN", "name": "TT. Tăng Bạt Hổ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-PM",
+      "code": "PM",
+      "name": "Phù Mỹ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bình Định cũ",
+      "postal_code": ["594000", "594900"],
+      "wards": [
+        { "id": "GL-PM-PM", "code": "PM", "name": "TT. Phù Mỹ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-VT",
+      "code": "VT",
+      "name": "Vĩnh Thạnh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bình Định cũ",
+      "postal_code": ["598000", "598900"],
+      "wards": [
+        { "id": "GL-VT-VT", "code": "VT", "name": "TT. Vĩnh Thạnh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-TS",
+      "code": "TS",
+      "name": "Tây Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quê hương Hoàng đế Quang Trung (Bình Định cũ)",
+      "postal_code": ["599000", "599900"],
+      "wards": [
+        { "id": "GL-TS-PN", "code": "PN", "name": "TT. Phú Phong", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-PC",
+      "code": "PC",
+      "name": "Phù Cát",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Sân bay Phù Cát (Bình Định cũ)",
+      "postal_code": ["593000", "593900"],
+      "wards": [
+        { "id": "GL-PC-NM", "code": "NM", "name": "TT. Ngô Mây", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-TPhuoc",
+      "code": "TPhuoc",
+      "name": "Tuy Phước",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa ngõ TP. Quy Nhơn (Bình Định cũ)",
+      "postal_code": ["592000", "592900"],
+      "wards": [
+        { "id": "GL-TPhuoc-TP", "code": "TP", "name": "TT. Tuy Phước", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "GL-TPhuoc-DR", "code": "DR", "name": "TT. Diêu Trì", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "GL-VC",
+      "code": "VC",
+      "name": "Vân Canh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bình Định cũ",
+      "postal_code": ["591500", "591900"],
+      "wards": [
+        { "id": "GL-VC-VC", "code": "VC", "name": "TT. Vân Canh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 27,
+    "composition": "2 Cities + 4 Towns + 21 Rural Districts",
+    "note": "Combined administrative units of Gia Lai and Binh Dinh. Connects Central Highlands to the Sea.",
+    "last_updated": "2025-07-01"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "province": {
+    "id": "VN-HT",
+    "code": "HT",
+    "name": "Hà Tĩnh",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "slug": "ha-tinh",
+    "description": "Tỉnh công nghiệp thép - cảng biển. Đã thực hiện mở rộng TP. Hà Tĩnh ra hướng biển (sáp nhập huyện Lộc Hà).",
+    "area_code": "0239",
+    "postal_code": {
+      "type": "range",
+      "value": ["480000", "489999"],
+      "note": "Mã bưu chính quốc gia (đầu số 48)"
+    }
+  },
+  "units": [
+    {
+      "id": "HT-TPHT",
+      "code": "TPHT",
+      "name": "TP. Hà Tĩnh",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ - Đô thị loại II (Đã sáp nhập TT. Lộc Hà và các xã ven biển)",
+      "postal_code": ["480000", "481500"],
+      "wards": [
+        { "id": "HT-TPHT-BH", "code": "BH", "name": "Bắc Hà", "type": "Phường", "type_code": "WARD" },
+        { "id": "HT-TPHT-NH", "code": "NH", "name": "Nam Hà", "type": "Phường", "type_code": "WARD" },
+        { "id": "HT-TPHT-TB", "code": "TB", "name": "Thạch Bằng", "type": "Phường", "type_code": "WARD", "note": "Chuyển từ TT. Lộc Hà cũ" }
+      ]
+    },
+    {
+      "id": "HT-KA",
+      "code": "KA",
+      "name": "TX. Kỳ Anh",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Khu kinh tế Vũng Áng (Formosa)",
+      "postal_code": ["488000", "488900"],
+      "wards": [
+        { "id": "HT-KA-HT", "code": "HT", "name": "Hưng Trí", "type": "Phường", "type_code": "WARD" },
+        { "id": "HT-KA-KL", "code": "KL", "name": "Kỳ Liên", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HT-HDL",
+      "code": "HDL",
+      "name": "TX. Hồng Lĩnh",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Đô thị phía Bắc (Chân núi Hồng Lĩnh)",
+      "postal_code": ["482000", "482900"],
+      "wards": [
+        { "id": "HT-HDL-BH", "code": "BH", "name": "Bắc Hồng", "type": "Phường", "type_code": "WARD" },
+        { "id": "HT-HDL-NH", "code": "NH", "name": "Nam Hồng", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HT-NX",
+      "code": "NX",
+      "name": "Nghi Xuân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quê hương Đại thi hào Nguyễn Du (Quy hoạch lên Đô thị du lịch)",
+      "postal_code": ["483000", "483900"],
+      "wards": [
+        { "id": "HT-NX-TD", "code": "TD", "name": "TT. Tiên Điền", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "HT-NX-XL", "code": "XL", "name": "TT. Xuân An", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HT-DT",
+      "code": "DT",
+      "name": "Đức Thọ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["484000", "484900"],
+      "wards": [
+        { "id": "HT-DT-DT", "code": "DT", "name": "TT. Đức Thọ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HT-HS",
+      "code": "HS",
+      "name": "Hương Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa khẩu quốc tế Cầu Treo",
+      "postal_code": ["485000", "485900"],
+      "wards": [
+        { "id": "HT-HS-PM", "code": "PM", "name": "TT. Phố Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "HT-HS-TS", "code": "TS", "name": "TT. Tây Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HT-HK",
+      "code": "HK",
+      "name": "Hương Khê",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng bưởi Phúc Trạch",
+      "postal_code": ["486000", "486900"],
+      "wards": [
+        { "id": "HT-HK-HK", "code": "HK", "name": "TT. Hương Khê", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HT-VQ",
+      "code": "VQ",
+      "name": "Vũ Quang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "VQG Vũ Quang",
+      "postal_code": ["487000", "487500"],
+      "wards": [
+        { "id": "HT-VQ-VQ", "code": "VQ", "name": "TT. Vũ Quang", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HT-CL",
+      "code": "CL",
+      "name": "Can Lộc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Ngã ba Đồng Lộc",
+      "postal_code": ["482500", "482800"],
+      "wards": [
+        { "id": "HT-CL-NN", "code": "NN", "name": "TT. Nghèn", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "HT-CL-DL", "code": "DL", "name": "TT. Đồng Lộc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HT-TH",
+      "code": "TH",
+      "name": "Thạch Hà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vành đai TP. Hà Tĩnh (Đã nhận một phần các xã từ Lộc Hà cũ)",
+      "postal_code": ["481600", "481900"],
+      "wards": [
+        { "id": "HT-TH-TH", "code": "TH", "name": "TT. Thạch Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HT-CX",
+      "code": "CX",
+      "name": "Cẩm Xuyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Biển Thiên Cầm - Hồ Kẻ Gỗ",
+      "postal_code": ["489000", "489500"],
+      "wards": [
+        { "id": "HT-CX-CX", "code": "CX", "name": "TT. Cẩm Xuyên", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "HT-CX-TC", "code": "TC", "name": "TT. Thiên Cầm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HT-KAH",
+      "code": "KAH",
+      "name": "Kỳ Anh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện Kỳ Anh (Tách biệt với TX. Kỳ Anh)",
+      "postal_code": ["488500", "488800"],
+      "wards": [
+        { "id": "HT-KAH-KV", "code": "KV", "name": "Kỳ Văn", "type": "Xã", "type_code": "COMMUNE", "note": "Trung tâm hành chính huyện" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 12,
+    "composition": "1 City + 2 Towns + 9 Rural Districts",
+    "note": "Loc Ha District dissolved and merged into Ha Tinh City and Thach Ha District.",
+    "last_updated": "2025-01-01"
+  }
+}

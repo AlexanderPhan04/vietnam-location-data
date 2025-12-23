@@ -1,0 +1,168 @@
+{
+  "province": {
+    "id": "VN-AG",
+    "code": "AG",
+    "name": "An Giang",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "slug": "an-giang",
+    "description": "Tỉnh đông dân nhất miền Tây, nổi tiếng với vùng Thất Sơn (Bảy Núi) và lễ hội Bà Chúa Xứ. Có đường biên giới dài với Campuchia.",
+    "area_code": "0296",
+    "postal_code": {
+      "type": "range",
+      "value": ["880000", "889999"],
+      "note": "Mã bưu chính quốc gia (đầu số 88)"
+    }
+  },
+  "units": [
+    {
+      "id": "AG-LX",
+      "code": "LX",
+      "name": "TP. Long Xuyên",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Đô thị loại I) - Quê hương Chủ tịch Tôn Đức Thắng",
+      "postal_code": ["880000", "881000"],
+      "wards": [
+        { "id": "AG-LX-MB", "code": "MB", "name": "Mỹ Bình", "type": "Phường", "type_code": "WARD" },
+        { "id": "AG-LX-ML", "code": "ML", "name": "Mỹ Long", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "AG-CD",
+      "code": "CD",
+      "name": "TP. Châu Đốc",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố du lịch tâm linh (Miếu Bà Chúa Xứ Núi Sam)",
+      "postal_code": ["882000", "882900"],
+      "wards": [
+        { "id": "AG-CD-CP", "code": "CPA", "name": "Châu Phú A", "type": "Phường", "type_code": "WARD" },
+        { "id": "AG-CD-NS", "code": "NS", "name": "Núi Sam", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "AG-TC",
+      "code": "TC",
+      "name": "TX. Tân Châu",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Thủ phủ tơ lụa, cửa khẩu đường sông Vĩnh Xương",
+      "postal_code": ["885000", "885900"],
+      "wards": [
+        { "id": "AG-TC-LH", "code": "LH", "name": "Long Hưng", "type": "Phường", "type_code": "WARD" },
+        { "id": "AG-TC-LT", "code": "LT", "name": "Long Thạnh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "AG-TB",
+      "code": "TB",
+      "name": "TX. Tịnh Biên",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Đô thị biên giới (Mới nâng cấp từ huyện năm 2023) - Núi Cấm",
+      "postal_code": ["886000", "886900"],
+      "wards": [
+        { "id": "AG-TB-TB", "code": "TB", "name": "Tịnh Biên", "type": "Phường", "type_code": "WARD" },
+        { "id": "AG-TB-CL", "code": "CL", "name": "Chi Lăng", "type": "Phường", "type_code": "WARD" },
+        { "id": "AG-TB-NB", "code": "NB", "name": "Nhà Bàng", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "AG-AP",
+      "code": "AP",
+      "name": "An Phú",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện đầu nguồn sông Hậu, cộng đồng người Chăm Hồi giáo",
+      "postal_code": ["884000", "884900"],
+      "wards": [
+        { "id": "AG-AP-AP", "code": "AP", "name": "TT. An Phú", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "AG-AP-LB", "code": "LB", "name": "TT. Long Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "AG-CP",
+      "code": "CP",
+      "name": "Châu Phú",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["883000", "883900"],
+      "wards": [
+        { "id": "AG-CP-CD", "code": "CD", "name": "TT. Cái Dầu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "AG-CT",
+      "code": "CT",
+      "name": "Châu Thành",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng công nghiệp Bình Hòa",
+      "postal_code": ["888000", "888900"],
+      "wards": [
+        { "id": "AG-CT-AG", "code": "AG", "name": "TT. An Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "AG-CT-VS", "code": "VS", "name": "TT. Vĩnh Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "AG-CM",
+      "code": "CM",
+      "name": "Chợ Mới",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện Cù Lao, dân số đông nhất tỉnh (Đang quy hoạch lên Thị xã)",
+      "postal_code": ["887000", "887900"],
+      "wards": [
+        { "id": "AG-CM-CM", "code": "CM", "name": "TT. Chợ Mới", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "AG-CM-ML", "code": "ML", "name": "TT. Mỹ Luông", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "AG-PT",
+      "code": "PT",
+      "name": "Phú Tân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cù lao Năng Gù - Thánh địa Phật giáo Hòa Hảo",
+      "postal_code": ["885500", "885800"],
+      "wards": [
+        { "id": "AG-PT-PM", "code": "PM", "name": "TT. Phú Mỹ", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "AG-PT-CR", "code": "CR", "name": "TT. Chợ Vàm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "AG-TS",
+      "code": "TS",
+      "name": "Thoại Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Di chỉ văn hóa Óc Eo",
+      "postal_code": ["889000", "889900"],
+      "wards": [
+        { "id": "AG-TS-NS", "code": "NS", "name": "TT. Núi Sập", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "AG-TS-OE", "code": "OE", "name": "TT. Óc Eo", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "AG-TT",
+      "code": "TT",
+      "name": "Tri Tôn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện miền núi, Hồ Tà Pạ, văn hóa Khmer",
+      "postal_code": ["886500", "886800"],
+      "wards": [
+        { "id": "AG-TT-TT", "code": "TT", "name": "TT. Tri Tôn", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "AG-TT-BB", "code": "BB", "name": "TT. Ba Chúc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_actual_2025",
+    "total_units": 11,
+    "composition": "2 Cities + 2 Towns + 7 Rural Districts",
+    "note": "Stable structure. Tinh Bien was upgraded to a Town (Thị xã) in 2023.",
+    "last_updated": "2025-01-01"
+  }
+}

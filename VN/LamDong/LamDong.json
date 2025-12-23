@@ -1,0 +1,141 @@
+{
+  "province": {
+    "id": "VN-LD",
+    "code": "LD",
+    "name": "Lâm Đồng",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "slug": "lam-dong",
+    "description": "Tỉnh du lịch nổi tiếng, thực hiện sáp nhập lớn năm 2025: Lạc Dương nhập vào Đà Lạt; 3 huyện phía Nam nhập làm một.",
+    "area_code": "0263",
+    "postal_code": {
+      "type": "range",
+      "value": ["660000", "679999"],
+      "note": "Mã bưu chính quốc gia (đầu số 66-67)"
+    }
+  },
+  "units": [
+    {
+      "id": "LD-DL",
+      "code": "DL",
+      "name": "TP. Đà Lạt",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ - Đô thị di sản (Đã bao gồm toàn bộ huyện Lạc Dương cũ)",
+      "postal_code": ["660000", "661000"],
+      "wards": [
+        { "id": "LD-DL-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "LD-DL-P2", "code": "P2", "name": "Phường 2", "type": "Phường", "type_code": "WARD" },
+        { "id": "LD-DL-LL", "code": "LL", "name": "TT. Lạc Dương", "type": "Phường", "type_code": "WARD", "note": "Chuyển đổi từ thị trấn huyện lỵ cũ" },
+        { "id": "LD-DL-LB", "code": "LB", "name": "Lang Biang", "type": "Xã", "type_code": "COMMUNE", "note": "Khu vực núi Langbiang" }
+      ]
+    },
+    {
+      "id": "LD-BL",
+      "code": "BL",
+      "name": "TP. Bảo Lộc",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thủ phủ Trà và Tơ lụa (Đã sáp nhập một số xã từ huyện Bảo Lâm)",
+      "postal_code": ["663000", "663900"],
+      "wards": [
+        { "id": "LD-BL-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "LD-BL-P2", "code": "P2", "name": "Phường 2", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "LD-DH",
+      "code": "DH",
+      "name": "Đạ Huoai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện mới sáp nhập từ 3 huyện: Đạ Huoai, Đạ Tẻh, Cát Tiên",
+      "postal_code": ["665000", "667900"],
+      "wards": [
+        { "id": "LD-DH-DM", "code": "DM", "name": "TT. Đạ M'ri", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LD-DH-DT", "code": "DT", "name": "TT. Đạ Tẻh", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LD-DH-CT", "code": "CT", "name": "TT. Cát Tiên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LD-DT",
+      "code": "DT",
+      "name": "Đức Trọng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Sân bay Liên Khương (Đang quy hoạch lên Thị xã)",
+      "postal_code": ["664000", "664900"],
+      "wards": [
+        { "id": "LD-DT-LK", "code": "LK", "name": "TT. Liên Nghĩa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LD-DLinh",
+      "code": "DLinh",
+      "name": "Di Linh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cao nguyên Di Linh",
+      "postal_code": ["668000", "668900"],
+      "wards": [
+        { "id": "LD-DLinh-DL", "code": "DL", "name": "TT. Di Linh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LD-LH",
+      "code": "LH",
+      "name": "Lâm Hà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng kinh tế mới Hà Nội",
+      "postal_code": ["662000", "662900"],
+      "wards": [
+        { "id": "LD-LH-DN", "code": "DN", "name": "TT. Đinh Văn", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LD-LH-ND", "code": "ND", "name": "TT. Nam Ban", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LD-DD",
+      "code": "DD",
+      "name": "Đơn Dương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng rau Đơn Dương",
+      "postal_code": ["669000", "669500"],
+      "wards": [
+        { "id": "LD-DD-TR", "code": "TR", "name": "TT. Thạnh Mỹ", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LD-DD-DR", "code": "DR", "name": "TT. D'Ran", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LD-DR",
+      "code": "DR",
+      "name": "Đam Rông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["669600", "669900"],
+      "wards": [
+        { "id": "LD-DR-RB", "code": "RB", "name": "Rô Men", "type": "Xã", "type_code": "COMMUNE", "note": "Trung tâm hành chính huyện" }
+      ]
+    },
+    {
+      "id": "LD-BLam",
+      "code": "BLam",
+      "name": "Bảo Lâm",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Diện tích giảm do sáp nhập một số xã vào TP. Bảo Lộc",
+      "postal_code": ["663500", "663800"],
+      "wards": [
+        { "id": "LD-BLam-LD", "code": "LD", "name": "TT. Lộc Thắng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_actual_2025_plan",
+    "total_units": 9,
+    "composition": "2 Cities + 7 Rural Districts",
+    "note": "Lac Duong merged into Da Lat. Da Teh and Cat Tien merged into Da Huoai.",
+    "last_updated": "2025-01-01"
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "province": {
+    "id": "VN-PT",
+    "code": "PT",
+    "name": "Phú Thọ",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "slug": "phu-tho",
+    "description": "Tỉnh lớn cửa ngõ Tây Bắc, sáp nhập từ 3 tỉnh cũ: Phú Thọ, Vĩnh Phúc và Hòa Bình.",
+    "area_code": "0210",
+    "postal_code": {
+      "type": "range",
+      "value": ["280000", "359999"],
+      "note": "Bao gồm dải mã cũ của Vĩnh Phúc (28), Phú Thọ (29) và Hòa Bình (35)"
+    }
+  },
+  "units": [
+    {
+      "id": "PT-VT",
+      "code": "VT",
+      "name": "TP. Việt Trì",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính - Văn hóa cội nguồn)",
+      "postal_code": ["290000", "291000"],
+      "wards": [
+        { "id": "PT-VT-GC", "code": "GC", "name": "Gia Cẩm", "type": "Phường", "type_code": "WARD" },
+        { "id": "PT-VT-TC", "code": "TC", "name": "Tiên Cát", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "PT-VY",
+      "code": "VY",
+      "name": "TP. Vĩnh Yên",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm công nghiệp (Vĩnh Phúc cũ)",
+      "postal_code": ["280000", "281000"],
+      "wards": [
+        { "id": "PT-VY-NQ", "code": "NQ", "name": "Ngô Quyền", "type": "Phường", "type_code": "WARD" },
+        { "id": "PT-VY-LB", "code": "LB", "name": "Liên Bảo", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "PT-PY",
+      "code": "PY",
+      "name": "TP. Phúc Yên",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Cửa ngõ thủ đô, sân bay Nội Bài (Vĩnh Phúc cũ)",
+      "postal_code": ["282000", "282900"],
+      "wards": [
+        { "id": "PT-PY-TD", "code": "TD", "name": "Trưng Trắc", "type": "Phường", "type_code": "WARD" },
+        { "id": "PT-PY-XH", "code": "XH", "name": "Xuân Hòa", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "PT-HB",
+      "code": "HB",
+      "name": "TP. Hòa Bình",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm Tây Bắc, Thủy điện Hòa Bình (Hòa Bình cũ)",
+      "postal_code": ["350000", "351000"],
+      "wards": [
+        { "id": "PT-HB-PL", "code": "PL", "name": "Phương Lâm", "type": "Phường", "type_code": "WARD" },
+        { "id": "PT-HB-TT", "code": "TT", "name": "Tân Thịnh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "PT-TXPT",
+      "code": "TXPT",
+      "name": "TX. Phú Thọ",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["295000", "295900"],
+      "wards": [
+        { "id": "PT-TXPT-AH", "code": "AH", "name": "Âu Cơ", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "PT-LT",
+      "code": "LT",
+      "name": "Lâm Thao",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["296000", "296900"],
+      "wards": [
+        { "id": "PT-LT-LT", "code": "LT", "name": "TT. Lâm Thao", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-PN",
+      "code": "PN",
+      "name": "Phù Ninh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["294000", "294900"],
+      "wards": [
+        { "id": "PT-PN-PN", "code": "PN", "name": "TT. Phong Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-TN",
+      "code": "TN",
+      "name": "Tam Nông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["297000", "297900"],
+      "wards": [
+        { "id": "PT-TN-HH", "code": "HH", "name": "TT. Hưng Hóa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-TTh",
+      "code": "TTh",
+      "name": "Thanh Thủy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["298000", "298900"],
+      "wards": [
+        { "id": "PT-TTh-TT", "code": "TT", "name": "TT. Thanh Thủy", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-TS",
+      "code": "TS",
+      "name": "Thanh Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["299000", "299500"],
+      "wards": [
+        { "id": "PT-TS-TS", "code": "TS", "name": "TT. Thanh Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-TaS",
+      "code": "TaS",
+      "name": "Tân Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "VQG Xuân Sơn (Phú Thọ cũ)",
+      "postal_code": ["299600", "299900"],
+      "wards": [
+        { "id": "PT-TaS-TS", "code": "TS", "name": "Tân Sơn", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "PT-YL",
+      "code": "YL",
+      "name": "Yên Lập",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["293000", "293900"],
+      "wards": [
+        { "id": "PT-YL-YL", "code": "YL", "name": "TT. Yên Lập", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-CK",
+      "code": "CK",
+      "name": "Cẩm Khê",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["292000", "292900"],
+      "wards": [
+        { "id": "PT-CK-CK", "code": "CK", "name": "TT. Cẩm Khê", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-TB",
+      "code": "TB",
+      "name": "Thanh Ba",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Phú Thọ cũ",
+      "postal_code": ["296500", "296800"],
+      "wards": [
+        { "id": "PT-TB-TB", "code": "TB", "name": "TT. Thanh Ba", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-HH",
+      "code": "HH",
+      "name": "Hạ Hòa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đền Mẫu Âu Cơ (Phú Thọ cũ)",
+      "postal_code": ["295500", "295800"],
+      "wards": [
+        { "id": "PT-HH-HH", "code": "HH", "name": "TT. Hạ Hòa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-DH",
+      "code": "DH",
+      "name": "Đoan Hùng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bưởi Đoan Hùng (Phú Thọ cũ)",
+      "postal_code": ["294500", "294800"],
+      "wards": [
+        { "id": "PT-DH-DH", "code": "DH", "name": "TT. Đoan Hùng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-BX",
+      "code": "BX",
+      "name": "Bình Xuyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vĩnh Phúc cũ",
+      "postal_code": ["283000", "283900"],
+      "wards": [
+        { "id": "PT-BX-HG", "code": "HG", "name": "TT. Hương Canh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-YLac",
+      "code": "YLac",
+      "name": "Yên Lạc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vĩnh Phúc cũ",
+      "postal_code": ["284000", "284900"],
+      "wards": [
+        { "id": "PT-YLac-YL", "code": "YL", "name": "TT. Yên Lạc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-VTg",
+      "code": "VTg",
+      "name": "Vĩnh Tường",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vĩnh Phúc cũ",
+      "postal_code": ["285000", "285900"],
+      "wards": [
+        { "id": "PT-VTg-VT", "code": "VT", "name": "TT. Vĩnh Tường", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-LTh",
+      "code": "LTh",
+      "name": "Lập Thạch",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vĩnh Phúc cũ",
+      "postal_code": ["286000", "286900"],
+      "wards": [
+        { "id": "PT-LTh-LT", "code": "LT", "name": "TT. Lập Thạch", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-SL",
+      "code": "SL",
+      "name": "Sông Lô",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vĩnh Phúc cũ",
+      "postal_code": ["286500", "286800"],
+      "wards": [
+        { "id": "PT-SL-TS", "code": "TS", "name": "TT. Tam Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-TD",
+      "code": "TD",
+      "name": "Tam Đảo",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu du lịch Tam Đảo (Vĩnh Phúc cũ)",
+      "postal_code": ["287000", "287500"],
+      "wards": [
+        { "id": "PT-TD-HD", "code": "HD", "name": "TT. Hợp Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-TDg",
+      "code": "TDg",
+      "name": "Tam Dương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vĩnh Phúc cũ",
+      "postal_code": ["287600", "287900"],
+      "wards": [
+        { "id": "PT-TDg-HP", "code": "HP", "name": "TT. Hợp Hòa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-LS",
+      "code": "LS",
+      "name": "Lương Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa ngõ Hòa Bình (Hòa Bình cũ)",
+      "postal_code": ["352000", "352900"],
+      "wards": [
+        { "id": "PT-LS-LS", "code": "LS", "name": "TT. Lương Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-CP",
+      "code": "CP",
+      "name": "Cao Phong",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cam Cao Phong (Hòa Bình cũ)",
+      "postal_code": ["353000", "353900"],
+      "wards": [
+        { "id": "PT-CP-CP", "code": "CP", "name": "TT. Cao Phong", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-DB",
+      "code": "DB",
+      "name": "Đà Bắc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hòa Bình cũ",
+      "postal_code": ["354000", "354900"],
+      "wards": [
+        { "id": "PT-DB-DB", "code": "DB", "name": "TT. Đà Bắc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-KB",
+      "code": "KB",
+      "name": "Kim Bôi",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Suối khoáng nóng (Hòa Bình cũ)",
+      "postal_code": ["355000", "355900"],
+      "wards": [
+        { "id": "PT-KB-BB", "code": "BB", "name": "TT. Bo", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-LacS",
+      "code": "LacS",
+      "name": "Lạc Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hòa Bình cũ",
+      "postal_code": ["356000", "356900"],
+      "wards": [
+        { "id": "PT-LacS-VR", "code": "VR", "name": "TT. Vụ Bản", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-LThuy",
+      "code": "LThuy",
+      "name": "Lạc Thủy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hòa Bình cũ",
+      "postal_code": ["357000", "357900"],
+      "wards": [
+        { "id": "PT-LThuy-CD", "code": "CD", "name": "TT. Chi Nê", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-MC",
+      "code": "MC",
+      "name": "Mai Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Du lịch bản Lác (Hòa Bình cũ)",
+      "postal_code": ["358000", "358500"],
+      "wards": [
+        { "id": "PT-MC-MC", "code": "MC", "name": "TT. Mai Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-TaL",
+      "code": "TaL",
+      "name": "Tân Lạc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hòa Bình cũ",
+      "postal_code": ["358600", "358900"],
+      "wards": [
+        { "id": "PT-TaL-MK", "code": "MK", "name": "TT. Mãn Đức", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "PT-YTh",
+      "code": "YTh",
+      "name": "Yên Thủy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hòa Bình cũ",
+      "postal_code": ["359000", "359900"],
+      "wards": [
+        { "id": "PT-YTh-HN", "code": "HN", "name": "TT. Hàng Trạm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 31,
+    "composition": "4 Cities + 1 Town + 26 Rural Districts",
+    "note": "Large combined province of Phu Tho, Vinh Phuc, and Hoa Binh.",
+    "last_updated": "2025-07-01"
+  }
+}

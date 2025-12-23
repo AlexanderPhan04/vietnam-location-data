@@ -1,0 +1,265 @@
+{
+  "province": {
+    "id": "VN-NA",
+    "code": "NA",
+    "name": "Nghệ An",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "slug": "nghe-an",
+    "description": "Tỉnh có diện tích lớn nhất Việt Nam. Đã thực hiện sáp nhập TX. Cửa Lò vào TP. Vinh.",
+    "area_code": "0238",
+    "postal_code": {
+      "type": "range",
+      "value": ["460000", "479999"],
+      "note": "Mã bưu chính quốc gia (đầu số 46-47)"
+    }
+  },
+  "units": [
+    {
+      "id": "NA-TPV",
+      "code": "TPV",
+      "name": "TP. Vinh",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Đô thị biển (Đã bao gồm TX. Cửa Lò cũ)",
+      "postal_code": ["460000", "461900"],
+      "wards": [
+        { "id": "NA-TPV-QT", "code": "QT", "name": "Quang Trung", "type": "Phường", "type_code": "WARD" },
+        { "id": "NA-TPV-LH", "code": "LH", "name": "Lê Mao", "type": "Phường", "type_code": "WARD" },
+        { "id": "NA-TPV-NT", "code": "NT", "name": "Nghi Thu", "type": "Phường", "type_code": "WARD", "note": "Chuyển từ TX. Cửa Lò cũ" },
+        { "id": "NA-TPV-CL", "code": "CL", "name": "Cửa Lò", "type": "Phường", "type_code": "WARD", "note": "Khu vực trung tâm du lịch biển" }
+      ]
+    },
+    {
+      "id": "NA-TH",
+      "code": "TH",
+      "name": "TX. Thái Hòa",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Trung tâm vùng Phủ Quỳ (Tây Bắc Nghệ An)",
+      "postal_code": ["474000", "474900"],
+      "wards": [
+        { "id": "NA-TH-HB", "code": "HB", "name": "Hòa Bình", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "NA-HM",
+      "code": "HM",
+      "name": "TX. Hoàng Mai",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Đô thị công nghiệp phía Bắc (Giáp Thanh Hóa)",
+      "postal_code": ["468000", "468900"],
+      "wards": [
+        { "id": "NA-HM-QA", "code": "QA", "name": "Quỳnh An", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "NA-DC",
+      "code": "DC",
+      "name": "Diễn Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đang quy hoạch lên Thị xã",
+      "postal_code": ["469000", "469900"],
+      "wards": [
+        { "id": "NA-DC-DC", "code": "DC", "name": "TT. Diễn Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-QL",
+      "code": "QL",
+      "name": "Quỳnh Lưu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["467000", "467900"],
+      "wards": [
+        { "id": "NA-QL-CG", "code": "CG", "name": "TT. Cầu Giát", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-YT",
+      "code": "YT",
+      "name": "Yên Thành",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vựa lúa xứ Nghệ",
+      "postal_code": ["470000", "470900"],
+      "wards": [
+        { "id": "NA-YT-YT", "code": "YT", "name": "TT. Yên Thành", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-DL",
+      "code": "DL",
+      "name": "Đô Lương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đang quy hoạch lên Thị xã",
+      "postal_code": ["471000", "471900"],
+      "wards": [
+        { "id": "NA-DL-DL", "code": "DL", "name": "TT. Đô Lương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-NL",
+      "code": "NL",
+      "name": "Nghi Lộc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Diện tích giảm do sáp nhập một phần vào TP. Vinh",
+      "postal_code": ["462000", "462900"],
+      "wards": [
+        { "id": "NA-NL-QT", "code": "QT", "name": "TT. Quán Hành", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-HN",
+      "code": "HN",
+      "name": "Hưng Nguyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["463000", "463900"],
+      "wards": [
+        { "id": "NA-HN-HN", "code": "HN", "name": "TT. Hưng Nguyên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-ND",
+      "code": "ND",
+      "name": "Nam Đàn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quê hương Chủ tịch Hồ Chí Minh",
+      "postal_code": ["464000", "464900"],
+      "wards": [
+        { "id": "NA-ND-ND", "code": "ND", "name": "TT. Nam Đàn", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "NA-ND-KL", "code": "KL", "name": "Kim Liên", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "NA-TC",
+      "code": "TC",
+      "name": "Thanh Chương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["465000", "465900"],
+      "wards": [
+        { "id": "NA-TC-TC", "code": "TC", "name": "TT. Thanh Chương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-NDan",
+      "code": "NDan",
+      "name": "Nghĩa Đàn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng bò sữa TH True Milk",
+      "postal_code": ["475000", "475500"],
+      "wards": [
+        { "id": "NA-NDan-ND", "code": "ND", "name": "TT. Nghĩa Đàn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-QH",
+      "code": "QH",
+      "name": "Quỳ Hợp",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ đá trắng",
+      "postal_code": ["476000", "476900"],
+      "wards": [
+        { "id": "NA-QH-QH", "code": "QH", "name": "TT. Quỳ Hợp", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-QC",
+      "code": "QC",
+      "name": "Quỳ Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["477000", "477900"],
+      "wards": [
+        { "id": "NA-QC-TT", "code": "TT", "name": "TT. Tân Lạc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-QP",
+      "code": "QP",
+      "name": "Quế Phong",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu bảo tồn thiên nhiên Pù Hoạt",
+      "postal_code": ["478000", "478900"],
+      "wards": [
+        { "id": "NA-QP-KM", "code": "KM", "name": "TT. Kim Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-TK",
+      "code": "TK",
+      "name": "Tân Kỳ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cột mốc số 0 đường Hồ Chí Minh",
+      "postal_code": ["473000", "473900"],
+      "wards": [
+        { "id": "NA-TK-TK", "code": "TK", "name": "TT. Tân Kỳ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-AS",
+      "code": "AS",
+      "name": "Anh Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["472000", "472900"],
+      "wards": [
+        { "id": "NA-AS-AS", "code": "AS", "name": "TT. Anh Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-CC",
+      "code": "CC",
+      "name": "Con Cuông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "VQG Pù Mát (Đang quy hoạch phát triển du lịch sinh thái)",
+      "postal_code": ["479000", "479400"],
+      "wards": [
+        { "id": "NA-CC-CC", "code": "CC", "name": "TT. Con Cuông", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-TD",
+      "code": "TD",
+      "name": "Tương Dương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện diện tích lớn nhất cả nước",
+      "postal_code": ["479500", "479700"],
+      "wards": [
+        { "id": "NA-TD-HB", "code": "HB", "name": "TT. Thạch Giám", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NA-KS",
+      "code": "KS",
+      "name": "Kỳ Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện cực Tây (Cửa khẩu Nậm Cắn)",
+      "postal_code": ["479800", "479900"],
+      "wards": [
+        { "id": "NA-KS-MX", "code": "MX", "name": "TT. Mường Xén", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 20,
+    "composition": "1 City + 2 Towns + 17 Rural Districts",
+    "note": "Merged Cua Lo Town into Vinh City.",
+    "last_updated": "2025-01-01"
+  }
+}

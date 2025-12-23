@@ -1,0 +1,335 @@
+{
+  "province": {
+    "id": "VN-TH",
+    "code": "TH",
+    "name": "Thanh Hóa",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "slug": "thanh-hoa",
+    "description": "Tỉnh có quy mô dân số đông thứ 3 cả nước, giữ nguyên địa giới tỉnh. Đã sáp nhập huyện Đông Sơn vào TP. Thanh Hóa.",
+    "area_code": "0237",
+    "postal_code": {
+      "type": "range",
+      "value": ["440000", "459999"],
+      "note": "Mã bưu chính quốc gia (đầu số 44-45)"
+    }
+  },
+  "units": [
+    {
+      "id": "TH-TPTH",
+      "code": "TPTH",
+      "name": "TP. Thanh Hóa",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Đã bao gồm toàn bộ huyện Đông Sơn cũ)",
+      "postal_code": ["440000", "441900"],
+      "wards": [
+        { "id": "TH-TPTH-DB", "code": "DB", "name": "Điện Biên", "type": "Phường", "type_code": "WARD" },
+        { "id": "TH-TPTH-LS", "code": "LS", "name": "Lam Sơn", "type": "Phường", "type_code": "WARD" },
+        { "id": "TH-TPTH-RT", "code": "RT", "name": "Rừng Thông", "type": "Phường", "type_code": "WARD", "note": "Chuyển từ TT. Rừng Thông (Đông Sơn cũ)" }
+      ]
+    },
+    {
+      "id": "TH-SS",
+      "code": "SS",
+      "name": "TP. Sầm Sơn",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố du lịch biển",
+      "postal_code": ["442000", "442900"],
+      "wards": [
+        { "id": "TH-SS-TS", "code": "TS", "name": "Trường Sơn", "type": "Phường", "type_code": "WARD" },
+        { "id": "TH-SS-BS", "code": "BS", "name": "Bắc Sơn", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TH-BS",
+      "code": "BS",
+      "name": "TX. Bỉm Sơn",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Đô thị công nghiệp phía Bắc (Xi măng)",
+      "postal_code": ["443000", "443900"],
+      "wards": [
+        { "id": "TH-BS-BD", "code": "BD", "name": "Ba Đình", "type": "Phường", "type_code": "WARD" },
+        { "id": "TH-BS-LS", "code": "LS", "name": "Lam Sơn", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TH-NS",
+      "code": "NS",
+      "name": "TX. Nghi Sơn",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Khu kinh tế Nghi Sơn (Lọc hóa dầu) - Phía Nam",
+      "postal_code": ["454000", "454900"],
+      "wards": [
+        { "id": "TH-NS-HH", "code": "HH", "name": "Hải Hòa", "type": "Phường", "type_code": "WARD" },
+        { "id": "TH-NS-TH", "code": "TH", "name": "Tĩnh Hải", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TH-TX",
+      "code": "TX",
+      "name": "Thọ Xuân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Sân bay Sao Vàng - Khu di tích Lam Kinh",
+      "postal_code": ["445000", "445900"],
+      "wards": [
+        { "id": "TH-TX-TX", "code": "TX", "name": "TT. Thọ Xuân", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "TH-TX-SV", "code": "SV", "name": "TT. Sao Vàng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-HH",
+      "code": "HH",
+      "name": "Hoằng Hóa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Biển Hải Tiến (Đang quy hoạch lên Thị xã)",
+      "postal_code": ["446000", "446900"],
+      "wards": [
+        { "id": "TH-HH-BG", "code": "BG", "name": "TT. Bút Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-QX",
+      "code": "QX",
+      "name": "Quảng Xương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đang quy hoạch lên Thị xã",
+      "postal_code": ["453000", "453900"],
+      "wards": [
+        { "id": "TH-QX-TP", "code": "TP", "name": "TT. Tân Phong", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-HT",
+      "code": "HT",
+      "name": "Hà Trung",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["444000", "444500"],
+      "wards": [
+        { "id": "TH-HT-HT", "code": "HT", "name": "TT. Hà Trung", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-HL",
+      "code": "HL",
+      "name": "Hậu Lộc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["447000", "447900"],
+      "wards": [
+        { "id": "TH-HL-HL", "code": "HL", "name": "TT. Hậu Lộc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-NgaS",
+      "code": "NgaS",
+      "name": "Nga Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng Cói",
+      "postal_code": ["448000", "448900"],
+      "wards": [
+        { "id": "TH-NgaS-NS", "code": "NS", "name": "TT. Nga Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-NC",
+      "code": "NC",
+      "name": "Nông Cống",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["455000", "455900"],
+      "wards": [
+        { "id": "TH-NC-NC", "code": "NC", "name": "TT. Nông Cống", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-TRS",
+      "code": "TRS",
+      "name": "Triệu Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đang quy hoạch lên Thị xã",
+      "postal_code": ["451000", "451900"],
+      "wards": [
+        { "id": "TH-TRS-TRS", "code": "TRS", "name": "TT. Triệu Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-ThH",
+      "code": "ThH",
+      "name": "Thiệu Hóa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["452000", "452900"],
+      "wards": [
+        { "id": "TH-ThH-ThH", "code": "ThH", "name": "TT. Thiệu Hóa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-YD",
+      "code": "YD",
+      "name": "Yên Định",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["449000", "449900"],
+      "wards": [
+        { "id": "TH-YD-QT", "code": "QT", "name": "TT. Quán Lào", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-VL",
+      "code": "VL",
+      "name": "Vĩnh Lộc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Di sản Thành nhà Hồ",
+      "postal_code": ["450000", "450900"],
+      "wards": [
+        { "id": "TH-VL-VL", "code": "VL", "name": "TT. Vĩnh Lộc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-CT",
+      "code": "CT",
+      "name": "Cẩm Thủy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Suối cá thần",
+      "postal_code": ["456000", "456900"],
+      "wards": [
+        { "id": "TH-CT-PT", "code": "PT", "name": "TT. Phong Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-TTh",
+      "code": "TTh",
+      "name": "Thạch Thành",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["457000", "457900"],
+      "wards": [
+        { "id": "TH-TTh-KR", "code": "KR", "name": "TT. Kim Tân", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-NL",
+      "code": "NL",
+      "name": "Ngọc Lạc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Trung tâm vùng miền núi",
+      "postal_code": ["458000", "458900"],
+      "wards": [
+        { "id": "TH-NL-NL", "code": "NL", "name": "TT. Ngọc Lạc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-BT",
+      "code": "BT",
+      "name": "Bá Thước",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu bảo tồn Pù Luông",
+      "postal_code": ["459000", "459300"],
+      "wards": [
+        { "id": "TH-BT-CC", "code": "CC", "name": "TT. Cành Nàng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-QH",
+      "code": "QH",
+      "name": "Quan Hóa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["459400", "459600"],
+      "wards": [
+        { "id": "TH-QH-HH", "code": "HH", "name": "TT. Hồi Xuân", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-QS",
+      "code": "QS",
+      "name": "Quan Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa khẩu Na Mèo",
+      "postal_code": ["459700", "459800"],
+      "wards": [
+        { "id": "TH-QS-SM", "code": "SM", "name": "TT. Sơn Lư", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-ML",
+      "code": "ML",
+      "name": "Mường Lát",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện cực Tây (Biên giới)",
+      "postal_code": ["459900", "459999"],
+      "wards": [
+        { "id": "TH-ML-ML", "code": "ML", "name": "TT. Mường Lát", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-LCh",
+      "code": "LCh",
+      "name": "Lang Chánh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["458500", "458800"],
+      "wards": [
+        { "id": "TH-LCh-LC", "code": "LC", "name": "TT. Lang Chánh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-ThX",
+      "code": "ThX",
+      "name": "Thường Xuân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hồ Cửa Đạt",
+      "postal_code": ["454500", "454800"],
+      "wards": [
+        { "id": "TH-ThX-TX", "code": "TX", "name": "TT. Thường Xuân", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-NX",
+      "code": "NX",
+      "name": "Như Xuân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["455500", "455800"],
+      "wards": [
+        { "id": "TH-NX-YG", "code": "YG", "name": "TT. Yên Cát", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TH-NTh",
+      "code": "NTh",
+      "name": "Như Thanh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "VQG Bến En",
+      "postal_code": ["456500", "456800"],
+      "wards": [
+        { "id": "TH-NTh-BT", "code": "BT", "name": "TT. Bến Sung", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 26,
+    "composition": "2 Cities + 2 Towns + 22 Rural Districts",
+    "note": "Dong Son District has been merged into Thanh Hoa City.",
+    "last_updated": "2025-01-01"
+  }
+}

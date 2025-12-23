@@ -1,0 +1,138 @@
+{
+  "province": {
+    "id": "VN-CM",
+    "code": "CM",
+    "name": "Cà Mau",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "slug": "ca-mau",
+    "description": "Tỉnh cực Nam của Tổ quốc, 3 mặt giáp biển. Nổi tiếng với Mũi Cà Mau và cua biển.",
+    "area_code": "0290",
+    "postal_code": {
+      "type": "range",
+      "value": ["970000", "979999"],
+      "note": "Mã bưu chính quốc gia (đầu số 97)"
+    }
+  },
+  "units": [
+    {
+      "id": "CM-TPCM",
+      "code": "TPCM",
+      "name": "TP. Cà Mau",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Đô thị loại II) - Trung tâm kinh tế, chính trị",
+      "postal_code": ["970000", "971000"],
+      "wards": [
+        { "id": "CM-TPCM-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "CM-TPCM-P5", "code": "P5", "name": "Phường 5", "type": "Phường", "type_code": "WARD" },
+        { "id": "CM-TPCM-TX", "code": "TX", "name": "Tân Xuyên", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CM-NC",
+      "code": "NC",
+      "name": "Năm Căn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu kinh tế Năm Căn - Cửa ngõ ra Đất Mũi",
+      "postal_code": ["976000", "976900"],
+      "wards": [
+        { "id": "CM-NC-NC", "code": "NC", "name": "TT. Năm Căn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CM-NH",
+      "code": "NH",
+      "name": "Ngọc Hiển",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện cực Nam (Mũi Cà Mau) - VQG Mũi Cà Mau",
+      "postal_code": ["977000", "977900"],
+      "wards": [
+        { "id": "CM-NH-RG", "code": "RG", "name": "TT. Rạch Gốc", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "CM-NH-DM", "code": "DM", "name": "Đất Mũi", "type": "Xã", "type_code": "COMMUNE", "note": "Xã cực Nam trên đất liền" }
+      ]
+    },
+    {
+      "id": "CM-TVT",
+      "code": "TVT",
+      "name": "Trần Văn Thời",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Có đô thị biển Sông Đốc sầm uất",
+      "postal_code": ["974000", "974900"],
+      "wards": [
+        { "id": "CM-TVT-TVT", "code": "TVT", "name": "TT. Trần Văn Thời", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "CM-TVT-SD", "code": "SD", "name": "TT. Sông Đốc", "type": "Thị trấn", "type_code": "TOWNSHIP", "note": "Cảng cá lớn nhất miền Tây" }
+      ]
+    },
+    {
+      "id": "CM-CN",
+      "code": "CN",
+      "name": "Cái Nước",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện duy nhất không giáp biển của Cà Mau",
+      "postal_code": ["975000", "975900"],
+      "wards": [
+        { "id": "CM-CN-CN", "code": "CN", "name": "TT. Cái Nước", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CM-DD",
+      "code": "DD",
+      "name": "Đầm Dơi",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ nuôi tôm",
+      "postal_code": ["978000", "978900"],
+      "wards": [
+        { "id": "CM-DD-DD", "code": "DD", "name": "TT. Đầm Dơi", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CM-UM",
+      "code": "UM",
+      "name": "U Minh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Rừng U Minh Hạ - Khí điện đạm Cà Mau",
+      "postal_code": ["973000", "973900"],
+      "wards": [
+        { "id": "CM-UM-UM", "code": "UM", "name": "TT. U Minh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CM-ThB",
+      "code": "ThB",
+      "name": "Thới Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa ngõ phía Bắc (Giáp Kiên Giang)",
+      "postal_code": ["972000", "972900"],
+      "wards": [
+        { "id": "CM-ThB-TB", "code": "TB", "name": "TT. Thới Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CM-PT",
+      "code": "PT",
+      "name": "Phú Tân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa biển Cái Đôi Vàm",
+      "postal_code": ["975500", "975800"],
+      "wards": [
+        { "id": "CM-PT-CDV", "code": "CDV", "name": "TT. Cái Đôi Vàm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_actual_2025",
+    "total_units": 9,
+    "composition": "1 City + 8 Rural Districts",
+    "note": "Stable administrative structure. No provincial merger. Song Doc and Nam Can are key economic towns.",
+    "last_updated": "2025-01-01"
+  }
+}

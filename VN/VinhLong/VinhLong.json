@@ -1,0 +1,124 @@
+{
+  "province": {
+    "id": "VN-VL",
+    "code": "VL",
+    "name": "Vĩnh Long",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "slug": "vinh-long",
+    "description": "Tỉnh nằm giữa hai dòng sông Tiền và sông Hậu. Nổi tiếng với Vương quốc Gốm đỏ và trái cây đặc sản.",
+    "area_code": "0270",
+    "postal_code": {
+      "type": "range",
+      "value": ["890000", "899999"],
+      "note": "Mã bưu chính quốc gia (đầu số 89)"
+    }
+  },
+  "units": [
+    {
+      "id": "VL-TPVL",
+      "code": "TPVL",
+      "name": "TP. Vĩnh Long",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ - Đô thị sông nước (Đã thực hiện sắp xếp sáp nhập một số Phường nội ô)",
+      "postal_code": ["890000", "891000"],
+      "wards": [
+        { "id": "VL-TPVL-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "VL-TPVL-TA", "code": "TA", "name": "Trường An", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "VL-BM",
+      "code": "BM",
+      "name": "TX. Bình Minh",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Nằm dưới chân cầu Cần Thơ - Vùng bưởi Năm Roi",
+      "postal_code": ["895000", "895900"],
+      "wards": [
+        { "id": "VL-BM-CV", "code": "CV", "name": "Cái Vồn", "type": "Phường", "type_code": "WARD" },
+        { "id": "VL-BM-TP", "code": "TP", "name": "Thành Phước", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "VL-LH",
+      "code": "LH",
+      "name": "Long Hồ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vành đai TP. Vĩnh Long - Cù lao An Bình",
+      "postal_code": ["892000", "892900"],
+      "wards": [
+        { "id": "VL-LH-LH", "code": "LH", "name": "TT. Long Hồ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "VL-MT",
+      "code": "MT",
+      "name": "Mang Thít",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vương quốc Gốm đỏ (Gạch gốm Mang Thít)",
+      "postal_code": ["893000", "893900"],
+      "wards": [
+        { "id": "VL-MT-CN", "code": "CN", "name": "TT. Cái Nhum", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "VL-VuL",
+      "code": "VuL",
+      "name": "Vũng Liêm",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cù lao Dài - Quê hương cố Thủ tướng Võ Văn Kiệt",
+      "postal_code": ["894000", "894900"],
+      "wards": [
+        { "id": "VL-VuL-VL", "code": "VL", "name": "TT. Vũng Liêm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "VL-TB",
+      "code": "TB",
+      "name": "Tam Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ Cam Sành",
+      "postal_code": ["896000", "896900"],
+      "wards": [
+        { "id": "VL-TB-TB", "code": "TB", "name": "TT. Tam Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "VL-TO",
+      "code": "TO",
+      "name": "Trà Ôn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Nằm ở hạ lưu sông Hậu",
+      "postal_code": ["897000", "897900"],
+      "wards": [
+        { "id": "VL-TO-TO", "code": "TO", "name": "TT. Trà Ôn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "VL-BT",
+      "code": "BT",
+      "name": "Bình Tân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ Khoai lang",
+      "postal_code": ["898000", "898900"],
+      "wards": [
+        { "id": "VL-BT-TQ", "code": "TQ", "name": "TT. Tân Quới", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_actual_2025",
+    "total_units": 8,
+    "composition": "1 City + 1 Town + 6 Rural Districts",
+    "note": "Stable administrative structure. Known for 'Kingdom of Red Ceramics' and specialized fruit zones.",
+    "last_updated": "2025-01-01"
+  }
+}

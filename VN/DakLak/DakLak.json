@@ -1,0 +1,198 @@
+{
+  "province": {
+    "id": "VN-40",
+    "code": "40",
+    "name": "Đắk Lắk",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "slug": "dak-lak",
+    "description": "Trung tâm vùng Tây Nguyên. Giữ nguyên địa giới hành chính cấp tỉnh trong năm 2025.",
+    "area_code": "0262",
+    "postal_code": {
+      "type": "range",
+      "value": ["630000", "639999"],
+      "note": "Mã bưu chính giữ nguyên"
+    }
+  },
+  "units": [
+    {
+      "id": "DL-BMT",
+      "code": "BMT",
+      "name": "TP. Buôn Ma Thuột",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Đô thị loại I)",
+      "postal_code": ["630000", "631000"],
+      "wards": [
+        { "id": "DL-BMT-TL", "code": "TL", "name": "Thắng Lợi", "type": "Phường", "type_code": "WARD" },
+        { "id": "DL-BMT-TC", "code": "TC", "name": "Thành Công", "type": "Phường", "type_code": "WARD" },
+        { "id": "DL-BMT-EA", "code": "EA", "name": "Ea Tam", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DL-BH",
+      "code": "BH",
+      "name": "TX. Buôn Hồ",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Trung tâm kinh tế phía Bắc tỉnh",
+      "postal_code": ["638000", "638900"],
+      "wards": [
+        { "id": "DL-BH-AD", "code": "AD", "name": "An Bình", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DL-EHL",
+      "code": "EHL",
+      "name": "Ea H'leo",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["639000", "639900"],
+      "wards": [
+        { "id": "DL-EHL-ED", "code": "ED", "name": "TT. Ea Drăng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-ES",
+      "code": "ES",
+      "name": "Ea Súp",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện biên giới",
+      "postal_code": ["636500", "636900"],
+      "wards": [
+        { "id": "DL-ES-ES", "code": "ES", "name": "TT. Ea Súp", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-BD",
+      "code": "BD",
+      "name": "Buôn Đôn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["636000", "636400"],
+      "wards": [
+        { "id": "DL-BD-EWB", "code": "EWB", "name": "Ea Wer", "type": "Xã", "type_code": "COMMUNE", "note": "Trung tâm hành chính huyện" }
+      ]
+    },
+    {
+      "id": "DL-CM",
+      "code": "CM",
+      "name": "Cư M'gar",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["635000", "635900"],
+      "wards": [
+        { "id": "DL-CM-QN", "code": "QN", "name": "TT. Quảng Phú", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-KB",
+      "code": "KB",
+      "name": "Krông Búk",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["637500", "637900"],
+      "wards": [
+        { "id": "DL-KB-CP", "code": "CP", "name": "Chư Pơng", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "DL-KN",
+      "code": "KN",
+      "name": "Krông Năng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["637000", "637400"],
+      "wards": [
+        { "id": "DL-KN-KN", "code": "KN", "name": "TT. Krông Năng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-EK",
+      "code": "EK",
+      "name": "Ea Kar",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Dự kiến lên Thị xã trong tương lai gần",
+      "postal_code": ["634000", "634900"],
+      "wards": [
+        { "id": "DL-EK-EK", "code": "EK", "name": "TT. Ea Kar", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "DL-EK-EN", "code": "EN", "name": "TT. Ea Knốp", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-MD",
+      "code": "MD",
+      "name": "M'Drắk",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["634950", "634999"],
+      "wards": [
+        { "id": "DL-MD-MD", "code": "MD", "name": "TT. M'Drắk", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-KP",
+      "code": "KP",
+      "name": "Krông Pắc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["633000", "633900"],
+      "wards": [
+        { "id": "DL-KP-PD", "code": "PD", "name": "TT. Phước An", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-CK",
+      "code": "CK",
+      "name": "Cư Kuin",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["632500", "632900"],
+      "wards": [
+        { "id": "DL-CK-DA", "code": "DA", "name": "Dray Bhăng", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "DL-KAN",
+      "code": "KAN",
+      "name": "Krông A Na",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["632000", "632400"],
+      "wards": [
+        { "id": "DL-KAN-BT", "code": "BT", "name": "TT. Buôn Trấp", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-KBg",
+      "code": "KBg",
+      "name": "Krông Bông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["631000", "631900"],
+      "wards": [
+        { "id": "DL-KBg-KK", "code": "KK", "name": "TT. Krông Kmar", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DL-L",
+      "code": "L",
+      "name": "Lắk",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["631950", "631999"],
+      "wards": [
+        { "id": "DL-L-LS", "code": "LS", "name": "TT. Liên Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_actual_2025",
+    "total_units": 15,
+    "composition": "1 City + 1 Town + 13 Rural Districts",
+    "note": "Official administrative structure for 2025. No provincial merger planned.",
+    "last_updated": "2025-01-01"
+  }
+}

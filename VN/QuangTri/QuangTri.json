@@ -1,0 +1,244 @@
+{
+  "province": {
+    "id": "VN-QT",
+    "code": "QT",
+    "name": "Quảng Trị",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "slug": "quang-tri",
+    "description": "Tỉnh sáp nhập từ Quảng Trị cũ và Quảng Bình (Khôi phục một phần Bình Trị Thiên xưa).",
+    "area_code": "0233",
+    "postal_code": {
+      "type": "range",
+      "value": ["510000", "529999"],
+      "note": "Bao gồm dải mã cũ của Quảng Bình (51) và Quảng Trị (52)"
+    }
+  },
+  "units": [
+    {
+      "id": "QT-DHa",
+      "code": "DHa",
+      "name": "TP. Đông Hà",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính - Thương mại Hành lang kinh tế Đông Tây)",
+      "postal_code": ["520000", "521000"],
+      "wards": [
+        { "id": "QT-DHa-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "QT-DHa-P5", "code": "P5", "name": "Phường 5", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QT-DHo",
+      "code": "DHo",
+      "name": "TP. Đồng Hới",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm du lịch - dịch vụ phía Bắc (Tỉnh lỵ Quảng Bình cũ)",
+      "postal_code": ["510000", "511000"],
+      "wards": [
+        { "id": "QT-DHo-DH", "code": "DH", "name": "Đồng Hải", "type": "Phường", "type_code": "WARD" },
+        { "id": "QT-DHo-NB", "code": "NB", "name": "Nam Lý", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QT-TXQT",
+      "code": "TXQT",
+      "name": "TX. Quảng Trị",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Thành cổ Quảng Trị (Quảng Trị cũ)",
+      "postal_code": ["522000", "522500"],
+      "wards": [
+        { "id": "QT-TXQT-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QT-BD",
+      "code": "BD",
+      "name": "TX. Ba Đồn",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Trung tâm phía Bắc sông Gianh (Quảng Bình cũ)",
+      "postal_code": ["512000", "512900"],
+      "wards": [
+        { "id": "QT-BD-BD", "code": "BD", "name": "Ba Đồn", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QT-VL",
+      "code": "VL",
+      "name": "Vĩnh Linh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Địa đạo Vịnh Mốc (Quảng Trị cũ)",
+      "postal_code": ["523000", "523900"],
+      "wards": [
+        { "id": "QT-VL-HT", "code": "HT", "name": "TT. Hồ Xá", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-GL",
+      "code": "GL",
+      "name": "Gio Linh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Nghĩa trang Trường Sơn (Quảng Trị cũ)",
+      "postal_code": ["524000", "524900"],
+      "wards": [
+        { "id": "QT-GL-GL", "code": "GL", "name": "TT. Gio Linh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-CL",
+      "code": "CL",
+      "name": "Cam Lộ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quảng Trị cũ",
+      "postal_code": ["525000", "525900"],
+      "wards": [
+        { "id": "QT-CL-CL", "code": "CL", "name": "TT. Cam Lộ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-TP",
+      "code": "TP",
+      "name": "Triệu Phong",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quảng Trị cũ",
+      "postal_code": ["526000", "526900"],
+      "wards": [
+        { "id": "QT-TP-AK", "code": "AK", "name": "TT. Ái Tử", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-HL",
+      "code": "HL",
+      "name": "Hải Lăng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thánh địa La Vang (Quảng Trị cũ)",
+      "postal_code": ["527000", "527900"],
+      "wards": [
+        { "id": "QT-HL-DL", "code": "DL", "name": "TT. Diên Sanh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-HH",
+      "code": "HH",
+      "name": "Hướng Hóa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa khẩu Lao Bảo - Khe Sanh (Quảng Trị cũ)",
+      "postal_code": ["528000", "528900"],
+      "wards": [
+        { "id": "QT-HH-KS", "code": "KS", "name": "TT. Khe Sanh", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "QT-HH-LB", "code": "LB", "name": "TT. Lao Bảo", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-DK",
+      "code": "DK",
+      "name": "Đa Krông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cầu treo Đa Krông (Quảng Trị cũ)",
+      "postal_code": ["529000", "529800"],
+      "wards": [
+        { "id": "QT-DK-KR", "code": "KR", "name": "TT. Krông Klang", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-CC",
+      "code": "CC",
+      "name": "Cồn Cỏ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện đảo tiền tiêu (Quảng Trị cũ)",
+      "postal_code": ["529900", "529999"],
+      "wards": []
+    },
+    {
+      "id": "QT-LT",
+      "code": "LT",
+      "name": "Lệ Thủy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quê hương Đại tướng Võ Nguyên Giáp (Quảng Bình cũ)",
+      "postal_code": ["514000", "514900"],
+      "wards": [
+        { "id": "QT-LT-KN", "code": "KN", "name": "TT. Kiến Giang", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-QN",
+      "code": "QN",
+      "name": "Quảng Ninh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện Quảng Ninh (thuộc Quảng Bình cũ) - Khác với tỉnh Quảng Ninh",
+      "postal_code": ["513000", "513900"],
+      "wards": [
+        { "id": "QT-QN-QN", "code": "QN", "name": "TT. Quán Hàu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-BT",
+      "code": "BT",
+      "name": "Bố Trạch",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "VQG Phong Nha - Kẻ Bàng (Quảng Bình cũ)",
+      "postal_code": ["515000", "515900"],
+      "wards": [
+        { "id": "QT-BT-HN", "code": "HN", "name": "TT. Hoàn Lão", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "QT-BT-PN", "code": "PN", "name": "TT. Phong Nha", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-QTr",
+      "code": "QTr",
+      "name": "Quảng Trạch",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu kinh tế Hòn La (Quảng Bình cũ)",
+      "postal_code": ["512500", "512800"],
+      "wards": [
+        { "id": "QT-QTr-CP", "code": "CP", "name": "Cảnh Dương", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "QT-TH",
+      "code": "TH",
+      "name": "Tuyên Hóa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quảng Bình cũ",
+      "postal_code": ["516000", "516900"],
+      "wards": [
+        { "id": "QT-TH-DK", "code": "DK", "name": "TT. Đồng Lê", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QT-MH",
+      "code": "MH",
+      "name": "Minh Hóa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện miền núi biên giới (Quảng Bình cũ)",
+      "postal_code": ["517000", "517900"],
+      "wards": [
+        { "id": "QT-MH-QD", "code": "QD", "name": "TT. Quy Đạt", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 18,
+    "composition": "2 Cities + 2 Towns + 14 Rural Districts",
+    "note": "Combined administrative units of Quang Tri and Quang Binh.",
+    "last_updated": "2025-07-01"
+  }
+}

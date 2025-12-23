@@ -1,0 +1,161 @@
+{
+  "province": {
+    "id": "VN-DNai",
+    "code": "DNai",
+    "name": "Đồng Nai",
+    "type": "Tỉnh",
+    "region": "Đông Nam Bộ",
+    "slug": "dong-nai",
+    "description": "Thủ phủ công nghiệp miền Nam, nơi tọa lạc Sân bay Quốc tế Long Thành. Giữ nguyên địa giới hành chính cấp tỉnh.",
+    "area_code": "0251",
+    "postal_code": {
+      "type": "range",
+      "value": ["810000", "829999"],
+      "note": "Mã bưu chính quốc gia (đầu số 81-82)"
+    }
+  },
+  "units": [
+    {
+      "id": "DNai-BH",
+      "code": "BH",
+      "name": "TP. Biên Hòa",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Đô thị loại I - Thành phố đông dân nhất trực thuộc tỉnh)",
+      "postal_code": ["810000", "812000"],
+      "wards": [
+        { "id": "DNai-BH-TD", "code": "TD", "name": "Trảng Dài", "type": "Phường", "type_code": "WARD", "note": "Phường đông dân nhất cả nước" },
+        { "id": "DNai-BH-QT", "code": "QT", "name": "Quyết Thắng", "type": "Phường", "type_code": "WARD" },
+        { "id": "DNai-BH-TP", "code": "TP", "name": "Tân Phong", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DNai-LK",
+      "code": "LK",
+      "name": "TP. Long Khánh",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thủ phủ trái cây Đông Nam Bộ",
+      "postal_code": ["813000", "813900"],
+      "wards": [
+        { "id": "DNai-LK-XA", "code": "XA", "name": "Xuân An", "type": "Phường", "type_code": "WARD" },
+        { "id": "DNai-LK-XT", "code": "XT", "name": "Xuân Thanh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DNai-LT",
+      "code": "LT",
+      "name": "Long Thành",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thành phố sân bay (Đang quy hoạch lên Thành phố/Thị xã)",
+      "postal_code": ["815000", "815900"],
+      "wards": [
+        { "id": "DNai-LT-LT", "code": "LT", "name": "TT. Long Thành", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "DNai-LT-BA", "code": "BA", "name": "Bình An", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "DNai-NT",
+      "code": "NT",
+      "name": "Nhơn Trạch",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đô thị vệ tinh TP.HCM (Cầu Cát Lái)",
+      "postal_code": ["816000", "816900"],
+      "wards": [
+        { "id": "DNai-NT-HP", "code": "HP", "name": "TT. Hiệp Phước", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DNai-TB",
+      "code": "TB",
+      "name": "Trảng Bom",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "KCN Bàu Xéo, Giang Điền",
+      "postal_code": ["814000", "814900"],
+      "wards": [
+        { "id": "DNai-TB-TB", "code": "TB", "name": "TT. Trảng Bom", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DNai-TN",
+      "code": "TN",
+      "name": "Thống Nhất",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Ngã tư Dầu Giây (Đầu mối cao tốc)",
+      "postal_code": ["817000", "817900"],
+      "wards": [
+        { "id": "DNai-TN-DG", "code": "DG", "name": "TT. Dầu Giây", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DNai-VC",
+      "code": "VC",
+      "name": "Vĩnh Cửu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủy điện Trị An - Chiến khu D",
+      "postal_code": ["818000", "818900"],
+      "wards": [
+        { "id": "DNai-VC-VA", "code": "VA", "name": "TT. Vĩnh An", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DNai-XL",
+      "code": "XL",
+      "name": "Xuân Lộc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Núi Chứa Chan",
+      "postal_code": ["819000", "819900"],
+      "wards": [
+        { "id": "DNai-XL-GR", "code": "GR", "name": "TT. Gia Ray", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DNai-DQ",
+      "code": "DQ",
+      "name": "Định Quán",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đá Ba Chồng",
+      "postal_code": ["820000", "820900"],
+      "wards": [
+        { "id": "DNai-DQ-DQ", "code": "DQ", "name": "TT. Định Quán", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DNai-TP",
+      "code": "TP",
+      "name": "Tân Phú",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "VQG Cát Tiên",
+      "postal_code": ["821000", "821900"],
+      "wards": [
+        { "id": "DNai-TP-TP", "code": "TP", "name": "TT. Tân Phú", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DNai-CM",
+      "code": "CM",
+      "name": "Cẩm Mỹ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["822000", "822900"],
+      "wards": [
+        { "id": "DNai-CM-LG", "code": "LG", "name": "TT. Long Giao", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_actual_2025",
+    "total_units": 11,
+    "composition": "2 Cities + 9 Rural Districts",
+    "note": "Stable administrative structure. Long Thanh is a key development focus.",
+    "last_updated": "2025-01-01"
+  }
+}

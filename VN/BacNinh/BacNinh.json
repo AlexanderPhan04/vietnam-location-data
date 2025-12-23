@@ -1,0 +1,247 @@
+{
+  "province": {
+    "id": "VN-BN",
+    "code": "BN",
+    "name": "Bắc Ninh",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "slug": "bac-ninh",
+    "description": "Thủ phủ công nghiệp miền Bắc, sáp nhập từ tỉnh Bắc Ninh cũ và tỉnh Bắc Giang (tái lập tỉnh Hà Bắc).",
+    "area_code": "0222",
+    "postal_code": {
+      "type": "range",
+      "value": ["160000", "239999"],
+      "note": "Bao gồm dải mã của Bắc Ninh (16) và Bắc Giang (23)"
+    }
+  },
+  "units": [
+    {
+      "id": "BN-TPBN",
+      "code": "TPBN",
+      "name": "TP. Bắc Ninh",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính - Đô thị loại I)",
+      "postal_code": ["160000", "161000"],
+      "wards": [
+        { "id": "BN-TPBN-SH", "code": "SH", "name": "Suối Hoa", "type": "Phường", "type_code": "WARD" },
+        { "id": "BN-TPBN-TA", "code": "TA", "name": "Tiền An", "type": "Phường", "type_code": "WARD" },
+        { "id": "BN-TPBN-VH", "code": "VH", "name": "Vũ Ninh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "BN-TPBG",
+      "code": "TPBG",
+      "name": "TP. Bắc Giang",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm kinh tế phía Bắc (Bắc Giang cũ - Đã mở rộng địa giới)",
+      "postal_code": ["230000", "231000"],
+      "wards": [
+        { "id": "BN-TPBG-TP", "code": "TP", "name": "Trần Phú", "type": "Phường", "type_code": "WARD" },
+        { "id": "BN-TPBG-LX", "code": "LX", "name": "Lê Lợi", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "BN-TS",
+      "code": "TS",
+      "name": "TP. Từ Sơn",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Cửa ngõ tiếp giáp Hà Nội (Bắc Ninh cũ)",
+      "postal_code": ["163000", "163900"],
+      "wards": [
+        { "id": "BN-TS-DN", "code": "DN", "name": "Đông Ngàn", "type": "Phường", "type_code": "WARD" },
+        { "id": "BN-TS-DK", "code": "DK", "name": "Đồng Kỵ", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "BN-VY",
+      "code": "VY",
+      "name": "TX. Việt Yên",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Thủ phủ khu công nghiệp (Bắc Giang cũ)",
+      "postal_code": ["236000", "236900"],
+      "wards": [
+        { "id": "BN-VY-BD", "code": "BD", "name": "Bích Động", "type": "Phường", "type_code": "WARD" },
+        { "id": "BN-VY-NH", "code": "NH", "name": "Nếnh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "BN-QV",
+      "code": "QV",
+      "name": "TX. Quế Võ",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Trung tâm công nghiệp - cảng cạn (Bắc Ninh cũ)",
+      "postal_code": ["162000", "162900"],
+      "wards": [
+        { "id": "BN-QV-PL", "code": "PL", "name": "Phố Mới", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "BN-TTh",
+      "code": "TTh",
+      "name": "TX. Thuận Thành",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Đô thị phía Nam sông Đuống (Bắc Ninh cũ)",
+      "postal_code": ["164000", "164900"],
+      "wards": [
+        { "id": "BN-TTh-HT", "code": "HT", "name": "Hồ", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "BN-YP",
+      "code": "YP",
+      "name": "Yên Phong",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ Samsung Display (Bắc Ninh cũ)",
+      "postal_code": ["165000", "165900"],
+      "wards": [
+        { "id": "BN-YP-CH", "code": "CH", "name": "TT. Chờ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-TD",
+      "code": "TD",
+      "name": "Tiên Du",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đang quy hoạch lên Thị xã/Thành phố (Bắc Ninh cũ)",
+      "postal_code": ["166000", "166900"],
+      "wards": [
+        { "id": "BN-TD-LM", "code": "LM", "name": "TT. Lim", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-GB",
+      "code": "GB",
+      "name": "Gia Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Ninh cũ",
+      "postal_code": ["167000", "167900"],
+      "wards": [
+        { "id": "BN-GB-GB", "code": "GB", "name": "TT. Gia Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-LT",
+      "code": "LT",
+      "name": "Lương Tài",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Ninh cũ",
+      "postal_code": ["168000", "168900"],
+      "wards": [
+        { "id": "BN-LT-TH", "code": "TH", "name": "TT. Thứa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-HH",
+      "code": "HH",
+      "name": "Hiệp Hòa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Giang cũ (Cửa ngõ phía Tây)",
+      "postal_code": ["235000", "235900"],
+      "wards": [
+        { "id": "BN-HH-TT", "code": "TT", "name": "TT. Thắng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-LG",
+      "code": "LG",
+      "name": "Lạng Giang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Giang cũ",
+      "postal_code": ["237000", "237900"],
+      "wards": [
+        { "id": "BN-LG-V", "code": "V", "name": "TT. Vôi", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-LNa",
+      "code": "LNa",
+      "name": "Lục Nam",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Giang cũ",
+      "postal_code": ["233000", "233900"],
+      "wards": [
+        { "id": "BN-LNa-DM", "code": "DM", "name": "TT. Đồi Ngô", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-LNg",
+      "code": "LNg",
+      "name": "Lục Ngạn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng vải thiều (Bắc Giang cũ)",
+      "postal_code": ["232000", "232900"],
+      "wards": [
+        { "id": "BN-LNg-CHU", "code": "CHU", "name": "TT. Chũ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-SD",
+      "code": "SD",
+      "name": "Sơn Động",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện miền núi phía Đông (Bắc Giang cũ)",
+      "postal_code": ["239000", "239900"],
+      "wards": [
+        { "id": "BN-SD-AD", "code": "AD", "name": "TT. An Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-TaY",
+      "code": "TaY",
+      "name": "Tân Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Giang cũ",
+      "postal_code": ["234000", "234900"],
+      "wards": [
+        { "id": "BN-TaY-CN", "code": "CN", "name": "TT. Cao Thượng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-YD",
+      "code": "YD",
+      "name": "Yên Dũng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Giang cũ (Một phần đã sáp nhập vào TP. Bắc Giang)",
+      "postal_code": ["238000", "238900"],
+      "wards": [
+        { "id": "BN-YD-NH", "code": "NH", "name": "TT. Nham Biền", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "BN-YTh",
+      "code": "YTh",
+      "name": "Yên Thế",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng gà đồi (Bắc Giang cũ)",
+      "postal_code": ["238500", "238999"],
+      "wards": [
+        { "id": "BN-YTh-PH", "code": "PH", "name": "TT. Phồn Xương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 18,
+    "composition": "3 Cities + 3 Towns + 12 Rural Districts",
+    "note": "Combined administrative units of Bac Ninh and Bac Giang.",
+    "last_updated": "2025-07-01"
+  }
+}

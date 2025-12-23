@@ -1,0 +1,139 @@
+{
+  "province": {
+    "id": "VN-TN",
+    "code": "TN",
+    "name": "Tây Ninh",
+    "type": "Tỉnh",
+    "region": "Đông Nam Bộ",
+    "slug": "tay-ninh",
+    "description": "Cửa ngõ Tây Bắc của TP.HCM, thủ phủ đạo Cao Đài và núi Bà Đen. Giữ nguyên địa giới hành chính.",
+    "area_code": "0276",
+    "postal_code": {
+      "type": "range",
+      "value": ["840000", "849999"],
+      "note": "Mã bưu chính quốc gia (đầu số 84)"
+    }
+  },
+  "units": [
+    {
+      "id": "TN-TPTN",
+      "code": "TPTN",
+      "name": "TP. Tây Ninh",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính - Du lịch Núi Bà)",
+      "postal_code": ["840000", "841000"],
+      "wards": [
+        { "id": "TN-TPTN-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "TN-TPTN-P3", "code": "P3", "name": "Phường 3", "type": "Phường", "type_code": "WARD" },
+        { "id": "TN-TPTN-NS", "code": "NS", "name": "Ninh Sơn", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TN-HT",
+      "code": "HT",
+      "name": "TX. Hòa Thành",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Trung tâm Tôn giáo (Tòa Thánh Cao Đài)",
+      "postal_code": ["843000", "843900"],
+      "wards": [
+        { "id": "TN-HT-LH", "code": "LH", "name": "Long Hoa", "type": "Phường", "type_code": "WARD", "note": "Trung tâm thị xã" },
+        { "id": "TN-HT-HP", "code": "HP", "name": "Hiệp Phước", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TN-TrB",
+      "code": "TrB",
+      "name": "TX. Trảng Bàng",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Trung tâm công nghiệp, giáp Củ Chi (TP.HCM)",
+      "postal_code": ["842000", "842900"],
+      "wards": [
+        { "id": "TN-TrB-TB", "code": "TB", "name": "Trảng Bàng", "type": "Phường", "type_code": "WARD" },
+        { "id": "TN-TrB-AT", "code": "AT", "name": "An Tịnh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TN-GD",
+      "code": "GD",
+      "name": "Gò Dầu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ KCN Phước Đông (Đang quy hoạch lên Thị xã)",
+      "postal_code": ["847000", "847900"],
+      "wards": [
+        { "id": "TN-GD-GD", "code": "GD", "name": "TT. Gò Dầu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-BC",
+      "code": "BC",
+      "name": "Bến Cầu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa khẩu quốc tế Mộc Bài",
+      "postal_code": ["846000", "846900"],
+      "wards": [
+        { "id": "TN-BC-BC", "code": "BC", "name": "TT. Bến Cầu", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "TN-BC-LT", "code": "LT", "name": "Lợi Thuận", "type": "Xã", "type_code": "COMMUNE", "note": "Khu vực cửa khẩu" }
+      ]
+    },
+    {
+      "id": "TN-DMC",
+      "code": "DMC",
+      "name": "Dương Minh Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hồ Dầu Tiếng",
+      "postal_code": ["844000", "844900"],
+      "wards": [
+        { "id": "TN-DMC-DMC", "code": "DMC", "name": "TT. Dương Minh Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-TCh",
+      "code": "TCh",
+      "name": "Tân Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện có diện tích lớn nhất tỉnh (Vùng cao su/mía)",
+      "postal_code": ["845000", "845900"],
+      "wards": [
+        { "id": "TN-TCh-TC", "code": "TC", "name": "TT. Tân Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-TBi",
+      "code": "TBi",
+      "name": "Tân Biên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa khẩu quốc tế Xa Mát - VQG Lò Gò Xa Mát",
+      "postal_code": ["848000", "848900"],
+      "wards": [
+        { "id": "TN-TBi-TB", "code": "TB", "name": "TT. Tân Biên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-CT",
+      "code": "CT",
+      "name": "Châu Thành",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện biên giới",
+      "postal_code": ["849000", "849900"],
+      "wards": [
+        { "id": "TN-CT-CT", "code": "CT", "name": "TT. Châu Thành", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_actual_2025",
+    "total_units": 9,
+    "composition": "1 City + 2 Towns + 6 Rural Districts",
+    "note": "Stable administrative structure. Trang Bang and Hoa Thanh upgraded to Towns in 2020.",
+    "last_updated": "2025-01-01"
+  }
+}

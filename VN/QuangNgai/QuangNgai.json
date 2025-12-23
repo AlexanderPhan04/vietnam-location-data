@@ -1,0 +1,305 @@
+{
+  "province": {
+    "id": "VN-QNg",
+    "code": "QNg",
+    "name": "Quảng Ngãi",
+    "type": "Tỉnh",
+    "region": "Duyên hải Nam Trung Bộ",
+    "slug": "quang-ngai",
+    "description": "Tỉnh đa dạng địa hình Biển - Núi, sáp nhập từ tỉnh Quảng Ngãi cũ và tỉnh Kon Tum.",
+    "area_code": "0255",
+    "postal_code": {
+      "type": "range",
+      "value": ["570000", "589999"],
+      "note": "Bao gồm dải mã cũ của Quảng Ngãi (57) và Kon Tum (58)"
+    }
+  },
+  "units": [
+    {
+      "id": "QNg-TPQNg",
+      "code": "TPQNg",
+      "name": "TP. Quảng Ngãi",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính - kinh tế biển)",
+      "postal_code": ["570000", "571000"],
+      "wards": [
+        { "id": "QNg-TPQNg-TP", "code": "TP", "name": "Trần Phú", "type": "Phường", "type_code": "WARD" },
+        { "id": "QNg-TPQNg-LHP", "code": "LHP", "name": "Lê Hồng Phong", "type": "Phường", "type_code": "WARD" },
+        { "id": "QNg-TPQNg-NB", "code": "NB", "name": "Nghĩa Chánh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QNg-TPKT",
+      "code": "TPKT",
+      "name": "TP. Kon Tum",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm vùng cao nguyên (Tỉnh lỵ Kon Tum cũ)",
+      "postal_code": ["580000", "581000"],
+      "wards": [
+        { "id": "QNg-TPKT-QT", "code": "QT", "name": "Quyết Thắng", "type": "Phường", "type_code": "WARD" },
+        { "id": "QNg-TPKT-TL", "code": "TL", "name": "Thắng Lợi", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QNg-DP",
+      "code": "DP",
+      "name": "TX. Đức Phổ",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Đô thị phía Nam (Quảng Ngãi cũ)",
+      "postal_code": ["576000", "576900"],
+      "wards": [
+        { "id": "QNg-DP-NN", "code": "NN", "name": "Nguyễn Nghiêm", "type": "Phường", "type_code": "WARD" },
+        { "id": "QNg-DP-PT", "code": "PT", "name": "Phổ Thạnh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QNg-BS",
+      "code": "BS",
+      "name": "Bình Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu kinh tế Dung Quất - Sân bay Chu Lai (Quảng Ngãi cũ)",
+      "postal_code": ["572000", "572900"],
+      "wards": [
+        { "id": "QNg-BS-CO", "code": "CO", "name": "TT. Châu Ổ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-ST",
+      "code": "ST",
+      "name": "Sơn Tịnh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quảng Ngãi cũ",
+      "postal_code": ["573000", "573500"],
+      "wards": [
+        { "id": "QNg-ST-TH", "code": "TH", "name": "TT. Tịnh Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-TN",
+      "code": "TN",
+      "name": "Tư Nghĩa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vành đai TP. Quảng Ngãi",
+      "postal_code": ["574000", "574500"],
+      "wards": [
+        { "id": "QNg-TN-LH", "code": "LH", "name": "TT. La Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "QNg-TN-SV", "code": "SV", "name": "TT. Sông Vệ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-NH",
+      "code": "NH",
+      "name": "Nghĩa Hành",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quảng Ngãi cũ",
+      "postal_code": ["574600", "574900"],
+      "wards": [
+        { "id": "QNg-NH-CC", "code": "CC", "name": "TT. Chợ Chùa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-MD",
+      "code": "MD",
+      "name": "Mộ Đức",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quê hương cố Thủ tướng Phạm Văn Đồng",
+      "postal_code": ["575000", "575900"],
+      "wards": [
+        { "id": "QNg-MD-MD", "code": "MD", "name": "TT. Mộ Đức", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-BT",
+      "code": "BT",
+      "name": "Ba Tơ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khởi nghĩa Ba Tơ (Quảng Ngãi cũ)",
+      "postal_code": ["577000", "577900"],
+      "wards": [
+        { "id": "QNg-BT-BT", "code": "BT", "name": "TT. Ba Tơ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-ML",
+      "code": "ML",
+      "name": "Minh Long",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quảng Ngãi cũ",
+      "postal_code": ["578000", "578500"],
+      "wards": [
+        { "id": "QNg-ML-LA", "code": "LA", "name": "Long An", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "QNg-SH",
+      "code": "SH",
+      "name": "Sơn Hà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quảng Ngãi cũ",
+      "postal_code": ["578600", "578900"],
+      "wards": [
+        { "id": "QNg-SH-DL", "code": "DL", "name": "TT. Di Lăng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-STay",
+      "code": "STay",
+      "name": "Sơn Tây",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Quảng Ngãi cũ",
+      "postal_code": ["579000", "579500"],
+      "wards": [
+        { "id": "QNg-STay-SD", "code": "SD", "name": "Sơn Dung", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "QNg-TB",
+      "code": "TB",
+      "name": "Trà Bồng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng Quế Trà Bồng (Đã sáp nhập huyện Tây Trà vào)",
+      "postal_code": ["579600", "579900"],
+      "wards": [
+        { "id": "QNg-TB-TX", "code": "TX", "name": "TT. Trà Xuân", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-LS",
+      "code": "LS",
+      "name": "Lý Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện đảo, đặc biệt không có cấp xã (trực thuộc huyện)",
+      "postal_code": ["570800", "570900"],
+      "wards": []
+    },
+    {
+      "id": "QNg-DH",
+      "code": "DH",
+      "name": "Đăk Hà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Kon Tum cũ",
+      "postal_code": ["582000", "582900"],
+      "wards": [
+        { "id": "QNg-DH-DH", "code": "DH", "name": "TT. Đăk Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-DT",
+      "code": "DT",
+      "name": "Đăk Tô",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Chiến trường Đăk Tô - Tân Cảnh (Kon Tum cũ)",
+      "postal_code": ["583000", "583900"],
+      "wards": [
+        { "id": "QNg-DT-DT", "code": "DT", "name": "TT. Đăk Tô", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-NHoi",
+      "code": "NHoi",
+      "name": "Ngọc Hồi",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Ngã ba Đông Dương - Cửa khẩu Bờ Y (Kon Tum cũ)",
+      "postal_code": ["584000", "584900"],
+      "wards": [
+        { "id": "QNg-NHoi-PK", "code": "PK", "name": "TT. Plei Kần", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-DG",
+      "code": "DG",
+      "name": "Đăk Glei",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện cực Bắc Tây Nguyên (Kon Tum cũ)",
+      "postal_code": ["585000", "585900"],
+      "wards": [
+        { "id": "QNg-DG-DG", "code": "DG", "name": "TT. Đăk Glei", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-STh",
+      "code": "STh",
+      "name": "Sa Thầy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Kon Tum cũ",
+      "postal_code": ["586000", "586900"],
+      "wards": [
+        { "id": "QNg-STh-ST", "code": "ST", "name": "TT. Sa Thầy", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-KR",
+      "code": "KR",
+      "name": "Kon Rẫy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Kon Tum cũ",
+      "postal_code": ["587000", "587500"],
+      "wards": [
+        { "id": "QNg-KR-DR", "code": "DR", "name": "TT. Đăk Rve", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-KP",
+      "code": "KP",
+      "name": "Kon Plông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu du lịch sinh thái Măng Đen (Kon Tum cũ)",
+      "postal_code": ["587600", "587900"],
+      "wards": [
+        { "id": "QNg-KP-MD", "code": "MD", "name": "TT. Măng Đen", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QNg-TMR",
+      "code": "TMR",
+      "name": "Tu Mơ Rông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thủ phủ Sâm Ngọc Linh (Kon Tum cũ)",
+      "postal_code": ["588000", "588900"],
+      "wards": [
+        { "id": "QNg-TMR-DT", "code": "DT", "name": "Đăk Tơ Kan", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "QNg-IH",
+      "code": "IH",
+      "name": "Ia H'Drai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện biên giới mới thành lập (Kon Tum cũ)",
+      "postal_code": ["589000", "589900"],
+      "wards": [
+        { "id": "QNg-IH-IS", "code": "IS", "name": "Ia Tơi", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 23,
+    "composition": "2 Cities + 1 Town + 20 Rural Districts",
+    "note": "Combined administrative units of Quang Ngai and Kon Tum. Ly Son district has no ward-level administrative units.",
+    "last_updated": "2025-07-01"
+  }
+}

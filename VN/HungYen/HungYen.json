@@ -1,0 +1,244 @@
+{
+  "province": {
+    "id": "VN-HY",
+    "code": "HY",
+    "name": "Hưng Yên",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "slug": "hung-yen",
+    "description": "Tỉnh đồng bằng trù phú, sáp nhập từ tỉnh Hưng Yên cũ và tỉnh Thái Bình.",
+    "area_code": "0221",
+    "postal_code": {
+      "type": "range",
+      "value": ["170000", "419999"],
+      "note": "Bao gồm dải mã cũ của Hưng Yên (17) và Thái Bình (41)"
+    }
+  },
+  "units": [
+    {
+      "id": "HY-TPHY",
+      "code": "TPHY",
+      "name": "TP. Hưng Yên",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính - Phố Hiến cũ)",
+      "postal_code": ["170000", "171000"],
+      "wards": [
+        { "id": "HY-TPHY-LM", "code": "LM", "name": "Lê Lợi", "type": "Phường", "type_code": "WARD" },
+        { "id": "HY-TPHY-HP", "code": "HP", "name": "Hiến Nam", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HY-TPTB",
+      "code": "TPTB",
+      "name": "TP. Thái Bình",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm kinh tế - y tế vùng Duyên hải (Thái Bình cũ)",
+      "postal_code": ["410000", "411000"],
+      "wards": [
+        { "id": "HY-TPTB-LB", "code": "LB", "name": "Lê Hồng Phong", "type": "Phường", "type_code": "WARD" },
+        { "id": "HY-TPTB-DE", "code": "DE", "name": "Đề Thám", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HY-MH",
+      "code": "MH",
+      "name": "TX. Mỹ Hào",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Trung tâm công nghiệp Phố Nối (Hưng Yên cũ)",
+      "postal_code": ["177000", "177900"],
+      "wards": [
+        { "id": "HY-MH-BA", "code": "BA", "name": "Bần Yên Nhân", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HY-VG",
+      "code": "VG",
+      "name": "Văn Giang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đô thị sinh thái Ecopark (Hưng Yên cũ)",
+      "postal_code": ["172000", "172900"],
+      "wards": [
+        { "id": "HY-VG-VG", "code": "VG", "name": "TT. Văn Giang", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-VL",
+      "code": "VL",
+      "name": "Văn Lâm",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hưng Yên cũ",
+      "postal_code": ["178000", "178900"],
+      "wards": [
+        { "id": "HY-VL-NH", "code": "NH", "name": "TT. Như Quỳnh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-YM",
+      "code": "YM",
+      "name": "Yên Mỹ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hưng Yên cũ",
+      "postal_code": ["176000", "176900"],
+      "wards": [
+        { "id": "HY-YM-YM", "code": "YM", "name": "TT. Yên Mỹ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-KC",
+      "code": "KC",
+      "name": "Khoái Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng nhãn lồng (Hưng Yên cũ)",
+      "postal_code": ["173000", "173900"],
+      "wards": [
+        { "id": "HY-KC-KC", "code": "KC", "name": "TT. Khoái Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-KD",
+      "code": "KD",
+      "name": "Kim Động",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hưng Yên cũ",
+      "postal_code": ["174000", "174900"],
+      "wards": [
+        { "id": "HY-KD-LR", "code": "LR", "name": "TT. Lương Bằng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-AT",
+      "code": "AT",
+      "name": "Ân Thi",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hưng Yên cũ",
+      "postal_code": ["175000", "175900"],
+      "wards": [
+        { "id": "HY-AT-AT", "code": "AT", "name": "TT. Ân Thi", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-TL",
+      "code": "TL",
+      "name": "Tiên Lữ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hưng Yên cũ",
+      "postal_code": ["179000", "179500"],
+      "wards": [
+        { "id": "HY-TL-VU", "code": "VU", "name": "TT. Vương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-PC",
+      "code": "PC",
+      "name": "Phù Cừ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hưng Yên cũ",
+      "postal_code": ["179600", "179900"],
+      "wards": [
+        { "id": "HY-PC-TR", "code": "TR", "name": "TT. Trần Cao", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-HH",
+      "code": "HH",
+      "name": "Hưng Hà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Bình cũ",
+      "postal_code": ["412000", "412900"],
+      "wards": [
+        { "id": "HY-HH-HH", "code": "HH", "name": "TT. Hưng Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-DH",
+      "code": "DH",
+      "name": "Đông Hưng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Bình cũ",
+      "postal_code": ["413000", "413900"],
+      "wards": [
+        { "id": "HY-DH-DH", "code": "DH", "name": "TT. Đông Hưng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-QP",
+      "code": "QP",
+      "name": "Quỳnh Phụ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Bình cũ",
+      "postal_code": ["414000", "414900"],
+      "wards": [
+        { "id": "HY-QP-QA", "code": "QA", "name": "TT. Quỳnh Côi", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-TTh",
+      "code": "TTh",
+      "name": "Thái Thụy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu kinh tế ven biển (Thái Bình cũ)",
+      "postal_code": ["415000", "415900"],
+      "wards": [
+        { "id": "HY-TTh-DL", "code": "DL", "name": "TT. Diêm Điền", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-THai",
+      "code": "THai",
+      "name": "Tiền Hải",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu công nghiệp khí mỏ (Thái Bình cũ)",
+      "postal_code": ["416000", "416900"],
+      "wards": [
+        { "id": "HY-THai-TH", "code": "TH", "name": "TT. Tiền Hải", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-KX",
+      "code": "KX",
+      "name": "Kiến Xương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Bình cũ",
+      "postal_code": ["417000", "417900"],
+      "wards": [
+        { "id": "HY-KX-KX", "code": "KX", "name": "TT. Kiến Xương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HY-VT",
+      "code": "VT",
+      "name": "Vũ Thư",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Bình cũ (Cửa ngõ sang Nam Định)",
+      "postal_code": ["418000", "418900"],
+      "wards": [
+        { "id": "HY-VT-VT", "code": "VT", "name": "TT. Vũ Thư", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 18,
+    "composition": "2 Cities + 1 Town + 15 Rural Districts",
+    "note": "Combined administrative units of Hung Yen and Thai Binh.",
+    "last_updated": "2025-07-01"
+  }
+}
