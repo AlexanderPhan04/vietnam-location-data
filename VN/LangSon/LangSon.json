@@ -1,0 +1,161 @@
+{
+  "province": {
+    "id": "VN-LS",
+    "code": "LS",
+    "name": "Lạng Sơn",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "slug": "lang-son",
+    "description": "Tỉnh biên giới cửa ngõ, giữ nguyên trạng thái địa giới hành chính cấp tỉnh.",
+    "area_code": "0205",
+    "postal_code": {
+      "type": "range",
+      "value": ["240000", "249999"],
+      "note": "Mã bưu chính quốc gia (đầu số 24)"
+    }
+  },
+  "units": [
+    {
+      "id": "LS-TP",
+      "code": "TP",
+      "name": "TP. Lạng Sơn",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm thương mại biên mậu)",
+      "postal_code": ["240000", "241000"],
+      "wards": [
+        { "id": "LS-TP-VT", "code": "VT", "name": "Vĩnh Trại", "type": "Phường", "type_code": "WARD" },
+        { "id": "LS-TP-DK", "code": "DK", "name": "Đông Kinh", "type": "Phường", "type_code": "WARD" },
+        { "id": "LS-TP-TT", "code": "TT", "name": "Tam Thanh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "LS-CL",
+      "code": "CL",
+      "name": "Cao Lộc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện vành đai thành phố (Có cửa khẩu Hữu Nghị)",
+      "postal_code": ["241500", "241900"],
+      "wards": [
+        { "id": "LS-CL-DD", "code": "DD", "name": "TT. Đồng Đăng", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LS-CL-CL", "code": "CL", "name": "TT. Cao Lộc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-VL",
+      "code": "VL",
+      "name": "Văn Lãng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Có cửa khẩu Tân Thanh",
+      "postal_code": ["242000", "242900"],
+      "wards": [
+        { "id": "LS-VL-NS", "code": "NS", "name": "TT. Na Sầm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-TD",
+      "code": "TD",
+      "name": "Tràng Định",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["243000", "243900"],
+      "wards": [
+        { "id": "LS-TD-TK", "code": "TK", "name": "TT. Thất Khê", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-BG",
+      "code": "BG",
+      "name": "Bình Gia",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["244000", "244900"],
+      "wards": [
+        { "id": "LS-BG-BG", "code": "BG", "name": "TT. Bình Gia", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-BS",
+      "code": "BS",
+      "name": "Bắc Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Di tích Khởi nghĩa Bắc Sơn",
+      "postal_code": ["245000", "245900"],
+      "wards": [
+        { "id": "LS-BS-BS", "code": "BS", "name": "TT. Bắc Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-VQ",
+      "code": "VQ",
+      "name": "Văn Quan",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["246000", "246900"],
+      "wards": [
+        { "id": "LS-VQ-VQ", "code": "VQ", "name": "TT. Văn Quan", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-ChiL",
+      "code": "ChiL",
+      "name": "Chi Lăng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Ải Chi Lăng (Na kẹo)",
+      "postal_code": ["247000", "247900"],
+      "wards": [
+        { "id": "LS-ChiL-DM", "code": "DM", "name": "TT. Đồng Mỏ", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LS-ChiL-CL", "code": "CL", "name": "TT. Chi Lăng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-HL",
+      "code": "HL",
+      "name": "Hữu Lũng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa ngõ phía Nam (Giáp Bắc Giang/Thái Nguyên)",
+      "postal_code": ["248000", "248900"],
+      "wards": [
+        { "id": "LS-HL-HL", "code": "HL", "name": "TT. Hữu Lũng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-LB",
+      "code": "LB",
+      "name": "Lộc Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa khẩu Chi Ma",
+      "postal_code": ["249000", "249500"],
+      "wards": [
+        { "id": "LS-LB-LB", "code": "LB", "name": "TT. Lộc Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LS-LB-ND", "code": "ND", "name": "TT. Na Dương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LS-DL",
+      "code": "DL",
+      "name": "Đình Lập",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Giáp Quảng Ninh",
+      "postal_code": ["249600", "249900"],
+      "wards": [
+        { "id": "LS-DL-DL", "code": "DL", "name": "TT. Đình Lập", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LS-DL-NT", "code": "NT", "name": "TT. Nông Trường Thái Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 11,
+    "composition": "1 City + 10 Rural Districts",
+    "note": "Kept original structure due to strategic border location.",
+    "last_updated": "2025-01-01"
+  }
+}

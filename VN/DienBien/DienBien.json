@@ -1,0 +1,146 @@
+{
+  "province": {
+    "id": "VN-DB",
+    "code": "DB",
+    "name": "Điện Biên",
+    "type": "Tỉnh",
+    "region": "Tây Bắc Bộ",
+    "slug": "dien-bien",
+    "description": "Tỉnh biên giới Tây Bắc, giữ nguyên trạng thái địa giới hành chính cấp tỉnh.",
+    "area_code": "0215",
+    "postal_code": {
+      "type": "range",
+      "value": ["380000", "389999"],
+      "note": "Mã bưu chính quốc gia (đầu số 38)"
+    }
+  },
+  "units": [
+    {
+      "id": "DB-TP",
+      "code": "TP",
+      "name": "TP. Điện Biên Phủ",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Di tích lịch sử đặc biệt)",
+      "postal_code": ["380000", "381000"],
+      "wards": [
+        { "id": "DB-TP-MT", "code": "MT", "name": "Mường Thanh", "type": "Phường", "type_code": "WARD" },
+        { "id": "DB-TP-HL", "code": "HL", "name": "Him Lam", "type": "Phường", "type_code": "WARD" },
+        { "id": "DB-TP-TN", "code": "TN", "name": "Thanh Nưa", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "DB-ML",
+      "code": "ML",
+      "name": "TX. Mường Lay",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Thủ phủ cũ (Lai Châu cũ)",
+      "postal_code": ["382000", "382500"],
+      "wards": [
+        { "id": "DB-ML-SD", "code": "SD", "name": "Sông Đà", "type": "Phường", "type_code": "WARD" },
+        { "id": "DB-ML-NL", "code": "NL", "name": "Na Lay", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DB-DB",
+      "code": "DB",
+      "name": "Điện Biên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện vành đai thành phố",
+      "postal_code": ["382800", "383500"],
+      "wards": [
+        { "id": "DB-DB-NT", "code": "NT", "name": "Nà Tấu", "type": "Xã", "type_code": "COMMUNE" },
+        { "id": "DB-DB-MN", "code": "MN", "name": "Mường Nhà", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "DB-DBD",
+      "code": "DBD",
+      "name": "Điện Biên Đông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["383800", "384500"],
+      "wards": [
+        { "id": "DB-DBD-TT", "code": "TT", "name": "TT. Điện Biên Đông", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DB-MA",
+      "code": "MA",
+      "name": "Mường Ảng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["384800", "385200"],
+      "wards": [
+        { "id": "DB-MA-TT", "code": "TT", "name": "TT. Mường Ảng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DB-MC",
+      "code": "MC",
+      "name": "Mường Chà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["385500", "386200"],
+      "wards": [
+        { "id": "DB-MC-TT", "code": "TT", "name": "TT. Mường Chà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DB-MN",
+      "code": "MN",
+      "name": "Mường Nhé",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện cực Tây (Ngã ba biên giới A Pa Chải)",
+      "postal_code": ["386500", "387200"],
+      "wards": [
+        { "id": "DB-MN-MN", "code": "MN", "name": "Mường Nhé", "type": "Xã", "type_code": "COMMUNE" },
+        { "id": "DB-MN-SIN", "code": "SIN", "name": "Sín Thầu", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "DB-NP",
+      "code": "NP",
+      "name": "Nậm Pồ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện mới thành lập (tách từ Mường Nhé/Mường Chà)",
+      "postal_code": ["387500", "387900"],
+      "wards": [
+        { "id": "DB-NP-NP", "code": "NP", "name": "Nà Hỳ", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "DB-TC",
+      "code": "TC",
+      "name": "Tủa Chùa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["388000", "388800"],
+      "wards": [
+        { "id": "DB-TC-TT", "code": "TT", "name": "TT. Tủa Chùa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DB-TG",
+      "code": "TG",
+      "name": "Tuần Giáo",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["389000", "389800"],
+      "wards": [
+        { "id": "DB-TG-TT", "code": "TT", "name": "TT. Tuần Giáo", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 10,
+    "composition": "1 City + 1 Town + 8 Rural Districts",
+    "note": "Original administrative boundaries preserved due to strategic border location.",
+    "last_updated": "2025-01-01"
+  }
+}

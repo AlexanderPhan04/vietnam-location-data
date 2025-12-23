@@ -1,0 +1,244 @@
+{
+  "province": {
+    "id": "VN-TQ",
+    "code": "TQ",
+    "name": "Tuyên Quang",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "slug": "tuyen-quang",
+    "description": "Tỉnh miền núi phía Bắc, sáp nhập từ tỉnh Tuyên Quang cũ và tỉnh Hà Giang.",
+    "area_code": "0207",
+    "postal_code": {
+      "type": "range",
+      "value": ["220000", "319999"],
+      "note": "Bao gồm dải mã cũ của Tuyên Quang (22) và Hà Giang (31)"
+    }
+  },
+  "units": [
+    {
+      "id": "TQ-TPTQ",
+      "code": "TPTQ",
+      "name": "TP. Tuyên Quang",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính mới)",
+      "postal_code": ["220000", "221000"],
+      "wards": [
+        { "id": "TQ-TPTQ-TS", "code": "TS", "name": "Tân Quang", "type": "Phường", "type_code": "WARD" },
+        { "id": "TQ-TPTQ-PC", "code": "PC", "name": "Phan Thiết", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TQ-TPHG",
+      "code": "TPHG",
+      "name": "TP. Hà Giang",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm du lịch (Tỉnh lỵ Hà Giang cũ)",
+      "postal_code": ["310000", "311000"],
+      "wards": [
+        { "id": "TQ-TPHG-TP", "code": "TP", "name": "Trần Phú", "type": "Phường", "type_code": "WARD" },
+        { "id": "TQ-TPHG-NM", "code": "NM", "name": "Ngọc Minh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TQ-DV",
+      "code": "DV",
+      "name": "Đồng Văn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cao nguyên đá (Hà Giang cũ)",
+      "postal_code": ["312000", "312900"],
+      "wards": [
+        { "id": "TQ-DV-TT", "code": "TT", "name": "TT. Đồng Văn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-MV",
+      "code": "MV",
+      "name": "Mèo Vạc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đèo Mã Pí Lèng (Hà Giang cũ)",
+      "postal_code": ["313000", "313900"],
+      "wards": [
+        { "id": "TQ-MV-TT", "code": "TT", "name": "TT. Mèo Vạc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-YM",
+      "code": "YM",
+      "name": "Yên Minh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hà Giang cũ",
+      "postal_code": ["314000", "314900"],
+      "wards": [
+        { "id": "TQ-YM-TT", "code": "TT", "name": "TT. Yên Minh", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-QB",
+      "code": "QB",
+      "name": "Quản Bạ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cổng trời Quản Bạ (Hà Giang cũ)",
+      "postal_code": ["315000", "315900"],
+      "wards": [
+        { "id": "TQ-QB-TT", "code": "TT", "name": "TT. Tam Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-VX",
+      "code": "VX",
+      "name": "Vị Xuyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hà Giang cũ",
+      "postal_code": ["316000", "316900"],
+      "wards": [
+        { "id": "TQ-VX-TT", "code": "TT", "name": "TT. Vị Xuyên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-BM",
+      "code": "BM",
+      "name": "Bắc Mê",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hà Giang cũ",
+      "postal_code": ["317000", "317900"],
+      "wards": [
+        { "id": "TQ-BM-TT", "code": "TT", "name": "TT. Yên Phú", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-HSP",
+      "code": "HSP",
+      "name": "Hoàng Su Phì",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Ruộng bậc thang (Hà Giang cũ)",
+      "postal_code": ["318000", "318500"],
+      "wards": [
+        { "id": "TQ-HSP-TT", "code": "TT", "name": "TT. Vinh Quang", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-XM",
+      "code": "XM",
+      "name": "Xín Mần",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hà Giang cũ",
+      "postal_code": ["318600", "318900"],
+      "wards": [
+        { "id": "TQ-XM-TT", "code": "TT", "name": "TT. Cốc Pài", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-BQ",
+      "code": "BQ",
+      "name": "Bắc Quang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hà Giang cũ",
+      "postal_code": ["319000", "319500"],
+      "wards": [
+        { "id": "TQ-BQ-TT", "code": "TT", "name": "TT. Việt Quang", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-QBi",
+      "code": "QBi",
+      "name": "Quang Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hà Giang cũ",
+      "postal_code": ["319600", "319900"],
+      "wards": [
+        { "id": "TQ-QBi-TT", "code": "TT", "name": "TT. Yên Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-LB",
+      "code": "LB",
+      "name": "Lâm Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Tuyên Quang cũ",
+      "postal_code": ["222000", "222900"],
+      "wards": [
+        { "id": "TQ-LB-TT", "code": "TT", "name": "TT. Lăng Can", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-NH",
+      "code": "NH",
+      "name": "Na Hang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hồ Na Hang (Tuyên Quang cũ)",
+      "postal_code": ["223000", "223900"],
+      "wards": [
+        { "id": "TQ-NH-TT", "code": "TT", "name": "TT. Na Hang", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-CH",
+      "code": "CH",
+      "name": "Chiêm Hóa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Tuyên Quang cũ",
+      "postal_code": ["224000", "224900"],
+      "wards": [
+        { "id": "TQ-CH-TT", "code": "TT", "name": "TT. Vĩnh Lộc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-HY",
+      "code": "HY",
+      "name": "Hàm Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng cam sành (Tuyên Quang cũ)",
+      "postal_code": ["225000", "225900"],
+      "wards": [
+        { "id": "TQ-HY-TT", "code": "TT", "name": "TT. Tân Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-YS",
+      "code": "YS",
+      "name": "Yên Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện vành đai TP. Tuyên Quang (Tuyên Quang cũ)",
+      "postal_code": ["226000", "226900"],
+      "wards": [
+        { "id": "TQ-YS-TT", "code": "TT", "name": "TT. Yên Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TQ-SD",
+      "code": "SD",
+      "name": "Sơn Dương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu di tích Tân Trào (Tuyên Quang cũ)",
+      "postal_code": ["227000", "227900"],
+      "wards": [
+        { "id": "TQ-SD-TT", "code": "TT", "name": "TT. Sơn Dương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 18,
+    "composition": "2 Cities + 16 Rural Districts",
+    "note": "Combined administrative units of Tuyen Quang and Ha Giang.",
+    "last_updated": "2025-07-01"
+  }
+}

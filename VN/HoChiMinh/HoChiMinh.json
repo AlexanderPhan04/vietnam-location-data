@@ -1,0 +1,518 @@
+{
+  "province": {
+    "id": "VN-SG",
+    "code": "SG",
+    "name": "Hồ Chí Minh",
+    "type": "Thành phố trực thuộc Trung ương",
+    "region": "Miền Nam",
+    "slug": "ho-chi-minh",
+    "area_code": "028",
+    "postal_code": {
+      "type": "range",
+      "value": [
+        "700000",
+        "740000"
+      ]
+    }
+  },
+  "units": [
+    {
+      "id": "SG-TD",
+      "code": "TD",
+      "name": "Thủ Đức",
+      "type": "Thành phố",
+      "type_code": "MUNICIPAL_CITY",
+      "area_code": "028",
+      "postal_code": ["713000", "715999"],
+      "wards": [
+        {
+          "id": "SG-TD-TT",
+          "code": "TT",
+          "name": "Thủ Thiêm",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "713100"
+        },
+        {
+          "id": "SG-TD-TDI",
+          "code": "TDI",
+          "name": "Thảo Điền",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "713200"
+        },
+        {
+          "id": "SG-TD-LTP",
+          "code": "LTP",
+          "name": "Long Thạnh Mỹ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "715100"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q1",
+      "code": "Q1",
+      "name": "Quận 1",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["710000", "710999"],
+      "wards": [
+        {
+          "id": "SG-Q1-BN",
+          "code": "BN",
+          "name": "Bến Nghé",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "710100"
+        },
+        {
+          "id": "SG-Q1-NTB",
+          "code": "NTB",
+          "name": "Nguyễn Thái Bình",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "710200"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q3",
+      "code": "Q3",
+      "name": "Quận 3",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["724000", "724999"],
+      "wards": [
+        {
+          "id": "SG-Q3-VTS",
+          "code": "VTS",
+          "name": "Võ Thị Sáu",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "724100"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q4",
+      "code": "Q4",
+      "name": "Quận 4",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["728000", "728999"],
+      "wards": [
+        {
+          "id": "SG-Q4-P01",
+          "code": "P01",
+          "name": "Phường 01",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "728100"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q5",
+      "code": "Q5",
+      "name": "Quận 5",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["727000", "727999"],
+      "wards": [
+        {
+          "id": "SG-Q5-P05",
+          "code": "P05",
+          "name": "Phường 05",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "727100"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q6",
+      "code": "Q6",
+      "name": "Quận 6",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["731000", "731999"],
+      "wards": [
+        {
+          "id": "SG-Q6-P01",
+          "code": "P01",
+          "name": "Phường 01",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "731100"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q7",
+      "code": "Q7",
+      "name": "Quận 7",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["729000", "729999"],
+      "wards": [
+        {
+          "id": "SG-Q7-TP",
+          "code": "TP",
+          "name": "Tân Phong",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "729100"
+        },
+        {
+          "id": "SG-Q7-PMH",
+          "code": "PMH",
+          "name": "Phú Mỹ Hưng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "729200"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q8",
+      "code": "Q8",
+      "name": "Quận 8",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["730000", "730999"],
+      "wards": [
+        {
+          "id": "SG-Q8-P05",
+          "code": "P05",
+          "name": "Phường 05",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "730100"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q10",
+      "code": "Q10",
+      "name": "Quận 10",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["725000", "725999"],
+      "wards": [
+        {
+          "id": "SG-Q10-P12",
+          "code": "P12",
+          "name": "Phường 12",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "725100"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q11",
+      "code": "Q11",
+      "name": "Quận 11",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["726000", "726999"],
+      "wards": [
+        {
+          "id": "SG-Q11-P03",
+          "code": "P03",
+          "name": "Phường 03",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "726100"
+        }
+      ]
+    },
+    {
+      "id": "SG-Q12",
+      "code": "Q12",
+      "name": "Quận 12",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["717000", "717999"],
+      "wards": [
+        {
+          "id": "SG-Q12-APD",
+          "code": "APD",
+          "name": "An Phú Đông",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "717100"
+        }
+      ]
+    },
+    {
+      "id": "SG-BT",
+      "code": "BT",
+      "name": "Bình Thạnh",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["723000", "723999"],
+      "wards": [
+        {
+          "id": "SG-BT-P25",
+          "code": "P25",
+          "name": "Phường 25",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "723100"
+        }
+      ]
+    },
+    {
+      "id": "SG-GV",
+      "code": "GV",
+      "name": "Gò Vấp",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["714000", "714999"],
+      "wards": [
+        {
+          "id": "SG-GV-P10",
+          "code": "P10",
+          "name": "Phường 10",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "714100"
+        }
+      ]
+    },
+    {
+      "id": "SG-PN",
+      "code": "PN",
+      "name": "Phú Nhuận",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["722000", "722999"],
+      "wards": [
+        {
+          "id": "SG-PN-P01",
+          "code": "P01",
+          "name": "Phường 01",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "722100"
+        }
+      ]
+    },
+    {
+      "id": "SG-TB",
+      "code": "TB",
+      "name": "Tân Bình",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["721000", "721999"],
+      "wards": [
+        {
+          "id": "SG-TB-P02",
+          "code": "P02",
+          "name": "Phường 02",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "721100"
+        }
+      ]
+    },
+    {
+      "id": "SG-TP",
+      "code": "TP",
+      "name": "Tân Phú",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["720000", "720999"],
+      "wards": [
+        {
+          "id": "SG-TP-TSN",
+          "code": "TSN",
+          "name": "Tân Sơn Nhì",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "720100"
+        }
+      ]
+    },
+    {
+      "id": "SG-BTan",
+      "code": "BTan",
+      "name": "Bình Tân",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["719000", "719999"],
+      "wards": [
+        {
+          "id": "SG-BTan-BT",
+          "code": "BT",
+          "name": "Bình Trị Đông B",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "719100"
+        }
+      ]
+    },
+    {
+      "id": "SG-CC",
+      "code": "CC",
+      "name": "Củ Chi",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["733000", "733999"],
+      "wards": [
+        {
+          "id": "SG-CC-TT",
+          "code": "TT",
+          "name": "Thị trấn Củ Chi",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "733100"
+        },
+        {
+          "id": "SG-CC-TTH",
+          "code": "TTH",
+          "name": "Tân Thông Hội",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "733200"
+        }
+      ]
+    },
+    {
+      "id": "SG-HM",
+      "code": "HM",
+      "name": "Hóc Môn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["734000", "734999"],
+      "wards": [
+        {
+          "id": "SG-HM-TT",
+          "code": "TT",
+          "name": "Thị trấn Hóc Môn",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "734100"
+        },
+        {
+          "id": "SG-HM-BD",
+          "code": "BD",
+          "name": "Bà Điểm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "734200"
+        }
+      ]
+    },
+    {
+      "id": "SG-BC",
+      "code": "BC",
+      "name": "Bình Chánh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["736000", "736999"],
+      "wards": [
+        {
+          "id": "SG-BC-TT",
+          "code": "TT",
+          "name": "Thị trấn Tân Túc",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "736100"
+        },
+        {
+          "id": "SG-BC-BH",
+          "code": "BH",
+          "name": "Bình Hưng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "736200"
+        }
+      ]
+    },
+    {
+      "id": "SG-NB",
+      "code": "NB",
+      "name": "Nhà Bè",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["732000", "732999"],
+      "wards": [
+        {
+          "id": "SG-NB-TT",
+          "code": "TT",
+          "name": "Thị trấn Nhà Bè",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "732100"
+        },
+        {
+          "id": "SG-NB-PT",
+          "code": "PT",
+          "name": "Phước Kiển",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "732200"
+        }
+      ]
+    },
+    {
+      "id": "SG-CG",
+      "code": "CG",
+      "name": "Cần Giờ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "028",
+      "postal_code": ["737000", "737999"],
+      "wards": [
+        {
+          "id": "SG-CG-TT",
+          "code": "TT",
+          "name": "Thị trấn Cần Thạnh",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "737100"
+        },
+        {
+          "id": "SG-CG-TA",
+          "code": "TA",
+          "name": "Thạnh An",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "737200"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 22,
+    "note": "Standard administrative boundaries of HCMC (excluding hypothetical merged provinces like Binh Duong/BR-VT for clarity). Contains: 1 Municipal City (Thu Duc), 16 Urban Districts, 5 Rural Districts.",
+    "area_code_standard": "Vietnam fixed-line",
+    "postal_code_standard": "Vietnam Post (6 digits)",
+    "last_updated": "2025-01-01"
+  }
+}

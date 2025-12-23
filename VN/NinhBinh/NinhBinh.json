@@ -1,0 +1,283 @@
+{
+  "province": {
+    "id": "VN-NB",
+    "code": "NB",
+    "name": "Ninh Bình",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "slug": "ninh-binh",
+    "description": "Đơn vị hành chính mới hợp nhất từ 3 tỉnh cũ: Ninh Bình, Nam Định, Hà Nam (theo Nghị quyết giả định 2025).",
+    "area_code": "0229",
+    "postal_code": {
+      "type": "range",
+      "value": ["400000", "440000"],
+      "note": "Bao gồm dải mã cũ của Hà Nam (40), Nam Định (42) và Ninh Bình (43)"
+    }
+  },
+  "units": [
+    {
+      "id": "NB-TPNB",
+      "code": "TPNB",
+      "name": "TP. Ninh Bình",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính mới)",
+      "postal_code": ["430000", "431000"],
+      "wards": [
+        { "id": "NB-TPNB-TH", "code": "TH", "name": "Thanh Bình", "type": "Phường", "type_code": "WARD" },
+        { "id": "NB-TPNB-DB", "code": "DB", "name": "Đông Thành", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "NB-TPND",
+      "code": "TPND",
+      "name": "TP. Nam Định",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm kinh tế vùng (Cựu tỉnh lỵ Nam Định)",
+      "postal_code": ["420000", "421000"],
+      "wards": [
+        { "id": "NB-TPND-TV", "code": "TV", "name": "Trần Tế Xương", "type": "Phường", "type_code": "WARD" },
+        { "id": "NB-TPND-LH", "code": "LH", "name": "Lộc Hạ", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "NB-TPPL",
+      "code": "TPPL",
+      "name": "TP. Phủ Lý",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Cửa ngõ phía Bắc (Cựu tỉnh lỵ Hà Nam)",
+      "postal_code": ["400000", "401000"],
+      "wards": [
+        { "id": "NB-TPPL-MC", "code": "MC", "name": "Minh Khai", "type": "Phường", "type_code": "WARD" },
+        { "id": "NB-TPPL-LC", "code": "LC", "name": "Lương Khánh Thiện", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "NB-TPTD",
+      "code": "TPTD",
+      "name": "TP. Tam Điệp",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố công nghiệp phía Nam",
+      "postal_code": ["432000", "432900"],
+      "wards": [
+        { "id": "NB-TPTD-BS", "code": "BS", "name": "Bắc Sơn", "type": "Phường", "type_code": "WARD" },
+        { "id": "NB-TPTD-TS", "code": "TS", "name": "Trung Sơn", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "NB-TXDT",
+      "code": "TXDT",
+      "name": "TX. Duy Tiên",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Thuộc khu vực Hà Nam cũ",
+      "postal_code": ["402000", "402900"],
+      "wards": [
+        { "id": "NB-TXDT-HB", "code": "HB", "name": "Hòa Mạc", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "NB-HH",
+      "code": "HH",
+      "name": "Hải Hậu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện ven biển (Nam Định cũ)",
+      "postal_code": ["424000", "424900"],
+      "wards": [
+        { "id": "NB-HH-TT", "code": "TT", "name": "TT. Yên Định", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "NB-HH-HMinh", "code": "HM", "name": "Hải Minh", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "NB-GT",
+      "code": "GT",
+      "name": "Giao Thủy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Nam Định cũ",
+      "postal_code": ["423000", "423900"],
+      "wards": [
+        { "id": "NB-GT-TT", "code": "TT", "name": "TT. Ngô Đồng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NB-XT",
+      "code": "XT",
+      "name": "Xuân Trường",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Nam Định cũ",
+      "postal_code": ["422000", "422900"],
+      "wards": []
+    },
+    {
+      "id": "NB-NH",
+      "code": "NH",
+      "name": "Nghĩa Hưng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Nam Định cũ",
+      "postal_code": ["426000", "426900"],
+      "wards": []
+    },
+    {
+      "id": "NB-TN",
+      "code": "TN",
+      "name": "Trực Ninh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Nam Định cũ",
+      "postal_code": ["425000", "425900"],
+      "wards": []
+    },
+    {
+      "id": "NB-NTr",
+      "code": "NTr",
+      "name": "Nam Trực",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Nam Định cũ",
+      "postal_code": ["427000", "427900"],
+      "wards": []
+    },
+    {
+      "id": "NB-YY",
+      "code": "YY",
+      "name": "Ý Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Nam Định cũ",
+      "postal_code": ["428000", "428900"],
+      "wards": [
+         { "id": "NB-YY-TT", "code": "TT", "name": "TT. Lâm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NB-VB",
+      "code": "VB",
+      "name": "Vụ Bản",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Nam Định cũ",
+      "postal_code": ["429000", "429900"],
+      "wards": []
+    },
+    {
+      "id": "NB-KB",
+      "code": "KB",
+      "name": "Kim Bảng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Hà Nam cũ",
+      "postal_code": ["403000", "403900"],
+      "wards": [
+         { "id": "NB-KB-TT", "code": "TT", "name": "TT. Quế", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NB-TL",
+      "code": "TL",
+      "name": "Thanh Liêm",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Hà Nam cũ",
+      "postal_code": ["404000", "404900"],
+      "wards": []
+    },
+    {
+      "id": "NB-BL",
+      "code": "BL",
+      "name": "Bình Lục",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Hà Nam cũ",
+      "postal_code": ["405000", "405900"],
+      "wards": []
+    },
+    {
+      "id": "NB-LN",
+      "code": "LN",
+      "name": "Lý Nhân",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Hà Nam cũ",
+      "postal_code": ["406000", "406900"],
+      "wards": []
+    },
+    {
+      "id": "NB-HL",
+      "code": "HL",
+      "name": "Hoa Lư",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Ninh Bình cũ",
+      "postal_code": ["433000", "433900"],
+      "wards": [
+        { "id": "NB-HL-TT", "code": "TT", "name": "TT. Thiên Tôn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NB-KS",
+      "code": "KS",
+      "name": "Kim Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện ven biển (Ninh Bình cũ)",
+      "postal_code": ["435000", "435900"],
+      "wards": [
+        { "id": "NB-KS-TT", "code": "TT", "name": "TT. Phát Diệm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "NB-NQ",
+      "code": "NQ",
+      "name": "Nho Quan",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Ninh Bình cũ",
+      "postal_code": ["434000", "434900"],
+      "wards": []
+    },
+    {
+      "id": "NB-GV",
+      "code": "GV",
+      "name": "Gia Viễn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Ninh Bình cũ",
+      "postal_code": ["436000", "436900"],
+      "wards": []
+    },
+    {
+      "id": "NB-YK",
+      "code": "YK",
+      "name": "Yên Khánh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Ninh Bình cũ",
+      "postal_code": ["437000", "437900"],
+      "wards": []
+    },
+    {
+      "id": "NB-YM",
+      "code": "YM",
+      "name": "Yên Mô",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu vực Ninh Bình cũ",
+      "postal_code": ["438000", "438900"],
+      "wards": []
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_districts": 23,
+    "composition": "4 Cities + 1 Town + 18 Districts",
+    "note": "Full list of districts from merged provinces. Wards are abbreviated.",
+    "last_updated": "2025-07-01"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "province": {
+    "id": "VN-HUE",
+    "code": "HUE",
+    "name": "Huế",
+    "type": "Thành phố trực thuộc Trung ương",
+    "region": "Bắc Trung Bộ",
+    "slug": "hue",
+    "description": "Thành phố Di sản, trực thuộc Trung ương trên cơ sở toàn bộ tỉnh Thừa Thiên Huế cũ.",
+    "area_code": "0234",
+    "postal_code": {
+      "type": "range",
+      "value": ["530000", "539999"],
+      "note": "Giữ nguyên dải mã cũ của Thừa Thiên Huế"
+    }
+  },
+  "units": [
+    {
+      "id": "HUE-PX",
+      "code": "PX",
+      "name": "Phú Xuân",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "note": "Quận nội thành (Bờ Bắc sông Hương - Khu vực Kinh thành)",
+      "postal_code": ["530000", "530900"],
+      "wards": [
+        { "id": "HUE-PX-TL", "code": "TL", "name": "Thuận Lộc", "type": "Phường", "type_code": "WARD" },
+        { "id": "HUE-PX-DL", "code": "DL", "name": "Đông Ba", "type": "Phường", "type_code": "WARD" },
+        { "id": "HUE-PX-HH", "code": "HH", "name": "Hương Hồ", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HUE-TH",
+      "code": "TH",
+      "name": "Thuận Hóa",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "note": "Quận nội thành (Bờ Nam sông Hương - Khu vực Hành chính mới)",
+      "postal_code": ["531000", "531900"],
+      "wards": [
+        { "id": "HUE-TH-VN", "code": "VN", "name": "Vĩnh Ninh", "type": "Phường", "type_code": "WARD" },
+        { "id": "HUE-TH-XP", "code": "XP", "name": "Xuân Phú", "type": "Phường", "type_code": "WARD" },
+        { "id": "HUE-TH-AC", "code": "AC", "name": "An Cựu", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HUE-HTH",
+      "code": "HTH",
+      "name": "Hương Thủy",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Đô thị sân bay - công nghiệp",
+      "postal_code": ["535000", "535900"],
+      "wards": [
+        { "id": "HUE-HTH-PB", "code": "PB", "name": "Phú Bài", "type": "Phường", "type_code": "WARD" },
+        { "id": "HUE-HTH-TL", "code": "TL", "name": "Thủy Lương", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HUE-HTR",
+      "code": "HTR",
+      "name": "Hương Trà",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "postal_code": ["534000", "534900"],
+      "wards": [
+        { "id": "HUE-HTR-TV", "code": "TV", "name": "Tứ Hạ", "type": "Phường", "type_code": "WARD" },
+        { "id": "HUE-HTR-HB", "code": "HB", "name": "Hương Bình", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "HUE-PD",
+      "code": "PD",
+      "name": "Phong Điền",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Nâng cấp từ huyện Phong Điền",
+      "postal_code": ["536000", "536900"],
+      "wards": [
+        { "id": "HUE-PD-PD", "code": "PD", "name": "Phong Điền", "type": "Phường", "type_code": "WARD" },
+        { "id": "HUE-PD-DA", "code": "DA", "name": "Điền An", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "HUE-PV",
+      "code": "PV",
+      "name": "Phú Vang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng ven biển và đầm phá",
+      "postal_code": ["533000", "533900"],
+      "wards": [
+        { "id": "HUE-PV-PT", "code": "PT", "name": "TT. Phú Đa", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "HUE-PV-PA", "code": "PA", "name": "Phú An", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "HUE-QD",
+      "code": "QD",
+      "name": "Quảng Điền",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["537000", "537900"],
+      "wards": [
+        { "id": "HUE-QD-SI", "code": "SI", "name": "TT. Sịa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HUE-PL",
+      "code": "PL",
+      "name": "Phú Lộc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu kinh tế Chân Mây - Lăng Cô",
+      "postal_code": ["532000", "532900"],
+      "wards": [
+        { "id": "HUE-PL-LC", "code": "LC", "name": "TT. Lăng Cô", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "HUE-PL-PL", "code": "PL", "name": "TT. Phú Lộc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HUE-AL",
+      "code": "AL",
+      "name": "A Lưới",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện miền núi biên giới",
+      "postal_code": ["538000", "538900"],
+      "wards": [
+        { "id": "HUE-AL-AL", "code": "AL", "name": "TT. A Lưới", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "HUE-ND",
+      "code": "ND",
+      "name": "Nam Đông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện miền núi",
+      "postal_code": ["539000", "539900"],
+      "wards": [
+        { "id": "HUE-ND-KB", "code": "KB", "name": "TT. Khe Tre", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 10,
+    "composition": "2 Urban Districts + 3 Towns + 5 Rural Districts",
+    "note": "Old Hue City (provincial capital) is split into District Phu Xuan and District Thuan Hoa. Phong Dien upgraded to Town.",
+    "last_updated": "2025-07-01"
+  }
+}

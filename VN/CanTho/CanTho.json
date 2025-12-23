@@ -1,0 +1,330 @@
+{
+  "province": {
+    "id": "VN-CT",
+    "code": "CT",
+    "name": "Cần Thơ",
+    "type": "Thành phố trực thuộc Trung ương",
+    "region": "Đồng bằng sông Cửu Long",
+    "slug": "can-tho",
+    "description": "Thủ phủ miền Tây, sáp nhập từ TP. Cần Thơ cũ, tỉnh Hậu Giang và tỉnh Sóc Trăng.",
+    "area_code": "0292",
+    "postal_code": {
+      "type": "range",
+      "value": ["900000", "959999"],
+      "note": "Bao gồm dải mã cũ của Cần Thơ (90), Hậu Giang (91) và Sóc Trăng (95)"
+    }
+  },
+  "units": [
+    {
+      "id": "CT-NK",
+      "code": "NK",
+      "name": "Ninh Kiều",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "note": "Trung tâm hành chính - thương mại (Cần Thơ cũ)",
+      "postal_code": ["901000", "901900"],
+      "wards": [
+        { "id": "CT-NK-TA", "code": "TA", "name": "Tân An", "type": "Phường", "type_code": "WARD" },
+        { "id": "CT-NK-AC", "code": "AC", "name": "An Cư", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-BT",
+      "code": "BT",
+      "name": "Bình Thủy",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "note": "Cần Thơ cũ (Sân bay quốc tế)",
+      "postal_code": ["902000", "902900"],
+      "wards": [
+        { "id": "CT-BT-BT", "code": "BT", "name": "Bình Thủy", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-CR",
+      "code": "CR",
+      "name": "Cái Răng",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "note": "Cần Thơ cũ (Chợ nổi)",
+      "postal_code": ["903000", "903900"],
+      "wards": [
+        { "id": "CT-CR-LB", "code": "LB", "name": "Lê Bình", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-OM",
+      "code": "OM",
+      "name": "Ô Môn",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "note": "Cần Thơ cũ",
+      "postal_code": ["904000", "904900"],
+      "wards": [
+        { "id": "CT-OM-CP", "code": "CP", "name": "Châu Văn Liêm", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-TN",
+      "code": "TN",
+      "name": "Thốt Nốt",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "note": "Cần Thơ cũ",
+      "postal_code": ["905000", "905900"],
+      "wards": [
+        { "id": "CT-TN-TN", "code": "TN", "name": "Thốt Nốt", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-ST",
+      "code": "ST",
+      "name": "Sóc Trăng",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố vệ tinh (Tỉnh lỵ Sóc Trăng cũ)",
+      "postal_code": ["950000", "951900"],
+      "wards": [
+        { "id": "CT-ST-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" },
+        { "id": "CT-ST-P3", "code": "P3", "name": "Phường 3", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-VT",
+      "code": "VT",
+      "name": "Vị Thanh",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố vệ tinh (Tỉnh lỵ Hậu Giang cũ)",
+      "postal_code": ["910000", "911900"],
+      "wards": [
+        { "id": "CT-VT-P1", "code": "P1", "name": "Phường I", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-NB",
+      "code": "NB",
+      "name": "Ngã Bảy",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố vệ tinh (Hậu Giang cũ)",
+      "postal_code": ["915000", "915900"],
+      "wards": [
+        { "id": "CT-NB-NB", "code": "NB", "name": "Ngã Bảy", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-VC",
+      "code": "VC",
+      "name": "Vĩnh Châu",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Thị xã ven biển (Sóc Trăng cũ)",
+      "postal_code": ["956000", "956900"],
+      "wards": [
+        { "id": "CT-VC-P1", "code": "P1", "name": "Phường 1", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CT-NN",
+      "code": "NN",
+      "name": "Ngã Năm",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Sóc Trăng cũ",
+      "postal_code": ["958000", "958900"],
+      "wards": []
+    },
+    {
+      "id": "CT-LM-TX",
+      "code": "LMTX",
+      "name": "Long Mỹ",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Hậu Giang cũ",
+      "postal_code": ["914000", "914900"],
+      "wards": []
+    },
+    {
+      "id": "CT-PD",
+      "code": "PD",
+      "name": "Phong Điền",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cần Thơ cũ",
+      "postal_code": ["906000", "906900"],
+      "wards": [
+         { "id": "CT-PD-TT", "code": "TT", "name": "TT. Phong Điền", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CT-CD",
+      "code": "CD",
+      "name": "Cờ Đỏ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cần Thơ cũ",
+      "postal_code": ["907000", "907900"],
+      "wards": []
+    },
+    {
+      "id": "CT-TL",
+      "code": "TL",
+      "name": "Thới Lai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cần Thơ cũ",
+      "postal_code": ["908000", "908900"],
+      "wards": []
+    },
+    {
+      "id": "CT-VTh",
+      "code": "VTh",
+      "name": "Vĩnh Thạnh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cần Thơ cũ",
+      "postal_code": ["909000", "909900"],
+      "wards": []
+    },
+    {
+      "id": "CT-CT-HG",
+      "code": "CTHG",
+      "name": "Châu Thành (Hậu Giang)",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Hậu Giang cũ (Cần phân biệt với Châu Thành - Sóc Trăng)",
+      "postal_code": ["912000", "912900"],
+      "wards": []
+    },
+    {
+      "id": "CT-CTA",
+      "code": "CTA",
+      "name": "Châu Thành A",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Hậu Giang cũ",
+      "postal_code": ["913000", "913900"],
+      "wards": []
+    },
+    {
+      "id": "CT-PH",
+      "code": "PH",
+      "name": "Phụng Hiệp",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Hậu Giang cũ",
+      "postal_code": ["916000", "916900"],
+      "wards": []
+    },
+    {
+      "id": "CT-VThu",
+      "code": "VThu",
+      "name": "Vị Thủy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Hậu Giang cũ",
+      "postal_code": ["911000", "911900"],
+      "wards": []
+    },
+    {
+      "id": "CT-LM-H",
+      "code": "LMH",
+      "name": "Long Mỹ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Hậu Giang cũ (Huyện Long Mỹ)",
+      "postal_code": ["914000", "914900"],
+      "wards": []
+    },
+    {
+      "id": "CT-CT-ST",
+      "code": "CTST",
+      "name": "Châu Thành (Sóc Trăng)",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Sóc Trăng cũ",
+      "postal_code": ["952000", "952900"],
+      "wards": []
+    },
+    {
+      "id": "CT-KS",
+      "code": "KS",
+      "name": "Kế Sách",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Sóc Trăng cũ",
+      "postal_code": ["953000", "953900"],
+      "wards": []
+    },
+    {
+      "id": "CT-MT",
+      "code": "MT",
+      "name": "Mỹ Tú",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Sóc Trăng cũ",
+      "postal_code": ["954000", "954900"],
+      "wards": []
+    },
+    {
+      "id": "CT-MX",
+      "code": "MX",
+      "name": "Mỹ Xuyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Sóc Trăng cũ",
+      "postal_code": ["955000", "955900"],
+      "wards": []
+    },
+    {
+      "id": "CT-CLD",
+      "code": "CLD",
+      "name": "Cù Lao Dung",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện đảo trên sông Hậu (Sóc Trăng cũ)",
+      "postal_code": ["954500", "954900"],
+      "wards": []
+    },
+    {
+      "id": "CT-LP",
+      "code": "LP",
+      "name": "Long Phú",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Sóc Trăng cũ",
+      "postal_code": ["957000", "957900"],
+      "wards": []
+    },
+    {
+      "id": "CT-TT",
+      "code": "TT",
+      "name": "Thạnh Trị",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thuộc Sóc Trăng cũ",
+      "postal_code": ["959000", "959900"],
+      "wards": []
+    },
+    {
+      "id": "CT-TD",
+      "code": "TD",
+      "name": "Trần Đề",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cảng biển Trần Đề (Sóc Trăng cũ)",
+      "postal_code": ["955500", "955900"],
+      "wards": [
+         { "id": "CT-TD-TT", "code": "TT", "name": "TT. Trần Đề", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 28,
+    "composition": "5 Urban Districts + 3 Cities + 3 Towns + 17 Rural Districts",
+    "note": "Includes duplicate district names (e.g., Chau Thanh, Long My) due to merger of 3 provinces. Distinct IDs assigned.",
+    "last_updated": "2025-07-01"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "province": {
+    "id": "VN-LCA",
+    "code": "LCA",
+    "name": "Lai Châu",
+    "type": "Tỉnh",
+    "region": "Tây Bắc Bộ",
+    "slug": "lai-chau",
+    "description": "Tỉnh biên giới Tây Bắc, địa hình hiểm trở, giữ nguyên trạng thái địa giới hành chính cấp tỉnh.",
+    "area_code": "0213",
+    "postal_code": {
+      "type": "range",
+      "value": ["390000", "399999"],
+      "note": "Mã bưu chính quốc gia (đầu số 39)"
+    }
+  },
+  "units": [
+    {
+      "id": "LCA-TP",
+      "code": "TP",
+      "name": "TP. Lai Châu",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm hành chính mới)",
+      "postal_code": ["390000", "391000"],
+      "wards": [
+        { "id": "LCA-TP-QT", "code": "QT", "name": "Quyết Thắng", "type": "Phường", "type_code": "WARD" },
+        { "id": "LCA-TP-TP", "code": "TP", "name": "Tân Phong", "type": "Phường", "type_code": "WARD" },
+        { "id": "LCA-TP-DP", "code": "DP", "name": "Đông Phong", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "LCA-TD",
+      "code": "TD",
+      "name": "Tam Đường",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cửa ngõ vào thành phố",
+      "postal_code": ["391500", "391900"],
+      "wards": [
+        { "id": "LCA-TD-TT", "code": "TT", "name": "TT. Tam Đường", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LCA-TD-BL", "code": "BL", "name": "Bình Lư", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "LCA-PT",
+      "code": "PT",
+      "name": "Phong Thổ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện biên giới (Cửa khẩu Ma Lù Thàng)",
+      "postal_code": ["392000", "392900"],
+      "wards": [
+        { "id": "LCA-PT-TT", "code": "TT", "name": "TT. Phong Thổ", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LCA-PT-MLP", "code": "MLP", "name": "Ma Li Pho", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "LCA-SH",
+      "code": "SH",
+      "name": "Sìn Hồ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cao nguyên Sìn Hồ",
+      "postal_code": ["393000", "393900"],
+      "wards": [
+        { "id": "LCA-SH-TT", "code": "TT", "name": "TT. Sìn Hồ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LCA-NN",
+      "code": "NN",
+      "name": "Nậm Nhùn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện có Thủy điện Lai Châu",
+      "postal_code": ["394000", "394900"],
+      "wards": [
+        { "id": "LCA-NN-TT", "code": "TT", "name": "TT. Nậm Nhùn", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LCA-NN-MB", "code": "MB", "name": "Mường Mô", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "LCA-MT",
+      "code": "MT",
+      "name": "Mường Tè",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện cực Tây Bắc (Biên giới)",
+      "postal_code": ["395000", "395900"],
+      "wards": [
+        { "id": "LCA-MT-TT", "code": "TT", "name": "TT. Mường Tè", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LCA-MT-KL", "code": "KL", "name": "Ka Lăng", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "LCA-ThU",
+      "code": "ThU",
+      "name": "Than Uyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["396000", "396900"],
+      "wards": [
+        { "id": "LCA-ThU-TT", "code": "TT", "name": "TT. Than Uyên", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LCA-ThU-MK", "code": "MK", "name": "Mường Kim", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "LCA-TU",
+      "code": "TU",
+      "name": "Tân Uyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng chè Tân Uyên",
+      "postal_code": ["397000", "397900"],
+      "wards": [
+        { "id": "LCA-TU-TT", "code": "TT", "name": "TT. Tân Uyên", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LCA-TU-PK", "code": "PK", "name": "Pác Ta", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 8,
+    "composition": "1 City + 7 Rural Districts",
+    "note": "Kept original structure due to strategic location.",
+    "last_updated": "2025-01-01"
+  }
+}

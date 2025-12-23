@@ -1,0 +1,172 @@
+{
+  "province": {
+    "id": "VN-SL",
+    "code": "SL",
+    "name": "Sơn La",
+    "type": "Tỉnh",
+    "region": "Tây Bắc Bộ",
+    "slug": "son-la",
+    "description": "Tỉnh miền núi Tây Bắc, diện tích lớn thứ 3 cả nước, giữ nguyên trạng thái địa giới hành chính cấp tỉnh.",
+    "area_code": "0212",
+    "postal_code": {
+      "type": "range",
+      "value": ["360000", "369999"],
+      "note": "Mã bưu chính quốc gia (đầu số 36)"
+    }
+  },
+  "units": [
+    {
+      "id": "SL-TP",
+      "code": "TP",
+      "name": "TP. Sơn La",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ",
+      "postal_code": ["360000", "361000"],
+      "wards": [
+        { "id": "SL-TP-TL", "code": "TL", "name": "Tô Hiệu", "type": "Phường", "type_code": "WARD" },
+        { "id": "SL-TP-QT", "code": "QT", "name": "Quyết Thắng", "type": "Phường", "type_code": "WARD" },
+        { "id": "SL-TP-CL", "code": "CL", "name": "Chiềng Lề", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "SL-MC",
+      "code": "MC",
+      "name": "Mộc Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu du lịch quốc gia (Đang quy hoạch lên Thị xã)",
+      "postal_code": ["363000", "363900"],
+      "wards": [
+        { "id": "SL-MC-TT", "code": "TT", "name": "TT. Mộc Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "SL-MC-NT", "code": "NT", "name": "TT. Nông Trường Mộc Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "SL-VH",
+      "code": "VH",
+      "name": "Vân Hồ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Tách ra từ Mộc Châu cũ",
+      "postal_code": ["364000", "364500"],
+      "wards": [
+        { "id": "SL-VH-VH", "code": "VH", "name": "Vân Hồ", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "SL-QN",
+      "code": "QN",
+      "name": "Quỳnh Nhai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Di dời tái định cư thủy điện Sơn La",
+      "postal_code": ["365000", "365900"],
+      "wards": [
+        { "id": "SL-QN-MG", "code": "MG", "name": "Mường Giàng", "type": "Xã", "type_code": "COMMUNE", "note": "Trung tâm huyện lỵ mới" }
+      ]
+    },
+    {
+      "id": "SL-ML",
+      "code": "ML",
+      "name": "Mường La",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Nơi đặt nhà máy thủy điện Sơn La",
+      "postal_code": ["366000", "366900"],
+      "wards": [
+        { "id": "SL-ML-IO", "code": "IO", "name": "TT. Ít Ong", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "SL-TC",
+      "code": "TC",
+      "name": "Thuận Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["367000", "367900"],
+      "wards": [
+        { "id": "SL-TC-TT", "code": "TT", "name": "TT. Thuận Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "SL-PY",
+      "code": "PY",
+      "name": "Phù Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["368000", "368900"],
+      "wards": [
+        { "id": "SL-PY-TT", "code": "TT", "name": "TT. Phù Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "SL-BY",
+      "code": "BY",
+      "name": "Bắc Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng săn mây Tà Xùa",
+      "postal_code": ["369000", "369500"],
+      "wards": [
+        { "id": "SL-BY-TT", "code": "TT", "name": "TT. Bắc Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "SL-BY-TX", "code": "TX", "name": "Tà Xùa", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "SL-MS",
+      "code": "MS",
+      "name": "Mai Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng trồng cây ăn quả, sân bay Nà Sản",
+      "postal_code": ["362000", "362900"],
+      "wards": [
+        { "id": "SL-MS-HL", "code": "HL", "name": "TT. Hát Lót", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "SL-SM",
+      "code": "SM",
+      "name": "Sông Mã",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng nhãn Sông Mã",
+      "postal_code": ["369600", "369900"],
+      "wards": [
+        { "id": "SL-SM-TT", "code": "TT", "name": "TT. Sông Mã", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "SL-SC",
+      "code": "SC",
+      "name": "Sốp Cộp",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện biên giới (tách từ Sông Mã)",
+      "postal_code": ["369950", "369999"],
+      "wards": [
+        { "id": "SL-SC-SC", "code": "SC", "name": "Sốp Cộp", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "SL-YC",
+      "code": "YC",
+      "name": "Yên Châu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng xoài Yên Châu",
+      "postal_code": ["362500", "362800"],
+      "wards": [
+        { "id": "SL-YC-TT", "code": "TT", "name": "TT. Yên Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 12,
+    "composition": "1 City + 11 Rural Districts",
+    "note": "Kept original structure. Moc Chau is a key tourism district likely to be upgraded in near future.",
+    "last_updated": "2025-01-01"
+  }
+}

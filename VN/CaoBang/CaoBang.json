@@ -1,0 +1,148 @@
+{
+  "province": {
+    "id": "VN-CB",
+    "code": "CB",
+    "name": "Cao Bằng",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "slug": "cao-bang",
+    "description": "Tỉnh miền núi biên giới, giữ nguyên trạng thái địa giới hành chính cấp tỉnh.",
+    "area_code": "0206",
+    "postal_code": {
+      "type": "range",
+      "value": ["210000", "219999"],
+      "note": "Mã bưu chính quốc gia (đầu số 21)"
+    }
+  },
+  "units": [
+    {
+      "id": "CB-TP",
+      "code": "TP",
+      "name": "TP. Cao Bằng",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ",
+      "postal_code": ["210000", "211000"],
+      "wards": [
+        { "id": "CB-TP-HG", "code": "HG", "name": "Hợp Giang", "type": "Phường", "type_code": "WARD" },
+        { "id": "CB-TP-SH", "code": "SH", "name": "Sông Hiến", "type": "Phường", "type_code": "WARD" },
+        { "id": "CB-TP-TH", "code": "TH", "name": "Tân Giang", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "CB-BLac",
+      "code": "BLac",
+      "name": "Bảo Lạc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["216000", "216900"],
+      "wards": [
+        { "id": "CB-BLac-TT", "code": "TT", "name": "TT. Bảo Lạc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CB-BLam",
+      "code": "BLam",
+      "name": "Bảo Lâm",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["217000", "217900"],
+      "wards": [
+        { "id": "CB-BLam-TT", "code": "TT", "name": "TT. Pác Miầu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CB-HL",
+      "code": "HL",
+      "name": "Hạ Lang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["215000", "215900"],
+      "wards": [
+        { "id": "CB-HL-TT", "code": "TT", "name": "TT. Thanh Nhật", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CB-HQ",
+      "code": "HQ",
+      "name": "Hà Quảng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đã bao gồm huyện Thông Nông cũ",
+      "postal_code": ["214000", "214900"],
+      "wards": [
+        { "id": "CB-HQ-XS", "code": "XS", "name": "TT. Xuân Hòa", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "CB-HQ-TN", "code": "TN", "name": "TT. Thông Nông", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CB-HA",
+      "code": "HA",
+      "name": "Hòa An",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["212000", "212900"],
+      "wards": [
+        { "id": "CB-HA-NC", "code": "NC", "name": "TT. Nước Hai", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CB-NB",
+      "code": "NB",
+      "name": "Nguyên Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["218000", "218900"],
+      "wards": [
+        { "id": "CB-NB-NB", "code": "NB", "name": "TT. Nguyên Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "CB-NB-TH", "code": "TH", "name": "TT. Tĩnh Túc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CB-QH",
+      "code": "QH",
+      "name": "Quảng Hòa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hợp nhất từ Phục Hòa và Quảng Uyên",
+      "postal_code": ["213000", "213900"],
+      "wards": [
+        { "id": "CB-QH-QU", "code": "QU", "name": "TT. Quảng Uyên", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "CB-QH-TB", "code": "TB", "name": "TT. Tà Lùng", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "CB-QH-HB", "code": "HB", "name": "TT. Hòa Thuận", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CB-TA",
+      "code": "TA",
+      "name": "Thạch An",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["219000", "219900"],
+      "wards": [
+        { "id": "CB-TA-DG", "code": "DG", "name": "TT. Đông Khê", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "CB-TK",
+      "code": "TK",
+      "name": "Trùng Khánh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đã bao gồm huyện Trà Lĩnh cũ",
+      "postal_code": ["215500", "215800"],
+      "wards": [
+        { "id": "CB-TK-TK", "code": "TK", "name": "TT. Trùng Khánh", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "CB-TK-TL", "code": "TL", "name": "TT. Trà Lĩnh", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "CB-TK-DB", "code": "DB", "name": "Đàm Thủy", "type": "Xã", "type_code": "COMMUNE", "note": "Khu vực Thác Bản Giốc" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 10,
+    "composition": "1 City + 9 Rural Districts",
+    "note": "Stable administrative structure. Includes updates from 2020 mergers (Quang Hoa, Trung Khanh, Ha Quang).",
+    "last_updated": "2025-01-01"
+  }
+}

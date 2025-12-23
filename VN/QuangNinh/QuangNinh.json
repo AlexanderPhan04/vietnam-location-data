@@ -1,0 +1,186 @@
+{
+  "province": {
+    "id": "VN-QN",
+    "code": "QN",
+    "name": "Quảng Ninh",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "slug": "quang-ninh",
+    "description": "Tỉnh duy nhất có 5 thành phố trực thuộc. Giữ nguyên trạng thái địa giới hành chính cấp tỉnh.",
+    "area_code": "0203",
+    "postal_code": {
+      "type": "range",
+      "value": ["200000", "209999"],
+      "note": "Mã bưu chính quốc gia (đầu số 20)"
+    }
+  },
+  "units": [
+    {
+      "id": "QN-HL",
+      "code": "HL",
+      "name": "TP. Hạ Long",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ, thủ phủ du lịch (Đã bao gồm huyện Hoành Bồ cũ)",
+      "postal_code": ["200000", "202900"],
+      "wards": [
+        { "id": "QN-HL-BD", "code": "BD", "name": "Bạch Đằng", "type": "Phường", "type_code": "WARD" },
+        { "id": "QN-HL-BC", "code": "BC", "name": "Bãi Cháy", "type": "Phường", "type_code": "WARD" },
+        { "id": "QN-HL-HG", "code": "HG", "name": "Hồng Gai", "type": "Phường", "type_code": "WARD" },
+        { "id": "QN-HL-HB", "code": "HB", "name": "Hoành Bồ", "type": "Phường", "type_code": "WARD", "note": "Chuyển từ TT. Trới cũ" }
+      ]
+    },
+    {
+      "id": "QN-MC",
+      "code": "MC",
+      "name": "TP. Móng Cái",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố cửa khẩu quốc tế",
+      "postal_code": ["206000", "206900"],
+      "wards": [
+        { "id": "QN-MC-TP", "code": "TP", "name": "Trần Phú", "type": "Phường", "type_code": "WARD" },
+        { "id": "QN-MC-KL", "code": "KL", "name": "Ka Long", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QN-CP",
+      "code": "CP",
+      "name": "TP. Cẩm Phả",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố than - năng lượng",
+      "postal_code": ["203000", "203900"],
+      "wards": [
+        { "id": "QN-CP-CT", "code": "CT", "name": "Cẩm Trung", "type": "Phường", "type_code": "WARD" },
+        { "id": "QN-CP-CS", "code": "CS", "name": "Cẩm Sơn", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QN-UB",
+      "code": "UB",
+      "name": "TP. Uông Bí",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm du lịch tâm linh (Yên Tử)",
+      "postal_code": ["204000", "204900"],
+      "wards": [
+        { "id": "QN-UB-QT", "code": "QT", "name": "Quang Trung", "type": "Phường", "type_code": "WARD" },
+        { "id": "QN-UB-TV", "code": "TV", "name": "Thanh Sơn", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QN-DT",
+      "code": "DT",
+      "name": "TP. Đông Triều",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố trẻ nhất (Thành lập cuối 2024/đầu 2025)",
+      "postal_code": ["205000", "205900"],
+      "wards": [
+        { "id": "QN-DT-DT", "code": "DT", "name": "Đông Triều", "type": "Phường", "type_code": "WARD" },
+        { "id": "QN-DT-MD", "code": "MD", "name": "Mạo Khê", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QN-QY",
+      "code": "QY",
+      "name": "TX. Quảng Yên",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Khu kinh tế ven biển",
+      "postal_code": ["207000", "207900"],
+      "wards": [
+        { "id": "QN-QY-QY", "code": "QY", "name": "Quảng Yên", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "QN-VD",
+      "code": "VD",
+      "name": "Vân Đồn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện đảo, Khu kinh tế đặc biệt, Sân bay quốc tế",
+      "postal_code": ["208000", "208500"],
+      "wards": [
+        { "id": "QN-VD-CR", "code": "CR", "name": "TT. Cái Rồng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QN-TY",
+      "code": "TY",
+      "name": "Tiên Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["208600", "208900"],
+      "wards": [
+        { "id": "QN-TY-TY", "code": "TY", "name": "TT. Tiên Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QN-HH",
+      "code": "HH",
+      "name": "Hải Hà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "KCN Cảng biển Hải Hà",
+      "postal_code": ["209000", "209400"],
+      "wards": [
+        { "id": "QN-HH-QH", "code": "QH", "name": "TT. Quảng Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QN-DH",
+      "code": "DH",
+      "name": "Đầm Hà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["209500", "209700"],
+      "wards": [
+        { "id": "QN-DH-DH", "code": "DH", "name": "TT. Đầm Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QN-BL",
+      "code": "BL",
+      "name": "Bình Liêu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện miền núi biên giới",
+      "postal_code": ["209800", "209900"],
+      "wards": [
+        { "id": "QN-BL-BL", "code": "BL", "name": "TT. Bình Liêu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QN-BC",
+      "code": "BC",
+      "name": "Ba Chẽ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["208950", "208999"],
+      "wards": [
+        { "id": "QN-BC-BC", "code": "BC", "name": "TT. Ba Chẽ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "QN-CT",
+      "code": "CT",
+      "name": "Cô Tô",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện đảo tiền tiêu",
+      "postal_code": ["200500", "200599"],
+      "wards": [
+        { "id": "QN-CT-CT", "code": "CT", "name": "TT. Cô Tô", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 13,
+    "composition": "5 Cities + 1 Town + 7 Rural Districts",
+    "note": "Updated with Dong Trieu as a City (effective 2024-2025). Hoanh Bo is merged into Ha Long.",
+    "last_updated": "2025-01-01"
+  }
+}

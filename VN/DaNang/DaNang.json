@@ -1,0 +1,284 @@
+{
+  "province": {
+    "id": "VN-DN",
+    "code": "DN",
+    "name": "Đà Nẵng",
+    "type": "Thành phố trực thuộc Trung ương",
+    "region": "Duyên hải Nam Trung Bộ",
+    "slug": "da-nang",
+    "description": "Thành phố động lực miền Trung, sáp nhập từ TP. Đà Nẵng cũ và tỉnh Quảng Nam.",
+    "area_code": "0236",
+    "postal_code": {
+      "type": "range",
+      "value": ["550000", "560000"],
+      "note": "Bao gồm dải mã cũ của Đà Nẵng (55) và Quảng Nam (56)"
+    }
+  },
+  "units": [
+    {
+      "id": "DN-HC",
+      "code": "HC",
+      "name": "Hải Châu",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "note": "Trung tâm hành chính cũ",
+      "postal_code": ["551000", "551999"],
+      "wards": [
+        { "id": "DN-HC-TH", "code": "TH", "name": "Thạch Thang", "type": "Phường", "type_code": "WARD" },
+        { "id": "DN-HC-HP", "code": "HP", "name": "Hải Phước", "type": "Phường", "type_code": "WARD", "note": "Sáp nhập cũ từ Hải Châu 1, 2" }
+      ]
+    },
+    {
+      "id": "DN-TK",
+      "code": "TK",
+      "name": "Thanh Khê",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "postal_code": ["552000", "552999"],
+      "wards": [
+        { "id": "DN-TK-VP", "code": "VP", "name": "Vĩnh Trung", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DN-ST",
+      "code": "ST",
+      "name": "Sơn Trà",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "postal_code": ["553000", "553999"],
+      "wards": [
+        { "id": "DN-ST-AH", "code": "AH", "name": "An Hải Bắc", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DN-NHS",
+      "code": "NHS",
+      "name": "Ngũ Hành Sơn",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "postal_code": ["554000", "554999"],
+      "wards": [
+        { "id": "DN-NHS-MQ", "code": "MQ", "name": "Mỹ An", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DN-LC",
+      "code": "LC",
+      "name": "Liên Chiểu",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "postal_code": ["555000", "555999"],
+      "wards": [
+        { "id": "DN-LC-HK", "code": "HK", "name": "Hòa Khánh Bắc", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DN-CL",
+      "code": "CL",
+      "name": "Cẩm Lệ",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "postal_code": ["556000", "556999"],
+      "wards": [
+        { "id": "DN-CL-KX", "code": "KX", "name": "Khuê Trung", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DN-HV",
+      "code": "HV",
+      "name": "Hòa Vang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["557000", "557999"],
+      "wards": [
+        { "id": "DN-HV-HP", "code": "HP", "name": "Hòa Phước", "type": "Xã", "type_code": "COMMUNE" }
+      ]
+    },
+    {
+      "id": "DN-HSa",
+      "code": "HSa",
+      "name": "Hoàng Sa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện đảo",
+      "postal_code": ["558000", "558000"],
+      "wards": []
+    },
+    {
+      "id": "DN-HA",
+      "code": "HA",
+      "name": "Hội An",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố Du lịch (thuộc TP. Đà Nẵng)",
+      "postal_code": ["563500", "563999"],
+      "wards": [
+        { "id": "DN-HA-MC", "code": "MC", "name": "Minh An", "type": "Phường", "type_code": "WARD" },
+        { "id": "DN-HA-CP", "code": "CP", "name": "Cẩm Phô", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DN-TKy",
+      "code": "TKy",
+      "name": "Tam Kỳ",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố vệ tinh phía Nam (thuộc TP. Đà Nẵng)",
+      "postal_code": ["561000", "561999"],
+      "wards": [
+        { "id": "DN-TKy-AH", "code": "AH", "name": "An Hương", "type": "Phường", "type_code": "WARD" },
+        { "id": "DN-TKy-TP", "code": "TP", "name": "Tân Thạnh", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DN-DB",
+      "code": "DB",
+      "name": "Điện Bàn",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "postal_code": ["563000", "563499"],
+      "wards": [
+        { "id": "DN-DB-VV", "code": "VV", "name": "Vĩnh Điện", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "DN-DL",
+      "code": "DL",
+      "name": "Đại Lộc",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["564000", "564999"],
+      "wards": []
+    },
+    {
+      "id": "DN-DX",
+      "code": "DX",
+      "name": "Duy Xuyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["562500", "562999"],
+      "wards": [
+         { "id": "DN-DX-ND", "code": "ND", "name": "TT. Nam Phước", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DN-QS",
+      "code": "QS",
+      "name": "Quế Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Đã sáp nhập huyện Nông Sơn vào Quế Sơn",
+      "postal_code": ["565000", "565999"],
+      "wards": []
+    },
+    {
+      "id": "DN-TB",
+      "code": "TB",
+      "name": "Thăng Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["562000", "562499"],
+      "wards": []
+    },
+    {
+      "id": "DN-NT",
+      "code": "NT",
+      "name": "Núi Thành",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Khu kinh tế mở Chu Lai",
+      "postal_code": ["566000", "566999"],
+      "wards": [
+         { "id": "DN-NT-NT", "code": "NT", "name": "TT. Núi Thành", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "DN-PN",
+      "code": "PN",
+      "name": "Phú Ninh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["561500", "561899"],
+      "wards": []
+    },
+    {
+      "id": "DN-TP",
+      "code": "TP",
+      "name": "Tiên Phước",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["567000", "567499"],
+      "wards": []
+    },
+    {
+      "id": "DN-HD",
+      "code": "HD",
+      "name": "Hiệp Đức",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["567500", "567999"],
+      "wards": []
+    },
+    {
+      "id": "DN-BTM",
+      "code": "BTM",
+      "name": "Bắc Trà My",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["568000", "568499"],
+      "wards": []
+    },
+    {
+      "id": "DN-NTM",
+      "code": "NTM",
+      "name": "Nam Trà My",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["568500", "568999"],
+      "wards": []
+    },
+    {
+      "id": "DN-PS",
+      "code": "PS",
+      "name": "Phước Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["569000", "569499"],
+      "wards": []
+    },
+    {
+      "id": "DN-DG",
+      "code": "DG",
+      "name": "Đông Giang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["564500", "564899"],
+      "wards": []
+    },
+    {
+      "id": "DN-TG",
+      "code": "TG",
+      "name": "Tây Giang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["564900", "564999"],
+      "wards": []
+    },
+    {
+      "id": "DN-NG",
+      "code": "NG",
+      "name": "Nam Giang",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "postal_code": ["569500", "569999"],
+      "wards": []
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 25,
+    "composition": "6 Urban Districts + 2 Cities + 1 Town + 16 Rural Districts",
+    "note": "Hypothetical structure after merging Da Nang and Quang Nam. Nong Son District removed (merged into Que Son).",
+    "last_updated": "2025-07-01"
+  }
+}

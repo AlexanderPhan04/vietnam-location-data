@@ -1,0 +1,248 @@
+{
+  "province": {
+    "id": "VN-LC",
+    "code": "LC",
+    "name": "Lào Cai",
+    "type": "Tỉnh",
+    "region": "Tây Bắc Bộ",
+    "slug": "lao-cai",
+    "description": "Tỉnh miền núi biên giới, sáp nhập từ tỉnh Lào Cai cũ và tỉnh Yên Bái.",
+    "area_code": "0214",
+    "postal_code": {
+      "type": "range",
+      "value": ["320000", "339999"],
+      "note": "Bao gồm dải mã cũ của Yên Bái (32) và Lào Cai (33)"
+    }
+  },
+  "units": [
+    {
+      "id": "LC-TPLC",
+      "code": "TPLC",
+      "name": "TP. Lào Cai",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm kinh tế cửa khẩu)",
+      "postal_code": ["330000", "331000"],
+      "wards": [
+        { "id": "LC-TPLC-LC", "code": "LC", "name": "Lào Cai", "type": "Phường", "type_code": "WARD" },
+        { "id": "LC-TPLC-CC", "code": "CC", "name": "Cốc Lếu", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "LC-TPYB",
+      "code": "TPYB",
+      "name": "TP. Yên Bái",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm hành chính phía Nam (Tỉnh lỵ Yên Bái cũ)",
+      "postal_code": ["320000", "321000"],
+      "wards": [
+        { "id": "LC-TPYB-YN", "code": "YN", "name": "Yên Ninh", "type": "Phường", "type_code": "WARD" },
+        { "id": "LC-TPYB-MT", "code": "MT", "name": "Minh Tân", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "LC-SP",
+      "code": "SP",
+      "name": "TX. Sa Pa",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Khu du lịch Quốc gia (Lào Cai cũ)",
+      "postal_code": ["333000", "333900"],
+      "wards": [
+        { "id": "LC-SP-SP", "code": "SP", "name": "Sa Pa", "type": "Phường", "type_code": "WARD" },
+        { "id": "LC-SP-HR", "code": "HR", "name": "Hàm Rồng", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "LC-NL",
+      "code": "NL",
+      "name": "TX. Nghĩa Lộ",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "note": "Vùng văn hóa Mường Lò (Yên Bái cũ)",
+      "postal_code": ["322000", "322900"],
+      "wards": [
+        { "id": "LC-NL-TA", "code": "TA", "name": "Tân An", "type": "Phường", "type_code": "WARD" },
+        { "id": "LC-NL-PT", "code": "PT", "name": "Pú Trạng", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "LC-BX",
+      "code": "BX",
+      "name": "Bát Xát",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Lào Cai cũ (Nơi con sông Hồng chảy vào đất Việt)",
+      "postal_code": ["334000", "334900"],
+      "wards": [
+        { "id": "LC-BX-TT", "code": "TT", "name": "TT. Bát Xát", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-BTh",
+      "code": "BTh",
+      "name": "Bảo Thắng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Lào Cai cũ",
+      "postal_code": ["335000", "335900"],
+      "wards": [
+        { "id": "LC-BTh-PL", "code": "PL", "name": "TT. Phố Lu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-BY",
+      "code": "BY",
+      "name": "Bảo Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Lào Cai cũ",
+      "postal_code": ["336000", "336900"],
+      "wards": [
+        { "id": "LC-BY-PR", "code": "PR", "name": "TT. Phố Ràng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-BH",
+      "code": "BH",
+      "name": "Bắc Hà",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Cao nguyên trắng (Lào Cai cũ)",
+      "postal_code": ["337000", "337900"],
+      "wards": [
+        { "id": "LC-BH-TT", "code": "TT", "name": "TT. Bắc Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-SMC",
+      "code": "SMC",
+      "name": "Si Ma Cai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Huyện biên giới đá tai mèo (Lào Cai cũ)",
+      "postal_code": ["338000", "338500"],
+      "wards": [
+        { "id": "LC-SMC-TT", "code": "TT", "name": "TT. Si Ma Cai", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-MK",
+      "code": "MK",
+      "name": "Mường Khương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Lào Cai cũ",
+      "postal_code": ["339000", "339900"],
+      "wards": [
+        { "id": "LC-MK-TT", "code": "TT", "name": "TT. Mường Khương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-VB",
+      "code": "VB",
+      "name": "Văn Bàn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Lào Cai cũ",
+      "postal_code": ["332000", "332900"],
+      "wards": [
+        { "id": "LC-VB-KH", "code": "KH", "name": "TT. Khánh Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-MCC",
+      "code": "MCC",
+      "name": "Mù Cang Chải",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Danh thắng Ruộng bậc thang (Yên Bái cũ)",
+      "postal_code": ["325000", "325900"],
+      "wards": [
+        { "id": "LC-MCC-TT", "code": "TT", "name": "TT. Mù Cang Chải", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-TrT",
+      "code": "TrT",
+      "name": "Trạm Tấu",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Yên Bái cũ",
+      "postal_code": ["326000", "326900"],
+      "wards": [
+        { "id": "LC-TrT-TT", "code": "TT", "name": "TT. Trạm Tấu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-VC",
+      "code": "VC",
+      "name": "Văn Chấn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng chè Suối Giàng (Yên Bái cũ)",
+      "postal_code": ["324000", "324900"],
+      "wards": [
+        { "id": "LC-VC-ST", "code": "ST", "name": "TT. Sơn Thịnh", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LC-VC-NT", "code": "NT", "name": "TT. Nông Trường Trần Phú", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-VY",
+      "code": "VY",
+      "name": "Văn Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Vùng quế Văn Yên (Yên Bái cũ)",
+      "postal_code": ["327000", "327900"],
+      "wards": [
+        { "id": "LC-VY-MK", "code": "MK", "name": "TT. Mậu A", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-TY",
+      "code": "TY",
+      "name": "Trấn Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Yên Bái cũ",
+      "postal_code": ["328000", "328900"],
+      "wards": [
+        { "id": "LC-TY-CB", "code": "CB", "name": "TT. Cổ Phúc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-YB",
+      "code": "YB",
+      "name": "Yên Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hồ Thác Bà (Yên Bái cũ)",
+      "postal_code": ["323000", "323900"],
+      "wards": [
+        { "id": "LC-YB-TB", "code": "TB", "name": "TT. Yên Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "LC-YB-TH", "code": "TH", "name": "TT. Thác Bà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "LC-LY",
+      "code": "LY",
+      "name": "Lục Yên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Chợ đá quý (Yên Bái cũ)",
+      "postal_code": ["329000", "329900"],
+      "wards": [
+        { "id": "LC-LY-YT", "code": "YT", "name": "TT. Yên Thế", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 18,
+    "composition": "2 Cities + 2 Towns + 14 Rural Districts",
+    "note": "Combined administrative units of Lao Cai and Yen Bai.",
+    "last_updated": "2025-07-01"
+  }
+}

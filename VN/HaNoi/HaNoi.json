@@ -1,0 +1,838 @@
+{
+  "province": {
+    "id": "VN-HN",
+    "code": "HN",
+    "name": "Hà Nội",
+    "type": "Thành phố trực thuộc Trung ương",
+    "region": "Miền Bắc",
+    "slug": "ha-noi",
+    "area_code": "024",
+    "postal_code": {
+      "type": "range",
+      "value": [
+        "100000",
+        "150000"
+      ]
+    }
+  },
+  "units": [
+    {
+      "id": "HN-BD",
+      "code": "BD",
+      "name": "Ba Đình",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["111000", "111999"],
+      "wards": [
+        {
+          "id": "HN-BD-PH",
+          "code": "PH",
+          "name": "Phúc Xá",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "111100"
+        },
+        {
+          "id": "HN-BD-DB",
+          "code": "DB",
+          "name": "Điện Biên",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "111200"
+        }
+      ]
+    },
+    {
+      "id": "HN-HK",
+      "code": "HK",
+      "name": "Hoàn Kiếm",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["110000", "110999"],
+      "wards": [
+        {
+          "id": "HN-HK-HB",
+          "code": "HB",
+          "name": "Hàng Bạc",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "110100"
+        },
+        {
+          "id": "HN-HK-HG",
+          "code": "HG",
+          "name": "Hàng Gai",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "110200"
+        }
+      ]
+    },
+    {
+      "id": "HN-TH",
+      "code": "TH",
+      "name": "Tây Hồ",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["112000", "112999"],
+      "wards": [
+        {
+          "id": "HN-TH-YB",
+          "code": "YB",
+          "name": "Yên Phụ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "112100"
+        },
+        {
+          "id": "HN-TH-XN",
+          "code": "XN",
+          "name": "Xuân La",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "112200"
+        }
+      ]
+    },
+    {
+      "id": "HN-LB",
+      "code": "LB",
+      "name": "Long Biên",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["118000", "118999"],
+      "wards": [
+        {
+          "id": "HN-LB-GL",
+          "code": "GL",
+          "name": "Gia Thụy",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "118100"
+        },
+        {
+          "id": "HN-LB-BT",
+          "code": "BT",
+          "name": "Bồ Đề",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "118200"
+        }
+      ]
+    },
+    {
+      "id": "HN-CG",
+      "code": "CG",
+      "name": "Cầu Giấy",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["113000", "113999"],
+      "wards": [
+        {
+          "id": "HN-CG-DV",
+          "code": "DV",
+          "name": "Dịch Vọng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "113100"
+        },
+        {
+          "id": "HN-CG-YHoa",
+          "code": "YH",
+          "name": "Yên Hòa",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "113200"
+        }
+      ]
+    },
+    {
+      "id": "HN-DD",
+      "code": "DD",
+      "name": "Đống Đa",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["115000", "115999"],
+      "wards": [
+        {
+          "id": "HN-DD-KL",
+          "code": "KL",
+          "name": "Kim Liên",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "115100"
+        },
+        {
+          "id": "HN-DD-LH",
+          "code": "LH",
+          "name": "Láng Hạ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "115200"
+        }
+      ]
+    },
+    {
+      "id": "HN-HBT",
+      "code": "HBT",
+      "name": "Hai Bà Trưng",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["116000", "116999"],
+      "wards": [
+        {
+          "id": "HN-HBT-BM",
+          "code": "BM",
+          "name": "Bạch Mai",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "116100"
+        },
+        {
+          "id": "HN-HBT-MHK",
+          "code": "MHK",
+          "name": "Minh Khai",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "116200"
+        }
+      ]
+    },
+    {
+      "id": "HN-HM",
+      "code": "HM",
+      "name": "Hoàng Mai",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["117000", "117999"],
+      "wards": [
+        {
+          "id": "HN-HM-DL",
+          "code": "DL",
+          "name": "Đại Kim",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "117100"
+        },
+        {
+          "id": "HN-HM-LD",
+          "code": "LD",
+          "name": "Linh Đàm",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "117200"
+        }
+      ]
+    },
+    {
+      "id": "HN-TX",
+      "code": "TX",
+      "name": "Thanh Xuân",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["114000", "114999"],
+      "wards": [
+        {
+          "id": "HN-TX-TXB",
+          "code": "TXB",
+          "name": "Thanh Xuân Bắc",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "114100"
+        },
+        {
+          "id": "HN-TX-KDT",
+          "code": "KDT",
+          "name": "Kim Giang",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "114200"
+        }
+      ]
+    },
+    {
+      "id": "HN-NTL",
+      "code": "NTL",
+      "name": "Nam Từ Liêm",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["120000", "120999"],
+      "wards": [
+        {
+          "id": "HN-NTL-MD",
+          "code": "MD",
+          "name": "Mỹ Đình 1",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "120100"
+        },
+        {
+          "id": "HN-NTL-CD",
+          "code": "CD",
+          "name": "Cầu Diễn",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "120200"
+        }
+      ]
+    },
+    {
+      "id": "HN-BTL",
+      "code": "BTL",
+      "name": "Bắc Từ Liêm",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["119000", "119999"],
+      "wards": [
+        {
+          "id": "HN-BTL-PV",
+          "code": "PV",
+          "name": "Phú Diễn",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "119100"
+        },
+        {
+          "id": "HN-BTL-XP",
+          "code": "XP",
+          "name": "Xuân Đỉnh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "119200"
+        }
+      ]
+    },
+    {
+      "id": "HN-HD",
+      "code": "HD",
+      "name": "Hà Đông",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["151000", "151999"],
+      "wards": [
+        {
+          "id": "HN-HD-NQ",
+          "code": "NQ",
+          "name": "Nguyễn Trãi",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "151100"
+        },
+        {
+          "id": "HN-HD-VL",
+          "code": "VL",
+          "name": "Vạn Phúc",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "151200"
+        }
+      ]
+    },
+    {
+      "id": "HN-ST",
+      "code": "ST",
+      "name": "Sơn Tây",
+      "type": "Thị xã",
+      "type_code": "TOWN",
+      "area_code": "024",
+      "postal_code": ["154000", "154999"],
+      "wards": [
+        {
+          "id": "HN-ST-LT",
+          "code": "LT",
+          "name": "Lê Lợi",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "154100"
+        },
+        {
+          "id": "HN-ST-DL",
+          "code": "DL",
+          "name": "Đường Lâm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "154200"
+        }
+      ]
+    },
+    {
+      "id": "HN-BV",
+      "code": "BV",
+      "name": "Ba Vì",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["155000", "155999"],
+      "wards": [
+        {
+          "id": "HN-BV-TT",
+          "code": "TT",
+          "name": "Thị trấn Tây Đằng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "155100"
+        },
+        {
+          "id": "HN-BV-VD",
+          "code": "VD",
+          "name": "Vạn Thắng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "155200"
+        }
+      ]
+    },
+    {
+      "id": "HN-CM",
+      "code": "CM",
+      "name": "Chương Mỹ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["156000", "156999"],
+      "wards": [
+        {
+          "id": "HN-CM-TT",
+          "code": "TT",
+          "name": "Thị trấn Chúc Sơn",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "156100"
+        },
+        {
+          "id": "HN-CM-PC",
+          "code": "PC",
+          "name": "Phụng Châu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "156200"
+        }
+      ]
+    },
+    {
+      "id": "HN-DP",
+      "code": "DP",
+      "name": "Đan Phượng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["152800", "152999"],
+      "wards": [
+        {
+          "id": "HN-DP-TT",
+          "code": "TT",
+          "name": "Thị trấn Phùng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "152810"
+        },
+        {
+          "id": "HN-DP-TH",
+          "code": "TH",
+          "name": "Tân Hội",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "152820"
+        }
+      ]
+    },
+    {
+      "id": "HN-DA",
+      "code": "DA",
+      "name": "Đông Anh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["136000", "136999"],
+      "wards": [
+        {
+          "id": "HN-DA-TT",
+          "code": "TT",
+          "name": "Thị trấn Đông Anh",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "136100"
+        },
+        {
+          "id": "HN-DA-KC",
+          "code": "KC",
+          "name": "Kim Chung",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "136200"
+        }
+      ]
+    },
+    {
+      "id": "HN-GL",
+      "code": "GL",
+      "name": "Gia Lâm",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["138000", "138999"],
+      "wards": [
+        {
+          "id": "HN-GL-TT",
+          "code": "TT",
+          "name": "Thị trấn Trâu Quỳ",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "138100"
+        },
+        {
+          "id": "HN-GL-BT",
+          "code": "BT",
+          "name": "Bát Tràng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "138200"
+        }
+      ]
+    },
+    {
+      "id": "HN-HDic",
+      "code": "HDi",
+      "name": "Hoài Đức",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["152000", "152999"],
+      "wards": [
+        {
+          "id": "HN-HDi-TT",
+          "code": "TT",
+          "name": "Thị trấn Trạm Trôi",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "152100"
+        },
+        {
+          "id": "HN-HDi-AD",
+          "code": "AD",
+          "name": "An Khánh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "152200"
+        }
+      ]
+    },
+    {
+      "id": "HN-ML",
+      "code": "ML",
+      "name": "Mê Linh",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["135000", "135999"],
+      "wards": [
+        {
+          "id": "HN-ML-TT",
+          "code": "TT",
+          "name": "Thị trấn Quang Minh",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "135100"
+        },
+        {
+          "id": "HN-ML-TL",
+          "code": "TL",
+          "name": "Tiền Phong",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "135200"
+        }
+      ]
+    },
+    {
+      "id": "HN-MD",
+      "code": "MD",
+      "name": "Mỹ Đức",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["159000", "159999"],
+      "wards": [
+        {
+          "id": "HN-MD-TT",
+          "code": "TT",
+          "name": "Thị trấn Đại Nghĩa",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "159100"
+        },
+        {
+          "id": "HN-MD-HS",
+          "code": "HS",
+          "name": "Hương Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "159200"
+        }
+      ]
+    },
+    {
+      "id": "HN-PX",
+      "code": "PX",
+      "name": "Phú Xuyên",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["158000", "158999"],
+      "wards": [
+        {
+          "id": "HN-PX-TT",
+          "code": "TT",
+          "name": "Thị trấn Phú Xuyên",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "158100"
+        },
+        {
+          "id": "HN-PX-CM",
+          "code": "CM",
+          "name": "Chuyên Mỹ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "158200"
+        }
+      ]
+    },
+    {
+      "id": "HN-PT",
+      "code": "PT",
+      "name": "Phúc Thọ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["153000", "153999"],
+      "wards": [
+        {
+          "id": "HN-PT-TT",
+          "code": "TT",
+          "name": "Thị trấn Phúc Thọ",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "153100"
+        },
+        {
+          "id": "HN-PT-PH",
+          "code": "PH",
+          "name": "Phụng Thượng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "153200"
+        }
+      ]
+    },
+    {
+      "id": "HN-QO",
+      "code": "QO",
+      "name": "Quốc Oai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["153300", "153999"],
+      "wards": [
+        {
+          "id": "HN-QO-TT",
+          "code": "TT",
+          "name": "Thị trấn Quốc Oai",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "153310"
+        },
+        {
+          "id": "HN-QO-SG",
+          "code": "SG",
+          "name": "Sài Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "153320"
+        }
+      ]
+    },
+    {
+      "id": "HN-SS",
+      "code": "SS",
+      "name": "Sóc Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["150000", "150999"],
+      "wards": [
+        {
+          "id": "HN-SS-TT",
+          "code": "TT",
+          "name": "Thị trấn Sóc Sơn",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "150100"
+        },
+        {
+          "id": "HN-SS-MP",
+          "code": "MP",
+          "name": "Minh Phú",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "150200"
+        }
+      ]
+    },
+    {
+      "id": "HN-ThT",
+      "code": "ThT",
+      "name": "Thạch Thất",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["153500", "153999"],
+      "wards": [
+        {
+          "id": "HN-ThT-TT",
+          "code": "TT",
+          "name": "Thị trấn Liên Quan",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "153510"
+        },
+        {
+          "id": "HN-ThT-HH",
+          "code": "HH",
+          "name": "Hữu Bằng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "153520"
+        }
+      ]
+    },
+    {
+      "id": "HN-TO",
+      "code": "TO",
+      "name": "Thanh Oai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["157000", "157999"],
+      "wards": [
+        {
+          "id": "HN-TO-TT",
+          "code": "TT",
+          "name": "Thị trấn Kim Bài",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "157100"
+        },
+        {
+          "id": "HN-TO-CU",
+          "code": "CU",
+          "name": "Cự Khê",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "157200"
+        }
+      ]
+    },
+    {
+      "id": "HN-TTr",
+      "code": "TTr",
+      "name": "Thanh Trì",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["134000", "134999"],
+      "wards": [
+        {
+          "id": "HN-TTr-TT",
+          "code": "TT",
+          "name": "Thị trấn Văn Điển",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "134100"
+        },
+        {
+          "id": "HN-TTr-TH",
+          "code": "TH",
+          "name": "Tân Triều",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "134200"
+        }
+      ]
+    },
+    {
+      "id": "HN-ThuT",
+      "code": "ThuT",
+      "name": "Thường Tín",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["158500", "158999"],
+      "wards": [
+        {
+          "id": "HN-ThuT-TT",
+          "code": "TT",
+          "name": "Thị trấn Thường Tín",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "158510"
+        },
+        {
+          "id": "HN-ThuT-DT",
+          "code": "DT",
+          "name": "Duyên Thái",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "158520"
+        }
+      ]
+    },
+    {
+      "id": "HN-UH",
+      "code": "UH",
+      "name": "Ứng Hòa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "024",
+      "postal_code": ["160000", "160999"],
+      "wards": [
+        {
+          "id": "HN-UH-TT",
+          "code": "TT",
+          "name": "Thị trấn Vân Đình",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "160100"
+        },
+        {
+          "id": "HN-UH-QC",
+          "code": "QC",
+          "name": "Quảng Phú Cầu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "160200"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_demo_content",
+    "total_districts": 30,
+    "note": "Includes all 30 districts. Wards list is abbreviated (representative samples only) to fit JSON within response limits.",
+    "area_code_standard": "Vietnam fixed-line",
+    "postal_code_standard": "Vietnam Post (6 digits)",
+    "last_updated": "2025-01-01"
+  }
+}

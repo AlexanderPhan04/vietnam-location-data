@@ -1,0 +1,448 @@
+{
+  "province": {
+    "id": "VN-HP",
+    "code": "HP",
+    "name": "Hải Phòng",
+    "type": "Thành phố trực thuộc Trung ương",
+    "region": "Miền Bắc",
+    "slug": "hai-phong",
+    "area_code": "0225",
+    "postal_code": {
+      "type": "range",
+      "value": [
+        "180000",
+        "189000"
+      ]
+    }
+  },
+  "units": [
+    {
+      "id": "HP-TN",
+      "code": "TN",
+      "name": "Thủy Nguyên",
+      "type": "Thành phố",
+      "type_code": "MUNICIPAL_CITY",
+      "area_code": "0225",
+      "postal_code": ["188000", "188999"],
+      "wards": [
+        {
+          "id": "HP-TN-NP",
+          "code": "NP",
+          "name": "Thủy Đường",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "188100"
+        },
+        {
+          "id": "HP-TN-DQ",
+          "code": "DQ",
+          "name": "Dương Quan",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "188200"
+        },
+        {
+          "id": "HP-TN-LC",
+          "code": "LC",
+          "name": "Lập Lễ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "188300"
+        },
+        {
+          "id": "HP-TN-NS",
+          "code": "NS",
+          "name": "Ninh Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "188400"
+        }
+      ]
+    },
+    {
+      "id": "HP-HB",
+      "code": "HB",
+      "name": "Hồng Bàng",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["181000", "181999"],
+      "wards": [
+        {
+          "id": "HP-HB-HVT",
+          "code": "HVT",
+          "name": "Hoàng Văn Thụ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "181100"
+        },
+        {
+          "id": "HP-HB-AH",
+          "code": "AH",
+          "name": "An Hồng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "181800"
+        },
+        {
+          "id": "HP-HB-DB",
+          "code": "DB",
+          "name": "Đại Bản",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "181900"
+        }
+      ]
+    },
+    {
+      "id": "HP-AD",
+      "code": "AD",
+      "name": "An Dương",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["187000", "187999"],
+      "wards": [
+        {
+          "id": "HP-AD-LL",
+          "code": "LL",
+          "name": "Lê Lợi",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "187100"
+        },
+        {
+          "id": "HP-AD-AD",
+          "code": "AD",
+          "name": "An Đồng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "187200"
+        },
+        {
+          "id": "HP-AD-DT",
+          "code": "DT",
+          "name": "Đồng Thái",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "187300"
+        }
+      ]
+    },
+    {
+      "id": "HP-NQ",
+      "code": "NQ",
+      "name": "Ngô Quyền",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["182000", "182999"],
+      "wards": [
+        {
+          "id": "HP-NQ-LT",
+          "code": "LT",
+          "name": "Lạch Tray",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "182100"
+        },
+        {
+          "id": "HP-NQ-CD",
+          "code": "CD",
+          "name": "Cầu Đất",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "182200"
+        }
+      ]
+    },
+    {
+      "id": "HP-LC",
+      "code": "LC",
+      "name": "Lê Chân",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["183000", "183999"],
+      "wards": [
+        {
+          "id": "HP-LC-AN",
+          "code": "AN",
+          "name": "An Biên",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "183100"
+        },
+        {
+          "id": "HP-LC-HK",
+          "code": "HK",
+          "name": "Hàng Kênh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "183200"
+        }
+      ]
+    },
+    {
+      "id": "HP-HA",
+      "code": "HA",
+      "name": "Hải An",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["184000", "184999"],
+      "wards": [
+        {
+          "id": "HP-HA-DH1",
+          "code": "DH1",
+          "name": "Đông Hải 1",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "184100"
+        },
+        {
+          "id": "HP-HA-CB",
+          "code": "CB",
+          "name": "Cát Bi",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "184200"
+        }
+      ]
+    },
+    {
+      "id": "HP-KA",
+      "code": "KA",
+      "name": "Kiến An",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["185000", "185999"],
+      "wards": [
+        {
+          "id": "HP-KA-BL",
+          "code": "BL",
+          "name": "Bắc Sơn",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "185100"
+        },
+        {
+          "id": "HP-KA-TL",
+          "code": "TL",
+          "name": "Trần Lãm",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "185200"
+        }
+      ]
+    },
+    {
+      "id": "HP-DS",
+      "code": "DS",
+      "name": "Đồ Sơn",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["186000", "186999"],
+      "wards": [
+        {
+          "id": "HP-DS-VS",
+          "code": "VS",
+          "name": "Vạn Sơn",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "186100"
+        },
+        {
+          "id": "HP-DS-HH",
+          "code": "HH",
+          "name": "Hải Sơn",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "186200"
+        }
+      ]
+    },
+    {
+      "id": "HP-DK",
+      "code": "DK",
+      "name": "Dương Kinh",
+      "type": "Quận",
+      "type_code": "URBAN_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["186500", "186899"],
+      "wards": [
+        {
+          "id": "HP-DK-AD",
+          "code": "AD",
+          "name": "Anh Dũng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "186510"
+        },
+        {
+          "id": "HP-DK-HT",
+          "code": "HT",
+          "name": "Hưng Đạo",
+          "type": "Phường",
+          "type_code": "WARD",
+          "postal_code": "186520"
+        }
+      ]
+    },
+    {
+      "id": "HP-AL",
+      "code": "AL",
+      "name": "An Lão",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["189000", "189400"],
+      "wards": [
+        {
+          "id": "HP-AL-TT",
+          "code": "TT",
+          "name": "Thị trấn An Lão",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "189060"
+        },
+        {
+          "id": "HP-AL-AT",
+          "code": "AT",
+          "name": "An Thắng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "189100"
+        }
+      ]
+    },
+    {
+      "id": "HP-KT",
+      "code": "KT",
+      "name": "Kiến Thụy",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["189500", "189900"],
+      "wards": [
+        {
+          "id": "HP-KT-TT",
+          "code": "TT",
+          "name": "Thị trấn Núi Đối",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "189560"
+        },
+        {
+          "id": "HP-KT-DA",
+          "code": "DA",
+          "name": "Đại Đồng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "189600"
+        }
+      ]
+    },
+    {
+      "id": "HP-TL",
+      "code": "TL",
+      "name": "Tiên Lãng",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["188500", "188900"],
+      "wards": [
+        {
+          "id": "HP-TL-TT",
+          "code": "TT",
+          "name": "Thị trấn Tiên Lãng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "188560"
+        },
+        {
+          "id": "HP-TL-TC",
+          "code": "TC",
+          "name": "Tiên Cường",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "188600"
+        }
+      ]
+    },
+    {
+      "id": "HP-VB",
+      "code": "VB",
+      "name": "Vĩnh Bảo",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["187500", "187900"],
+      "wards": [
+        {
+          "id": "HP-VB-TT",
+          "code": "TT",
+          "name": "Thị trấn Vĩnh Bảo",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "187560"
+        },
+        {
+          "id": "HP-VB-TL",
+          "code": "TL",
+          "name": "Tân Liên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "187600"
+        }
+      ]
+    },
+    {
+      "id": "HP-CH",
+      "code": "CH",
+      "name": "Cát Hải",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["186900", "186990"],
+      "wards": [
+        {
+          "id": "HP-CH-TT",
+          "code": "TT",
+          "name": "Thị trấn Cát Bà",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP",
+          "postal_code": "186910"
+        },
+        {
+          "id": "HP-CH-XH",
+          "code": "XH",
+          "name": "Xuân Đám",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "postal_code": "186920"
+        }
+      ]
+    },
+    {
+      "id": "HP-BLV",
+      "code": "BLV",
+      "name": "Bạch Long Vĩ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "area_code": "0225",
+      "postal_code": ["189999", "189999"],
+      "wards": []
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_core_content",
+    "total_units": 15,
+    "note": "Based on 2025 Administrative Arrangement Resolution. Includes new Thuy Nguyen City and An Duong Urban District.",
+    "area_code_standard": "Vietnam fixed-line",
+    "postal_code_standard": "Vietnam Post (6 digits)",
+    "last_updated": "2025-01-01"
+  }
+}

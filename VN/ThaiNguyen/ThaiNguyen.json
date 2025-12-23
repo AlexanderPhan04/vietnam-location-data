@@ -1,0 +1,237 @@
+{
+  "province": {
+    "id": "VN-TN",
+    "code": "TN",
+    "name": "Thái Nguyên",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "slug": "thai-nguyen",
+    "description": "Trung tâm vùng Đông Bắc, sáp nhập từ tỉnh Thái Nguyên cũ và tỉnh Bắc Kạn.",
+    "area_code": "0208",
+    "postal_code": {
+      "type": "range",
+      "value": ["250000", "269999"],
+      "note": "Bao gồm dải mã cũ của Thái Nguyên (25) và Bắc Kạn (26)"
+    }
+  },
+  "units": [
+    {
+      "id": "TN-TPTN",
+      "code": "TPTN",
+      "name": "TP. Thái Nguyên",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Tỉnh lỵ (Trung tâm Gang thép)",
+      "postal_code": ["250000", "251000"],
+      "wards": [
+        { "id": "TN-TPTN-TV", "code": "TV", "name": "Trưng Vương", "type": "Phường", "type_code": "WARD" },
+        { "id": "TN-TPTN-HVT", "code": "HVT", "name": "Hoàng Văn Thụ", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TN-SC",
+      "code": "SC",
+      "name": "TP. Sông Công",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Thành phố công nghiệp (Thái Nguyên cũ)",
+      "postal_code": ["252000", "252900"],
+      "wards": [
+        { "id": "TN-SC-TL", "code": "TL", "name": "Thắng Lợi", "type": "Phường", "type_code": "WARD" },
+        { "id": "TN-SC-MC", "code": "MC", "name": "Mỏ Chè", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TN-PY",
+      "code": "PY",
+      "name": "TP. Phổ Yên",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm công nghiệp Samsung (Thái Nguyên cũ)",
+      "postal_code": ["253000", "253900"],
+      "wards": [
+        { "id": "TN-PY-BH", "code": "BH", "name": "Ba Hàng", "type": "Phường", "type_code": "WARD" },
+        { "id": "TN-PY-DT", "code": "DT", "name": "Đồng Tiến", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TN-BK",
+      "code": "BK",
+      "name": "TP. Bắc Kạn",
+      "type": "Thành phố",
+      "type_code": "CITY",
+      "note": "Trung tâm tiểu vùng phía Bắc (Tỉnh lỵ Bắc Kạn cũ)",
+      "postal_code": ["260000", "261000"],
+      "wards": [
+        { "id": "TN-BK-PCK", "code": "PCK", "name": "Phùng Chí Kiên", "type": "Phường", "type_code": "WARD" },
+        { "id": "TN-BK-SC", "code": "SC", "name": "Sông Cầu", "type": "Phường", "type_code": "WARD" }
+      ]
+    },
+    {
+      "id": "TN-DT",
+      "code": "DT",
+      "name": "Đại Từ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Nguyên cũ",
+      "postal_code": ["254000", "254900"],
+      "wards": [
+        { "id": "TN-DT-HS", "code": "HS", "name": "TT. Hùng Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-DH",
+      "code": "DH",
+      "name": "Định Hóa",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "ATK Định Hóa (Thái Nguyên cũ)",
+      "postal_code": ["255000", "255900"],
+      "wards": [
+        { "id": "TN-DH-CC", "code": "CC", "name": "TT. Chợ Chu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-DHy",
+      "code": "DHy",
+      "name": "Đồng Hỷ",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Nguyên cũ",
+      "postal_code": ["256000", "256900"],
+      "wards": [
+        { "id": "TN-DHy-SH", "code": "SH", "name": "TT. Sông Cầu", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "TN-DHy-TC", "code": "TC", "name": "TT. Trại Cau", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-PB",
+      "code": "PB",
+      "name": "Phú Bình",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Nguyên cũ",
+      "postal_code": ["257000", "257900"],
+      "wards": [
+        { "id": "TN-PB-HS", "code": "HS", "name": "TT. Hương Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-PL",
+      "code": "PL",
+      "name": "Phú Lương",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Nguyên cũ",
+      "postal_code": ["258000", "258900"],
+      "wards": [
+        { "id": "TN-PL-DU", "code": "DU", "name": "TT. Đu", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "TN-PL-GK", "code": "GK", "name": "TT. Giang Tiên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-VN",
+      "code": "VN",
+      "name": "Võ Nhai",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Thái Nguyên cũ",
+      "postal_code": ["259000", "259900"],
+      "wards": [
+        { "id": "TN-VN-DC", "code": "DC", "name": "TT. Đình Cả", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-BB",
+      "code": "BB",
+      "name": "Ba Bể",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Hồ Ba Bể (Bắc Kạn cũ)",
+      "postal_code": ["262000", "262900"],
+      "wards": [
+        { "id": "TN-BB-CR", "code": "CR", "name": "TT. Chợ Rã", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-BTh",
+      "code": "BTh",
+      "name": "Bạch Thông",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Kạn cũ",
+      "postal_code": ["263000", "263900"],
+      "wards": [
+        { "id": "TN-BTh-PT", "code": "PT", "name": "TT. Phủ Thông", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-CD",
+      "code": "CD",
+      "name": "Chợ Đồn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Kạn cũ",
+      "postal_code": ["264000", "264900"],
+      "wards": [
+        { "id": "TN-CD-BL", "code": "BL", "name": "TT. Bằng Lũng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-CM",
+      "code": "CM",
+      "name": "Chợ Mới",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Kạn cũ",
+      "postal_code": ["265000", "265900"],
+      "wards": [
+        { "id": "TN-CM-DT", "code": "DT", "name": "TT. Đồng Tâm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-NR",
+      "code": "NR",
+      "name": "Na Rì",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Kạn cũ",
+      "postal_code": ["266000", "266900"],
+      "wards": [
+        { "id": "TN-NR-YL", "code": "YL", "name": "TT. Yến Lạc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-NS",
+      "code": "NS",
+      "name": "Ngân Sơn",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Kạn cũ",
+      "postal_code": ["267000", "267900"],
+      "wards": [
+        { "id": "TN-NS-VT", "code": "VT", "name": "TT. Vân Tùng", "type": "Thị trấn", "type_code": "TOWNSHIP" },
+        { "id": "TN-NS-NP", "code": "NP", "name": "TT. Nà Phặc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+      ]
+    },
+    {
+      "id": "TN-PN",
+      "code": "PN",
+      "name": "Pác Nặm",
+      "type": "Huyện",
+      "type_code": "RURAL_DISTRICT",
+      "note": "Bắc Kạn cũ",
+      "postal_code": ["268000", "268900"],
+      "wards": [
+        { "id": "TN-PN-BB", "code": "BB", "name": "Bộc Bố", "type": "Xã", "type_code": "COMMUNE", "note": "Trung tâm huyện lỵ" }
+      ]
+    }
+  ],
+  "meta": {
+    "data_level": "production_structure_merged_scenario",
+    "total_units": 17,
+    "composition": "4 Cities + 13 Rural Districts",
+    "note": "Combined administrative units of Thai Nguyen and Bac Kan.",
+    "last_updated": "2025-07-01"
+  }
+}
