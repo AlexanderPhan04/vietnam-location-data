@@ -10,7 +10,10 @@
     "area_code": "0205",
     "postal_code": {
       "type": "range",
-      "value": ["240000", "249999"],
+      "value": [
+        "240000",
+        "249999"
+      ],
       "note": "Mã bưu chính quốc gia (đầu số 24)"
     }
   },
@@ -22,11 +25,50 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Tỉnh lỵ (Trung tâm thương mại biên mậu)",
-      "postal_code": ["240000", "241000"],
+      "postal_code": [
+        "240000",
+        "241000"
+      ],
       "wards": [
-        { "id": "LS-TP-VT", "code": "VT", "name": "Vĩnh Trại", "type": "Phường", "type_code": "WARD" },
-        { "id": "LS-TP-DK", "code": "DK", "name": "Đông Kinh", "type": "Phường", "type_code": "WARD" },
-        { "id": "LS-TP-TT", "code": "TT", "name": "Tam Thanh", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "LS-TP-VT",
+          "code": "VT",
+          "name": "Vĩnh Trại",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LS-TP-ĐK",
+          "code": "ĐK",
+          "name": "Đông Kinh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Vĩnh Trại, Phường Đông Kinh, Xã Yên Trạch, Xã Mai Pha"
+        },
+        {
+          "id": "LS-TP-TT",
+          "code": "TT",
+          "name": "Tam Thanh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Tam Thanh, Xã Hoàng Đồng"
+        },
+        {
+          "id": "LS-TP-KL",
+          "code": "KL",
+          "name": "Kỳ Lừa",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hoàng Văn Thụ, Thị trấn Cao Lộc, Xã Hợp Thành, Xã Tân Liên, Xã Gia Cát"
+        },
+        {
+          "id": "LS-TP-LVT",
+          "code": "LVT",
+          "name": "Lương Văn Tri",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Chi Lăng, Xã Quảng Lạc"
+        }
       ]
     },
     {
@@ -36,10 +78,65 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện vành đai thành phố (Có cửa khẩu Hữu Nghị)",
-      "postal_code": ["241500", "241900"],
+      "postal_code": [
+        "241500",
+        "241900"
+      ],
       "wards": [
-        { "id": "LS-CL-DD", "code": "DD", "name": "TT. Đồng Đăng", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LS-CL-CL", "code": "CL", "name": "TT. Cao Lộc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-CL-DD",
+          "code": "DD",
+          "name": "TT. Đồng Đăng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-CL-CL",
+          "code": "CL",
+          "name": "TT. Cao Lộc",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-CL-BS",
+          "code": "BS",
+          "name": "Ba Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mẫu Sơn (huyện Cao Lộc), Xã Cao Lâu, Xã Xuất Lễ"
+        },
+        {
+          "id": "LS-CL-CL",
+          "code": "CL",
+          "name": "Cao Lộc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Lộc Yên, Xã Thanh Lòa, Xã Thạch Đạn"
+        },
+        {
+          "id": "LS-CL-CS",
+          "code": "CS",
+          "name": "Công Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hòa Cư, Xã Hải Yến, Xã Công Sơn"
+        },
+        {
+          "id": "LS-CL-ĐĐ",
+          "code": "ĐĐ",
+          "name": "Đồng Đăng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Đồng Đăng, Xã Thụy Hùng (huyện Cao Lộc), Xã Phú Xá, Xã Hồng Phong, Xã Bảo Lâm"
+        },
+        {
+          "id": "LS-CL-TĐ",
+          "code": "TĐ",
+          "name": "Tân Đoàn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Thành (huyện Cao Lộc), Xã Tràng Phái, Xã Tân Đoàn"
+        }
       ]
     },
     {
@@ -49,9 +146,58 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Có cửa khẩu Tân Thanh",
-      "postal_code": ["242000", "242900"],
+      "postal_code": [
+        "242000",
+        "242900"
+      ],
       "wards": [
-        { "id": "LS-VL-NS", "code": "NS", "name": "TT. Na Sầm", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-VL-NS",
+          "code": "NS",
+          "name": "TT. Na Sầm",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-VL-HVT",
+          "code": "HVT",
+          "name": "Hoàng Văn Thụ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hồng Thái, Xã Hoàng Văn Thụ (huyện Văn Lãng), Xã Tân Mỹ, Xã Nhạc Kỳ, Xã Tân Thanh"
+        },
+        {
+          "id": "LS-VL-HH",
+          "code": "HH",
+          "name": "Hội Hoan",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Gia Miễn, Xã Hội Hoan"
+        },
+        {
+          "id": "LS-VL-NS",
+          "code": "NS",
+          "name": "Na Sầm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Na Sầm, Xã Hoàng Việt, Xã Bắc Hùng"
+        },
+        {
+          "id": "LS-VL-TH",
+          "code": "TH",
+          "name": "Thụy Hùng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thụy Hùng (huyện Văn Lãng), Xã Thanh Long, Xã Trùng Khánh"
+        },
+        {
+          "id": "LS-VL-VL",
+          "code": "VL",
+          "name": "Văn Lãng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bắc Việt, Xã Bắc La, Xã Tân Tác, Xã Thành Hòa"
+        }
       ]
     },
     {
@@ -60,9 +206,74 @@
       "name": "Tràng Định",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["243000", "243900"],
+      "postal_code": [
+        "243000",
+        "243900"
+      ],
       "wards": [
-        { "id": "LS-TD-TK", "code": "TK", "name": "TT. Thất Khê", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-TD-TK",
+          "code": "TK",
+          "name": "TT. Thất Khê",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-TD-ĐK",
+          "code": "ĐK",
+          "name": "Đoàn Kết",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Khánh Long, Xã Cao Minh, Xã Đoàn Kết"
+        },
+        {
+          "id": "LS-TD-KC",
+          "code": "KC",
+          "name": "Kháng Chiến",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Trung Thành, Xã Tân Minh, Xã Kháng Chiến"
+        },
+        {
+          "id": "LS-TD-QK",
+          "code": "QK",
+          "name": "Quốc Khánh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tri Phương, Xã Đội Cấn, Xã Quốc Khánh"
+        },
+        {
+          "id": "LS-TD-QV",
+          "code": "QV",
+          "name": "Quốc Việt",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đào Viên, Xã Quốc Việt"
+        },
+        {
+          "id": "LS-TD-TT",
+          "code": "TT",
+          "name": "Tân Tiến",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Yên, Xã Kim Đồng, Xã Tân Tiến"
+        },
+        {
+          "id": "LS-TD-TK",
+          "code": "TK",
+          "name": "Thất Khê",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chi Lăng (huyện Tràng Định), Xã Chí Minh, Thị trấn Thất Khê"
+        },
+        {
+          "id": "LS-TD-TĐ",
+          "code": "TĐ",
+          "name": "Tràng Định",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đề Thám, Xã Hùng Sơn, Xã Hùng Việt"
+        }
       ]
     },
     {
@@ -71,9 +282,82 @@
       "name": "Bình Gia",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["244000", "244900"],
+      "postal_code": [
+        "244000",
+        "244900"
+      ],
       "wards": [
-        { "id": "LS-BG-BG", "code": "BG", "name": "TT. Bình Gia", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-BG-BG",
+          "code": "BG",
+          "name": "TT. Bình Gia",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-BG-BG",
+          "code": "BG",
+          "name": "Bình Gia",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hoàng Văn Thụ (huyện Bình Gia), Xã Mông Ân, Thị trấn Bình Gia"
+        },
+        {
+          "id": "LS-BG-HT",
+          "code": "HT",
+          "name": "Hoa Thám",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hưng Đạo, Xã Hoa Thám"
+        },
+        {
+          "id": "LS-BG-HP",
+          "code": "HP",
+          "name": "Hồng Phong",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hồng Phong (huyện Bình Gia), Xã Minh Khai"
+        },
+        {
+          "id": "LS-BG-QH",
+          "code": "QH",
+          "name": "Quý Hòa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Vĩnh Yên, Xã Quý Hòa"
+        },
+        {
+          "id": "LS-BG-TV",
+          "code": "TV",
+          "name": "Tân Văn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hồng Thái (huyện Bình Gia), Xã Bình La, Xã Tân Văn"
+        },
+        {
+          "id": "LS-BG-TH",
+          "code": "TH",
+          "name": "Thiện Hòa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Yên Lỗ, Xã Thiện Hòa"
+        },
+        {
+          "id": "LS-BG-TL",
+          "code": "TL",
+          "name": "Thiện Long",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hòa Bình (huyện Bình Gia), Xã Tân Hòa, Xã Thiện Long"
+        },
+        {
+          "id": "LS-BG-TT",
+          "code": "TT",
+          "name": "Thiện Thuật",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Quang Trung, Xã Thiện Thuật"
+        }
       ]
     },
     {
@@ -83,9 +367,66 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Di tích Khởi nghĩa Bắc Sơn",
-      "postal_code": ["245000", "245900"],
+      "postal_code": [
+        "245000",
+        "245900"
+      ],
       "wards": [
-        { "id": "LS-BS-BS", "code": "BS", "name": "TT. Bắc Sơn", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-BS-BS",
+          "code": "BS",
+          "name": "TT. Bắc Sơn",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-BS-BS",
+          "code": "BS",
+          "name": "Bắc Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Bắc Sơn, Xã Long Đống, Xã Bắc Quỳnh"
+        },
+        {
+          "id": "LS-BS-HV",
+          "code": "HV",
+          "name": "Hưng Vũ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Trấn Yên, Xã Hưng Vũ"
+        },
+        {
+          "id": "LS-BS-NH",
+          "code": "NH",
+          "name": "Nhất Hòa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Thành (huyện Bắc Sơn), Xã Nhất Tiến, Xã Nhất Hòa"
+        },
+        {
+          "id": "LS-BS-TT",
+          "code": "TT",
+          "name": "Tân Tri",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đồng Ý, Xã Vạn Thủy, Xã Tân Tri"
+        },
+        {
+          "id": "LS-BS-VL",
+          "code": "VL",
+          "name": "Vũ Lăng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Lập, Xã Tân Hương, Xã Chiêu Vũ, Xã Vũ Lăng"
+        },
+        {
+          "id": "LS-BS-VL",
+          "code": "VL",
+          "name": "Vũ Lễ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiến Thắng (huyện Bắc Sơn), Xã Vũ Sơn, Xã Vũ Lễ"
+        }
       ]
     },
     {
@@ -94,9 +435,58 @@
       "name": "Văn Quan",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["246000", "246900"],
+      "postal_code": [
+        "246000",
+        "246900"
+      ],
       "wards": [
-        { "id": "LS-VQ-VQ", "code": "VQ", "name": "TT. Văn Quan", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-VQ-VQ",
+          "code": "VQ",
+          "name": "TT. Văn Quan",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-VQ-ĐH",
+          "code": "ĐH",
+          "name": "Điềm He",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Trấn Ninh, Xã Liên Hội, Xã Điềm He"
+        },
+        {
+          "id": "LS-VQ-KK",
+          "code": "KK",
+          "name": "Khánh Khê",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Xuân Long, Xã Bình Trung, Xã Khánh Khê"
+        },
+        {
+          "id": "LS-VQ-TL",
+          "code": "TL",
+          "name": "Tri Lễ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Lương Năng, Xã Hữu Lễ, Xã Tri Lễ"
+        },
+        {
+          "id": "LS-VQ-VQ",
+          "code": "VQ",
+          "name": "Văn Quan",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hòa Bình (huyện Văn Quan), Xã Tú Xuyên, Thị trấn Văn Quan"
+        },
+        {
+          "id": "LS-VQ-YP",
+          "code": "YP",
+          "name": "Yên Phúc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã An Sơn, Xã Bình Phúc, Xã Yên Phúc"
+        }
       ]
     },
     {
@@ -106,10 +496,73 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Ải Chi Lăng (Na kẹo)",
-      "postal_code": ["247000", "247900"],
+      "postal_code": [
+        "247000",
+        "247900"
+      ],
       "wards": [
-        { "id": "LS-ChiL-DM", "code": "DM", "name": "TT. Đồng Mỏ", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LS-ChiL-CL", "code": "CL", "name": "TT. Chi Lăng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-ChiL-DM",
+          "code": "DM",
+          "name": "TT. Đồng Mỏ",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-ChiL-CL",
+          "code": "CL",
+          "name": "TT. Chi Lăng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-ChiL-BM",
+          "code": "BM",
+          "name": "Bằng Mạc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Gia Lộc, Xã Bằng Hữu, Xã Thượng Cường, Xã Bằng Mạc"
+        },
+        {
+          "id": "LS-ChiL-CL",
+          "code": "CL",
+          "name": "Chi Lăng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chi Lăng (huyện Chi Lăng), Thị trấn Chi Lăng, Thị trấn Đồng Mỏ"
+        },
+        {
+          "id": "LS-ChiL-CT",
+          "code": "CT",
+          "name": "Chiến Thắng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiến Thắng (huyện Chi Lăng), Xã Vân An, Xã Liên Sơn, Xã Vân Thủy"
+        },
+        {
+          "id": "LS-ChiL-NL",
+          "code": "NL",
+          "name": "Nhân Lý",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mai Sao, Xã Bắc Thủy, Xã Lâm Sơn, Xã Nhân Lý"
+        },
+        {
+          "id": "LS-ChiL-QS",
+          "code": "QS",
+          "name": "Quan Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hữu Kiên, Xã Quan Sơn"
+        },
+        {
+          "id": "LS-ChiL-VL",
+          "code": "VL",
+          "name": "Vạn Linh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hòa Bình (huyện Chi Lăng), Xã Y Tịch, Xã Vạn Linh"
+        }
       ]
     },
     {
@@ -119,9 +572,82 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Cửa ngõ phía Nam (Giáp Bắc Giang/Thái Nguyên)",
-      "postal_code": ["248000", "248900"],
+      "postal_code": [
+        "248000",
+        "248900"
+      ],
       "wards": [
-        { "id": "LS-HL-HL", "code": "HL", "name": "TT. Hữu Lũng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-HL-HL",
+          "code": "HL",
+          "name": "TT. Hữu Lũng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-HL-CK",
+          "code": "CK",
+          "name": "Cai Kinh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Yên Vượng, Xã Yên Sơn, Xã Cai Kinh"
+        },
+        {
+          "id": "LS-HL-HL",
+          "code": "HL",
+          "name": "Hữu Liên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Yên Thịnh, Xã Hữu Liên"
+        },
+        {
+          "id": "LS-HL-HL",
+          "code": "HL",
+          "name": "Hữu Lũng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Hữu Lũng, Xã Đồng Tân, Xã Hồ Sơn"
+        },
+        {
+          "id": "LS-HL-TT",
+          "code": "TT",
+          "name": "Tân Thành",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Thành (huyện Hữu Lũng), Xã Hòa Lạc, Xã Hòa Sơn"
+        },
+        {
+          "id": "LS-HL-TT",
+          "code": "TT",
+          "name": "Thiện Tân",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thanh Sơn, Xã Đồng Tiến, Xã Thiện Tân"
+        },
+        {
+          "id": "LS-HL-TS",
+          "code": "TS",
+          "name": "Tuấn Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Minh Sơn, Xã Minh Hòa, Xã Hòa Thắng"
+        },
+        {
+          "id": "LS-HL-VN",
+          "code": "VN",
+          "name": "Vân Nham",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Minh Tiến, Xã Nhật Tiến, Xã Vân Nham"
+        },
+        {
+          "id": "LS-HL-YB",
+          "code": "YB",
+          "name": "Yên Bình",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hòa Bình (huyện Hữu Lũng), Xã Quyết Thắng, Xã Yên Bình"
+        }
       ]
     },
     {
@@ -131,10 +657,81 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Cửa khẩu Chi Ma",
-      "postal_code": ["249000", "249500"],
+      "postal_code": [
+        "249000",
+        "249500"
+      ],
       "wards": [
-        { "id": "LS-LB-LB", "code": "LB", "name": "TT. Lộc Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LS-LB-ND", "code": "ND", "name": "TT. Na Dương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-LB-LB",
+          "code": "LB",
+          "name": "TT. Lộc Bình",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-LB-ND",
+          "code": "ND",
+          "name": "TT. Na Dương",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-LB-KX",
+          "code": "KX",
+          "name": "Khuất Xá",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tam Gia, Xã Khuất Xá"
+        },
+        {
+          "id": "LS-LB-LB",
+          "code": "LB",
+          "name": "Lộc Bình",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Lộc Bình, Xã Khánh Xuân, Xã Đồng Bục, Xã Hữu Khánh"
+        },
+        {
+          "id": "LS-LB-LB",
+          "code": "LB",
+          "name": "Lợi Bác",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Sàn Viên, Xã Lợi Bác"
+        },
+        {
+          "id": "LS-LB-MS",
+          "code": "MS",
+          "name": "Mẫu Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mẫu Sơn (huyện Lộc Bình), Xã Yên Khoái, Xã Tú Mịch"
+        },
+        {
+          "id": "LS-LB-ND",
+          "code": "ND",
+          "name": "Na Dương",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Na Dương, Xã Đông Quan, Xã Tú Đoạn"
+        },
+        {
+          "id": "LS-LB-TN",
+          "code": "TN",
+          "name": "Thống Nhất",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Minh Hiệp, Xã Hữu Lân, Xã Thống Nhất"
+        },
+        {
+          "id": "LS-LB-XD",
+          "code": "XD",
+          "name": "Xuân Dương",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nam Quan, Xã Ái Quốc, Xã Xuân Dương"
+        }
       ]
     },
     {
@@ -144,10 +741,57 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Giáp Quảng Ninh",
-      "postal_code": ["249600", "249900"],
+      "postal_code": [
+        "249600",
+        "249900"
+      ],
       "wards": [
-        { "id": "LS-DL-DL", "code": "DL", "name": "TT. Đình Lập", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LS-DL-NT", "code": "NT", "name": "TT. Nông Trường Thái Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LS-DL-DL",
+          "code": "DL",
+          "name": "TT. Đình Lập",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-DL-NT",
+          "code": "NT",
+          "name": "TT. Nông Trường Thái Bình",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LS-DL-CS",
+          "code": "CS",
+          "name": "Châu Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bắc Lãng, Xã Đồng Thắng, Xã Cường Lợi, Xã Châu Sơn, Xã Kiên Mộc"
+        },
+        {
+          "id": "LS-DL-ĐL",
+          "code": "ĐL",
+          "name": "Đình Lập",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Đình Lập, Xã Đình Lập, Xã Bính Xá"
+        },
+        {
+          "id": "LS-DL-KM",
+          "code": "KM",
+          "name": "Kiên Mộc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bắc Xa, Xã Bính Xá, Xã Kiên Mộc"
+        },
+        {
+          "id": "LS-DL-TB",
+          "code": "TB",
+          "name": "Thái Bình",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Nông Trường Thái Bình, Xã Lâm Ca, Xã Thái Bình"
+        }
       ]
     }
   ],

@@ -10,7 +10,10 @@
     "area_code": "0203",
     "postal_code": {
       "type": "range",
-      "value": ["200000", "209999"],
+      "value": [
+        "200000",
+        "209999"
+      ],
       "note": "Mã bưu chính quốc gia (đầu số 20)"
     }
   },
@@ -22,12 +25,114 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Tỉnh lỵ, thủ phủ du lịch (Đã bao gồm huyện Hoành Bồ cũ)",
-      "postal_code": ["200000", "202900"],
+      "postal_code": [
+        "200000",
+        "202900"
+      ],
       "wards": [
-        { "id": "QN-HL-BD", "code": "BD", "name": "Bạch Đằng", "type": "Phường", "type_code": "WARD" },
-        { "id": "QN-HL-BC", "code": "BC", "name": "Bãi Cháy", "type": "Phường", "type_code": "WARD" },
-        { "id": "QN-HL-HG", "code": "HG", "name": "Hồng Gai", "type": "Phường", "type_code": "WARD" },
-        { "id": "QN-HL-HB", "code": "HB", "name": "Hoành Bồ", "type": "Phường", "type_code": "WARD", "note": "Chuyển từ TT. Trới cũ" }
+        {
+          "id": "QN-HL-BD",
+          "code": "BD",
+          "name": "Bạch Đằng",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "QN-HL-BC",
+          "code": "BC",
+          "name": "Bãi Cháy",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hùng Thắng, Phường Bãi Cháy"
+        },
+        {
+          "id": "QN-HL-HG",
+          "code": "HG",
+          "name": "Hồng Gai",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Bạch Đằng, Phường Trần Hưng Đạo, Phường Hồng Gai"
+        },
+        {
+          "id": "QN-HL-HB",
+          "code": "HB",
+          "name": "Hoành Bồ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hoành Bồ, Xã Sơn Dương, Xã Lê Lợi, Xã Đồng Lâm"
+        },
+        {
+          "id": "QN-HL-CX",
+          "code": "CX",
+          "name": "Cao Xanh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hà Khánh, Phường Cao Xanh"
+        },
+        {
+          "id": "QN-HL-HL",
+          "code": "HL",
+          "name": "Hà Lầm",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cao Thắng, Phường Hà Trung, Phường Hà Lầm"
+        },
+        {
+          "id": "QN-HL-HL",
+          "code": "HL",
+          "name": "Hạ Long",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hồng Hà, Phường Hồng Hải"
+        },
+        {
+          "id": "QN-HL-HT",
+          "code": "HT",
+          "name": "Hà Tu",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hà Phong, Phường Hà Tu"
+        },
+        {
+          "id": "QN-HL-KT",
+          "code": "KT",
+          "name": "Kỳ Thượng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thanh Lâm, Xã Đạp Thanh, Xã Kỳ Thượng"
+        },
+        {
+          "id": "QN-HL-QL",
+          "code": "QL",
+          "name": "Quảng La",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bằng Cả, Xã Dân Chủ, Xã Tân Dân, Xã Quảng La"
+        },
+        {
+          "id": "QN-HL-TN",
+          "code": "TN",
+          "name": "Thống Nhất",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Vũ Oai, Xã Hòa Bình, Xã Thống Nhất, Xã Đồng Lâm"
+        },
+        {
+          "id": "QN-HL-TC",
+          "code": "TC",
+          "name": "Tuần Châu",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đại Yên, Phường Tuần Châu, Phường Hà Khẩu"
+        },
+        {
+          "id": "QN-HL-VH",
+          "code": "VH",
+          "name": "Việt Hưng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Giếng Đáy, Phường Việt Hưng, Phường Hà Khẩu"
+        }
       ]
     },
     {
@@ -37,10 +142,81 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Thành phố cửa khẩu quốc tế",
-      "postal_code": ["206000", "206900"],
+      "postal_code": [
+        "206000",
+        "206900"
+      ],
       "wards": [
-        { "id": "QN-MC-TP", "code": "TP", "name": "Trần Phú", "type": "Phường", "type_code": "WARD" },
-        { "id": "QN-MC-KL", "code": "KL", "name": "Ka Long", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "QN-MC-TP",
+          "code": "TP",
+          "name": "Trần Phú",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "QN-MC-KL",
+          "code": "KL",
+          "name": "Ka Long",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "QN-MC-HH",
+          "code": "HH",
+          "name": "Hải Hòa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hải Lạng, Xã Hải Hòa"
+        },
+        {
+          "id": "QN-MC-HN",
+          "code": "HN",
+          "name": "Hải Ninh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Quảng Nghĩa, Xã Hải Tiến"
+        },
+        {
+          "id": "QN-MC-HS",
+          "code": "HS",
+          "name": "Hải Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bắc Sơn, Xã Hải Sơn"
+        },
+        {
+          "id": "QN-MC-MC1",
+          "code": "MC1",
+          "name": "Móng Cái 1",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Trần Phú, Phường Hải Hòa, Phường Bình Ngọc, Phường Trà Cổ, Xã Hải Xuân"
+        },
+        {
+          "id": "QN-MC-MC2",
+          "code": "MC2",
+          "name": "Móng Cái 2",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Ninh Dương, Phường Ka Long, Xã Vạn Ninh"
+        },
+        {
+          "id": "QN-MC-MC3",
+          "code": "MC3",
+          "name": "Móng Cái 3",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hải Yên, Xã Hải Đông"
+        },
+        {
+          "id": "QN-MC-VT",
+          "code": "VT",
+          "name": "Vĩnh Thực",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Vĩnh Trung, Xã Vĩnh Thực"
+        }
       ]
     },
     {
@@ -50,10 +226,57 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Thành phố than - năng lượng",
-      "postal_code": ["203000", "203900"],
+      "postal_code": [
+        "203000",
+        "203900"
+      ],
       "wards": [
-        { "id": "QN-CP-CT", "code": "CT", "name": "Cẩm Trung", "type": "Phường", "type_code": "WARD" },
-        { "id": "QN-CP-CS", "code": "CS", "name": "Cẩm Sơn", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "QN-CP-CT",
+          "code": "CT",
+          "name": "Cẩm Trung",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "QN-CP-CS",
+          "code": "CS",
+          "name": "Cẩm Sơn",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "QN-CP-CP",
+          "code": "CP",
+          "name": "Cẩm Phả",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cẩm Trung, Phường Cẩm Thành, Phường Cẩm Bình, Phường Cẩm Tây, Phường Cẩm Đông"
+        },
+        {
+          "id": "QN-CP-CÔ",
+          "code": "CÔ",
+          "name": "Cửa Ông",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cẩm Phú, Phường Cẩm Thịnh, Phường Cẩm Sơn, Phường Cửa Ông"
+        },
+        {
+          "id": "QN-CP-MD",
+          "code": "MD",
+          "name": "Mông Dương",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Mông Dương, Xã Dương Huy"
+        },
+        {
+          "id": "QN-CP-QH",
+          "code": "QH",
+          "name": "Quang Hanh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cẩm Thạch, Phường Cẩm Thủy, Phường Quang Hanh"
+        }
       ]
     },
     {
@@ -63,10 +286,49 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Trung tâm du lịch tâm linh (Yên Tử)",
-      "postal_code": ["204000", "204900"],
+      "postal_code": [
+        "204000",
+        "204900"
+      ],
       "wards": [
-        { "id": "QN-UB-QT", "code": "QT", "name": "Quang Trung", "type": "Phường", "type_code": "WARD" },
-        { "id": "QN-UB-TV", "code": "TV", "name": "Thanh Sơn", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "QN-UB-QT",
+          "code": "QT",
+          "name": "Quang Trung",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "QN-UB-TV",
+          "code": "TV",
+          "name": "Thanh Sơn",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "QN-UB-UB",
+          "code": "UB",
+          "name": "Uông Bí",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Quang Trung, Phường Thanh Sơn, Phường Yên Thanh, Phường Trưng Vương"
+        },
+        {
+          "id": "QN-UB-VD",
+          "code": "VD",
+          "name": "Vàng Danh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Bắc Sơn, Phường Nam Khê, Phường Vàng Danh, Phường Trưng Vương"
+        },
+        {
+          "id": "QN-UB-YT",
+          "code": "YT",
+          "name": "Yên Tử",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Phương Đông, Phường Phương Nam, Xã Thượng Yên Công"
+        }
       ]
     },
     {
@@ -76,10 +338,51 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Thành phố trẻ nhất (Thành lập cuối 2024/đầu 2025)",
-      "postal_code": ["205000", "205900"],
+      "postal_code": [
+        "205000",
+        "205900"
+      ],
       "wards": [
-        { "id": "QN-DT-DT", "code": "DT", "name": "Đông Triều", "type": "Phường", "type_code": "WARD" },
-        { "id": "QN-DT-MD", "code": "MD", "name": "Mạo Khê", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "QN-DT-ĐT",
+          "code": "ĐT",
+          "name": "Đông Triều",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Thủy An, Phường Hưng Đạo, Phường Hồng Phong, Xã Nguyễn Huệ, Phường Đức Chính"
+        },
+        {
+          "id": "QN-DT-MK",
+          "code": "MK",
+          "name": "Mạo Khê",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Xuân Sơn, Phường Kim Sơn, Phường Yên Thọ, Phường Mạo Khê"
+        },
+        {
+          "id": "QN-DT-AS",
+          "code": "AS",
+          "name": "An Sinh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Bình Dương, Xã An Sinh, Xã Việt Dân, Phường Đức Chính"
+        },
+        {
+          "id": "QN-DT-BK",
+          "code": "BK",
+          "name": "Bình Khê",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Tràng An, Phường Bình Khê, Xã Tràng Lương"
+        },
+        {
+          "id": "QN-DT-HQ",
+          "code": "HQ",
+          "name": "Hoàng Quế",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Yên Đức, Phường Hoàng Quế, Xã Hồng Thái Tây, Xã Hồng Thái Đông"
+        }
       ]
     },
     {
@@ -89,9 +392,59 @@
       "type": "Thị xã",
       "type_code": "TOWN",
       "note": "Khu kinh tế ven biển",
-      "postal_code": ["207000", "207900"],
+      "postal_code": [
+        "207000",
+        "207900"
+      ],
       "wards": [
-        { "id": "QN-QY-QY", "code": "QY", "name": "Quảng Yên", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "QN-QY-QY",
+          "code": "QY",
+          "name": "Quảng Yên",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Yên Giang, Phường Quảng Yên, Xã Tiền An"
+        },
+        {
+          "id": "QN-QY-ĐM",
+          "code": "ĐM",
+          "name": "Đông Mai",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Minh Thành, Phường Đông Mai"
+        },
+        {
+          "id": "QN-QY-HA",
+          "code": "HA",
+          "name": "Hà An",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Tân An, Phường Hà An, Xã Hoàng Tân, Xã Liên Hòa"
+        },
+        {
+          "id": "QN-QY-HH",
+          "code": "HH",
+          "name": "Hiệp Hòa",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cộng Hòa, Xã Sông Khoai, Xã Hiệp Hòa"
+        },
+        {
+          "id": "QN-QY-LH",
+          "code": "LH",
+          "name": "Liên Hòa",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Phong Hải, Xã Liên Vị, Xã Tiền Phong, Xã Liên Hòa"
+        },
+        {
+          "id": "QN-QY-PC",
+          "code": "PC",
+          "name": "Phong Cốc",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Nam Hòa, Phường Yên Hải, Phường Phong Cốc, Xã Cẩm La"
+        }
       ]
     },
     {
@@ -101,9 +454,26 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện đảo, Khu kinh tế đặc biệt, Sân bay quốc tế",
-      "postal_code": ["208000", "208500"],
+      "postal_code": [
+        "208000",
+        "208500"
+      ],
       "wards": [
-        { "id": "QN-VD-CR", "code": "CR", "name": "TT. Cái Rồng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "QN-VD-CR",
+          "code": "CR",
+          "name": "TT. Cái Rồng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "QN-VD-VĐ",
+          "code": "VĐ",
+          "name": "Vân Đồn",
+          "type": "Huyện",
+          "type_code": "RURAL_DISTRICT",
+          "note": "Thị trấn Cái Rồng, Xã Bản Sen, Xã Bình Dân, Xã Đài Xuyên, Xã Đoàn Kết, Xã Đông Xá, Xã Hạ Long, Xã Minh Châu, Xã Ngọc Vừng, Xã Quan Lạn, Xã Thắng Lợi, Xã Vạn Yên"
+        }
       ]
     },
     {
@@ -112,9 +482,50 @@
       "name": "Tiên Yên",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["208600", "208900"],
+      "postal_code": [
+        "208600",
+        "208900"
+      ],
       "wards": [
-        { "id": "QN-TY-TY", "code": "TY", "name": "TT. Tiên Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "QN-TY-TY",
+          "code": "TY",
+          "name": "TT. Tiên Yên",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "QN-TY-ĐX",
+          "code": "ĐX",
+          "name": "Điền Xá",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hà Lâu, Xã Điền Xá, Xã Yên Than"
+        },
+        {
+          "id": "QN-TY-ĐN",
+          "code": "ĐN",
+          "name": "Đông Ngũ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đông Hải, Xã Đại Dực, Xã Đông Ngũ"
+        },
+        {
+          "id": "QN-TY-HL",
+          "code": "HL",
+          "name": "Hải Lạng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đồng Rui, Xã Hải Lạng, Xã Hải Hòa"
+        },
+        {
+          "id": "QN-TY-TY",
+          "code": "TY",
+          "name": "Tiên Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Tiên Yên, Xã Phong Dụ, Xã Tiên Lãng, Xã Yên Than, Xã Đại Dực, Xã Đông Ngũ, Xã Vô Ngại"
+        }
       ]
     },
     {
@@ -124,9 +535,50 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "KCN Cảng biển Hải Hà",
-      "postal_code": ["209000", "209400"],
+      "postal_code": [
+        "209000",
+        "209400"
+      ],
       "wards": [
-        { "id": "QN-HH-QH", "code": "QH", "name": "TT. Quảng Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "QN-HH-QH",
+          "code": "QH",
+          "name": "TT. Quảng Hà",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "QN-HH-CC",
+          "code": "CC",
+          "name": "Cái Chiên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Cái Chiên (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "QN-HH-ĐH",
+          "code": "ĐH",
+          "name": "Đường Hoa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Quảng Sơn, Xã Đường Hoa, Xã Quảng Long"
+        },
+        {
+          "id": "QN-HH-QĐ",
+          "code": "QĐ",
+          "name": "Quảng Đức",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Quảng Thành, Xã Quảng Thịnh, Xã Quảng Đức"
+        },
+        {
+          "id": "QN-HH-QH",
+          "code": "QH",
+          "name": "Quảng Hà",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Quảng Hà, Xã Quảng Minh, Xã Quảng Chính, Xã Quảng Phong, Xã Quảng Long"
+        }
       ]
     },
     {
@@ -135,9 +587,34 @@
       "name": "Đầm Hà",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["209500", "209700"],
+      "postal_code": [
+        "209500",
+        "209700"
+      ],
       "wards": [
-        { "id": "QN-DH-DH", "code": "DH", "name": "TT. Đầm Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "QN-DH-DH",
+          "code": "DH",
+          "name": "TT. Đầm Hà",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "QN-DH-ĐH",
+          "code": "ĐH",
+          "name": "Đầm Hà",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Đầm Hà, Xã Tân Bình, Xã Đại Bình, Xã Tân Lập, Xã Đầm Hà"
+        },
+        {
+          "id": "QN-DH-QT",
+          "code": "QT",
+          "name": "Quảng Tân",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Quảng An, Xã Dực Yên, Xã Quảng Lâm, Xã Quảng Tân"
+        }
       ]
     },
     {
@@ -147,9 +624,42 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện miền núi biên giới",
-      "postal_code": ["209800", "209900"],
+      "postal_code": [
+        "209800",
+        "209900"
+      ],
       "wards": [
-        { "id": "QN-BL-BL", "code": "BL", "name": "TT. Bình Liêu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "QN-BL-BL",
+          "code": "BL",
+          "name": "TT. Bình Liêu",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "QN-BL-BL",
+          "code": "BL",
+          "name": "Bình Liêu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Bình Liêu, Xã Húc Động, Xã Vô Ngại"
+        },
+        {
+          "id": "QN-BL-HM",
+          "code": "HM",
+          "name": "Hoành Mô",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đồng Văn, Xã Hoành Mô"
+        },
+        {
+          "id": "QN-BL-LH",
+          "code": "LH",
+          "name": "Lục Hồn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đồng Tâm, Xã Lục Hồn"
+        }
       ]
     },
     {
@@ -158,9 +668,34 @@
       "name": "Ba Chẽ",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["208950", "208999"],
+      "postal_code": [
+        "208950",
+        "208999"
+      ],
       "wards": [
-        { "id": "QN-BC-BC", "code": "BC", "name": "TT. Ba Chẽ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "QN-BC-BC",
+          "code": "BC",
+          "name": "TT. Ba Chẽ",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "QN-BC-BC",
+          "code": "BC",
+          "name": "Ba Chẽ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Ba Chẽ, Xã Thanh Sơn, Xã Nam Sơn, Xã Đồn Đạc, Xã Hải Lạng"
+        },
+        {
+          "id": "QN-BC-LM",
+          "code": "LM",
+          "name": "Lương Minh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đồng Sơn, Xã Lương Minh"
+        }
       ]
     },
     {
@@ -170,9 +705,26 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện đảo tiền tiêu",
-      "postal_code": ["200500", "200599"],
+      "postal_code": [
+        "200500",
+        "200599"
+      ],
       "wards": [
-        { "id": "QN-CT-CT", "code": "CT", "name": "TT. Cô Tô", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "QN-CT-CT",
+          "code": "CT",
+          "name": "TT. Cô Tô",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "QN-CT-CT",
+          "code": "CT",
+          "name": "Cô Tô",
+          "type": "Huyện",
+          "type_code": "RURAL_DISTRICT",
+          "note": "Thị trấn Cô Tô, Xã Đồng Tiến, Xã Thanh Lân"
+        }
       ]
     }
   ],
