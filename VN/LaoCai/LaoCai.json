@@ -10,7 +10,10 @@
     "area_code": "0214",
     "postal_code": {
       "type": "range",
-      "value": ["320000", "339999"],
+      "value": [
+        "320000",
+        "339999"
+      ],
       "note": "Bao gồm dải mã cũ của Yên Bái (32) và Lào Cai (33)"
     }
   },
@@ -22,10 +25,50 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Tỉnh lỵ (Trung tâm kinh tế cửa khẩu)",
-      "postal_code": ["330000", "331000"],
+      "postal_code": [
+        "330000",
+        "331000"
+      ],
       "wards": [
-        { "id": "LC-TPLC-LC", "code": "LC", "name": "Lào Cai", "type": "Phường", "type_code": "WARD" },
-        { "id": "LC-TPLC-CC", "code": "CC", "name": "Cốc Lếu", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "LC-TPLC-LC",
+          "code": "LC",
+          "name": "Lào Cai",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Duyên Hải, Phường Cốc Lếu, Phường Kim Tân, Phường Lào Cai, Xã Vạn Hòa, Xã Bản Phiệt"
+        },
+        {
+          "id": "LC-TPLC-CC",
+          "code": "CC",
+          "name": "Cốc Lếu",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LC-TPLC-CĐ",
+          "code": "CĐ",
+          "name": "Cam Đường",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Nam Cường (thành phố Lào Cai), Phường Xuân Tăng, Phường Pom Hán, Phường Bắc Cường, Phường Bắc Lệnh, Phường Bình Minh, Xã Cam Đường"
+        },
+        {
+          "id": "LC-TPLC-CS",
+          "code": "CS",
+          "name": "Cốc San",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đồng Tuyển, Xã Tòng Sành, Xã Cốc San"
+        },
+        {
+          "id": "LC-TPLC-HT",
+          "code": "HT",
+          "name": "Hợp Thành",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tả Phời, Xã Hợp Thành"
+        }
       ]
     },
     {
@@ -35,10 +78,57 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Trung tâm hành chính phía Nam (Tỉnh lỵ Yên Bái cũ)",
-      "postal_code": ["320000", "321000"],
+      "postal_code": [
+        "320000",
+        "321000"
+      ],
       "wards": [
-        { "id": "LC-TPYB-YN", "code": "YN", "name": "Yên Ninh", "type": "Phường", "type_code": "WARD" },
-        { "id": "LC-TPYB-MT", "code": "MT", "name": "Minh Tân", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "LC-TPYB-YN",
+          "code": "YN",
+          "name": "Yên Ninh",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LC-TPYB-MT",
+          "code": "MT",
+          "name": "Minh Tân",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LC-TPYB-VP",
+          "code": "VP",
+          "name": "Văn Phú",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Yên Thịnh, Xã Tân Thịnh (thành phố Yên Bái), Xã Văn Phú, Xã Phú Thịnh"
+        },
+        {
+          "id": "LC-TPYB-YB",
+          "code": "YB",
+          "name": "Yên Bái",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đồng Tâm, Phường Yên Ninh, Phường Minh Tân, Phường Nguyễn Thái Học, Phường Hồng Hà"
+        },
+        {
+          "id": "LC-TPYB-ÂL",
+          "code": "ÂL",
+          "name": "Âu Lâu",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hợp Minh, Xã Giới Phiên, Xã Minh Quân, Xã Âu Lâu"
+        },
+        {
+          "id": "LC-TPYB-NC",
+          "code": "NC",
+          "name": "Nam Cường",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Nam Cường (thành phố Yên Bái), Xã Minh Bảo, Xã Tuy Lộc, Xã Cường Thịnh"
+        }
       ]
     },
     {
@@ -48,10 +138,57 @@
       "type": "Thị xã",
       "type_code": "TOWN",
       "note": "Khu du lịch Quốc gia (Lào Cai cũ)",
-      "postal_code": ["333000", "333900"],
+      "postal_code": [
+        "333000",
+        "333900"
+      ],
       "wards": [
-        { "id": "LC-SP-SP", "code": "SP", "name": "Sa Pa", "type": "Phường", "type_code": "WARD" },
-        { "id": "LC-SP-HR", "code": "HR", "name": "Hàm Rồng", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "LC-SP-SP",
+          "code": "SP",
+          "name": "Sa Pa",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LC-SP-HR",
+          "code": "HR",
+          "name": "Hàm Rồng",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LC-SP-BH",
+          "code": "BH",
+          "name": "Bản Hồ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thanh Bình (thị xã Sa Pa), Xã Bản Hồ"
+        },
+        {
+          "id": "LC-SP-LC",
+          "code": "LC",
+          "name": "Lao Chải",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Lao Chải (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "LC-SP-MB",
+          "code": "MB",
+          "name": "Mường Bo",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Liên Minh, Xã Mường Bo"
+        },
+        {
+          "id": "LC-SP-NCS",
+          "code": "NCS",
+          "name": "Ngũ Chỉ Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Ngũ Chỉ Sơn (Giữ nguyên, Không sáp nhập)"
+        }
       ]
     },
     {
@@ -61,10 +198,57 @@
       "type": "Thị xã",
       "type_code": "TOWN",
       "note": "Vùng văn hóa Mường Lò (Yên Bái cũ)",
-      "postal_code": ["322000", "322900"],
+      "postal_code": [
+        "322000",
+        "322900"
+      ],
       "wards": [
-        { "id": "LC-NL-TA", "code": "TA", "name": "Tân An", "type": "Phường", "type_code": "WARD" },
-        { "id": "LC-NL-PT", "code": "PT", "name": "Pú Trạng", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "LC-NL-TA",
+          "code": "TA",
+          "name": "Tân An",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LC-NL-PT",
+          "code": "PT",
+          "name": "Pú Trạng",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LC-NL-TT",
+          "code": "TT",
+          "name": "Trung Tâm",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Trung Tâm, Xã Phù Nham, Xã Nghĩa Lợi, Xã Nghĩa Lộ"
+        },
+        {
+          "id": "LC-NL-CT",
+          "code": "CT",
+          "name": "Cầu Thia",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cầu Thia, Xã Thanh Lương, Xã Thạch Lương, Xã Phúc Sơn, Xã Hạnh Sơn"
+        },
+        {
+          "id": "LC-NL-LS",
+          "code": "LS",
+          "name": "Liên Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Nông trường Liên Sơn, Xã Sơn A, Xã Nghĩa Phúc"
+        },
+        {
+          "id": "LC-NL-NL",
+          "code": "NL",
+          "name": "Nghĩa Lộ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Tân An, Phường Pú Trạng, Xã Nghĩa An, Xã Nghĩa Sơn"
+        }
       ]
     },
     {
@@ -74,9 +258,74 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Lào Cai cũ (Nơi con sông Hồng chảy vào đất Việt)",
-      "postal_code": ["334000", "334900"],
+      "postal_code": [
+        "334000",
+        "334900"
+      ],
       "wards": [
-        { "id": "LC-BX-TT", "code": "TT", "name": "TT. Bát Xát", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-BX-TT",
+          "code": "TT",
+          "name": "TT. Bát Xát",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-BX-TT",
+          "code": "TT",
+          "name": "Trịnh Tường",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cốc Mỳ, Xã Trịnh Tường"
+        },
+        {
+          "id": "LC-BX-YT",
+          "code": "YT",
+          "name": "Y Tý",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã A Lù, Xã Y Tý"
+        },
+        {
+          "id": "LC-BX-AMS",
+          "code": "AMS",
+          "name": "A Mú Sung",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Chạc, Xã A Mú Sung"
+        },
+        {
+          "id": "LC-BX-BX",
+          "code": "BX",
+          "name": "Bản Xèo",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Pa Cheo, Xã Mường Vi, Xã Bản Xèo"
+        },
+        {
+          "id": "LC-BX-BX",
+          "code": "BX",
+          "name": "Bát Xát",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Bát Xát, Xã Bản Vược, Xã Bản Qua, Xã Phìn Ngan, Xã Quang Kim"
+        },
+        {
+          "id": "LC-BX-DS",
+          "code": "DS",
+          "name": "Dền Sáng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Dền Thàng, Xã Sàng Ma Sáo, Xã Dền Sáng"
+        },
+        {
+          "id": "LC-BX-MH",
+          "code": "MH",
+          "name": "Mường Hum",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Pung, Xã Trung Lèng Hồ, Xã Mường Hum"
+        }
       ]
     },
     {
@@ -86,9 +335,42 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Lào Cai cũ",
-      "postal_code": ["335000", "335900"],
+      "postal_code": [
+        "335000",
+        "335900"
+      ],
       "wards": [
-        { "id": "LC-BTh-PL", "code": "PL", "name": "TT. Phố Lu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-BTh-PL",
+          "code": "PL",
+          "name": "TT. Phố Lu",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-BTh-XQ",
+          "code": "XQ",
+          "name": "Xuân Quang",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phong Niên, Xã Trì Quang, Xã Xuân Quang"
+        },
+        {
+          "id": "LC-BTh-BT",
+          "code": "BT",
+          "name": "Bảo Thắng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Phố Lu, Xã Sơn Hà, Xã Sơn Hải, Xã Thái Niên"
+        },
+        {
+          "id": "LC-BTh-GP",
+          "code": "GP",
+          "name": "Gia Phú",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Xuân Giao, Xã Thống Nhất, Xã Gia Phú"
+        }
       ]
     },
     {
@@ -98,9 +380,50 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Lào Cai cũ",
-      "postal_code": ["336000", "336900"],
+      "postal_code": [
+        "336000",
+        "336900"
+      ],
       "wards": [
-        { "id": "LC-BY-PR", "code": "PR", "name": "TT. Phố Ràng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-BY-PR",
+          "code": "PR",
+          "name": "TT. Phố Ràng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-BY-XH",
+          "code": "XH",
+          "name": "Xuân Hòa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Dương, Xã Xuân Hòa"
+        },
+        {
+          "id": "LC-BY-BH",
+          "code": "BH",
+          "name": "Bảo Hà",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Kim Sơn, Xã Cam Cọn, Xã Tân An, Xã Tân Thượng, Xã Bảo Hà"
+        },
+        {
+          "id": "LC-BY-BY",
+          "code": "BY",
+          "name": "Bảo Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Phố Ràng, Xã Yên Sơn, Xã Lương Sơn, Xã Xuân Thượng"
+        },
+        {
+          "id": "LC-BY-NĐ",
+          "code": "NĐ",
+          "name": "Nghĩa Đô",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Tiến, Xã Vĩnh Yên, Xã Nghĩa Đô"
+        }
       ]
     },
     {
@@ -110,9 +433,58 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Cao nguyên trắng (Lào Cai cũ)",
-      "postal_code": ["337000", "337900"],
+      "postal_code": [
+        "337000",
+        "337900"
+      ],
       "wards": [
-        { "id": "LC-BH-TT", "code": "TT", "name": "TT. Bắc Hà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-BH-TT",
+          "code": "TT",
+          "name": "TT. Bắc Hà",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-BH-BH",
+          "code": "BH",
+          "name": "Bắc Hà",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Bắc Hà, Xã Na Hối, Xã Thải Giàng Phố, Xã Bản Phố, Xã Hoàng Thu Phố, Xã Nậm Mòn"
+        },
+        {
+          "id": "LC-BH-BL",
+          "code": "BL",
+          "name": "Bản Liền",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Khánh, Xã Bản Liền"
+        },
+        {
+          "id": "LC-BH-BN",
+          "code": "BN",
+          "name": "Bảo Nhai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Đét, Xã Cốc Ly, Xã Bảo Nhai"
+        },
+        {
+          "id": "LC-BH-CL",
+          "code": "CL",
+          "name": "Cốc Lầu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Lúc, Xã Bản Cái, Xã Cốc Lầu"
+        },
+        {
+          "id": "LC-BH-LP",
+          "code": "LP",
+          "name": "Lùng Phình",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tả Van Chư, Xã Lùng Phình, Xã Lùng Thẩn"
+        }
       ]
     },
     {
@@ -122,9 +494,18 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện biên giới đá tai mèo (Lào Cai cũ)",
-      "postal_code": ["338000", "338500"],
+      "postal_code": [
+        "338000",
+        "338500"
+      ],
       "wards": [
-        { "id": "LC-SMC-TT", "code": "TT", "name": "TT. Si Ma Cai", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-SMC-TT",
+          "code": "TT",
+          "name": "TT. Si Ma Cai",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        }
       ]
     },
     {
@@ -134,9 +515,50 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Lào Cai cũ",
-      "postal_code": ["339000", "339900"],
+      "postal_code": [
+        "339000",
+        "339900"
+      ],
       "wards": [
-        { "id": "LC-MK-TT", "code": "TT", "name": "TT. Mường Khương", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-MK-TT",
+          "code": "TT",
+          "name": "TT. Mường Khương",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-MK-BL",
+          "code": "BL",
+          "name": "Bản Lầu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bản Sen, Xã Lùng Vai, Xã Bản Lầu"
+        },
+        {
+          "id": "LC-MK-CS",
+          "code": "CS",
+          "name": "Cao Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Lùng Khấu Nhin, Xã Tả Thàng, Xã La Pan Tẩn, Xã Cao Sơn"
+        },
+        {
+          "id": "LC-MK-MK",
+          "code": "MK",
+          "name": "Mường Khương",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Mường Khương, Xã Thanh Bình (huyện Mường Khương), Xã Nậm Chảy, Xã Tung Chung Phố, Xã Nấm Lư"
+        },
+        {
+          "id": "LC-MK-PL",
+          "code": "PL",
+          "name": "Pha Long",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tả Ngài Chồ, Xã Dìn Chin, Xã Tả Gia Khâu, Xã Pha Long"
+        }
       ]
     },
     {
@@ -146,9 +568,82 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Lào Cai cũ",
-      "postal_code": ["332000", "332900"],
+      "postal_code": [
+        "332000",
+        "332900"
+      ],
       "wards": [
-        { "id": "LC-VB-KH", "code": "KH", "name": "TT. Khánh Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-VB-KH",
+          "code": "KH",
+          "name": "TT. Khánh Yên",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-VB-VB",
+          "code": "VB",
+          "name": "Văn Bàn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Khánh Yên, Xã Khánh Yên Thượng, Xã Sơn Thuỷ, Xã Làng Giàng, Xã Hòa Mạc"
+        },
+        {
+          "id": "LC-VB-VL",
+          "code": "VL",
+          "name": "Võ Lao",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Mả, Xã Nậm Dạng, Xã Võ Lao"
+        },
+        {
+          "id": "LC-VB-CK",
+          "code": "CK",
+          "name": "Chiềng Ken",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Tha, Xã Chiềng Ken"
+        },
+        {
+          "id": "LC-VB-DQ",
+          "code": "DQ",
+          "name": "Dương Quỳ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thẳm Dương, Xã Dương Quỳ"
+        },
+        {
+          "id": "LC-VB-KY",
+          "code": "KY",
+          "name": "Khánh Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Khánh Yên Trung, Xã Liêm Phú, Xã Khánh Yên Hạ"
+        },
+        {
+          "id": "LC-VB-ML",
+          "code": "ML",
+          "name": "Minh Lương",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Xây, Xã Minh Lương"
+        },
+        {
+          "id": "LC-VB-NC",
+          "code": "NC",
+          "name": "Nậm Chày",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Dần Thàng, Xã Nậm Chày"
+        },
+        {
+          "id": "LC-VB-NX",
+          "code": "NX",
+          "name": "Nậm Xé",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Nậm Xé (Giữ nguyên, Không sáp nhập)"
+        }
       ]
     },
     {
@@ -158,9 +653,50 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Danh thắng Ruộng bậc thang (Yên Bái cũ)",
-      "postal_code": ["325000", "325900"],
+      "postal_code": [
+        "325000",
+        "325900"
+      ],
       "wards": [
-        { "id": "LC-MCC-TT", "code": "TT", "name": "TT. Mù Cang Chải", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-MCC-TT",
+          "code": "TT",
+          "name": "TT. Mù Cang Chải",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-MCC-CT",
+          "code": "CT",
+          "name": "Chế Tạo",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Chế Tạo (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "LC-MCC-KM",
+          "code": "KM",
+          "name": "Khao Mang",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hồ Bốn, Xã Khao Mang"
+        },
+        {
+          "id": "LC-MCC-MCC",
+          "code": "MCC",
+          "name": "Mù Cang Chải",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Mù Cang Chải, Xã Kim Nọi, Xã Mồ Dề, Xã Chế Cu Nha"
+        },
+        {
+          "id": "LC-MCC-NC",
+          "code": "NC",
+          "name": "Nậm Có",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Nậm Có (Giữ nguyên, Không sáp nhập)"
+        }
       ]
     },
     {
@@ -170,9 +706,26 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Yên Bái cũ",
-      "postal_code": ["326000", "326900"],
+      "postal_code": [
+        "326000",
+        "326900"
+      ],
       "wards": [
-        { "id": "LC-TrT-TT", "code": "TT", "name": "TT. Trạm Tấu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-TrT-TT",
+          "code": "TT",
+          "name": "TT. Trạm Tấu",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-TrT-HP",
+          "code": "HP",
+          "name": "Hạnh Phúc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Trạm Tấu, Xã Bản Công, Xã Hát Lừu, Xã Xà Hồ"
+        }
       ]
     },
     {
@@ -182,10 +735,73 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Vùng chè Suối Giàng (Yên Bái cũ)",
-      "postal_code": ["324000", "324900"],
+      "postal_code": [
+        "324000",
+        "324900"
+      ],
       "wards": [
-        { "id": "LC-VC-ST", "code": "ST", "name": "TT. Sơn Thịnh", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LC-VC-NT", "code": "NT", "name": "TT. Nông Trường Trần Phú", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-VC-ST",
+          "code": "ST",
+          "name": "TT. Sơn Thịnh",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-VC-NT",
+          "code": "NT",
+          "name": "TT. Nông Trường Trần Phú",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-VC-TL",
+          "code": "TL",
+          "name": "Tú Lệ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cao Phạ, Xã Tú Lệ"
+        },
+        {
+          "id": "LC-VC-VC",
+          "code": "VC",
+          "name": "Văn Chấn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Sơn Thịnh, Xã Đồng Khê, Xã Suối Bu, Xã Suối Giàng"
+        },
+        {
+          "id": "LC-VC-CT",
+          "code": "CT",
+          "name": "Cát Thịnh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Cát Thịnh (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "LC-VC-CT",
+          "code": "CT",
+          "name": "Chấn Thịnh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Thịnh (huyện Văn Chấn), Xã Đại Lịch, Xã Chấn Thịnh"
+        },
+        {
+          "id": "LC-VC-GH",
+          "code": "GH",
+          "name": "Gia Hội",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Búng, Xã Nậm Lành, Xã Gia Hội"
+        },
+        {
+          "id": "LC-VC-NT",
+          "code": "NT",
+          "name": "Nghĩa Tâm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bình Thuận, Xã Minh An, Xã Nghĩa Tâm"
+        }
       ]
     },
     {
@@ -195,9 +811,66 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Vùng quế Văn Yên (Yên Bái cũ)",
-      "postal_code": ["327000", "327900"],
+      "postal_code": [
+        "327000",
+        "327900"
+      ],
       "wards": [
-        { "id": "LC-VY-MK", "code": "MK", "name": "TT. Mậu A", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-VY-MK",
+          "code": "MK",
+          "name": "TT. Mậu A",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-VY-XÁ",
+          "code": "XÁ",
+          "name": "Xuân Ái",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đại Phác, Xã Yên Phú, Xã Yên Hợp, Xã Viễn Sơn, Xã Xuân Ái"
+        },
+        {
+          "id": "LC-VY-CQ",
+          "code": "CQ",
+          "name": "Châu Quế",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Châu Quế Thượng, Xã Châu Quế Hạ"
+        },
+        {
+          "id": "LC-VY-ĐC",
+          "code": "ĐC",
+          "name": "Đông Cuông",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Quang Minh, Xã An Bình, Xã Đông An, Xã Đông Cuông"
+        },
+        {
+          "id": "LC-VY-LG",
+          "code": "LG",
+          "name": "Lâm Giang",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Lang Thíp, Xã Lâm Giang"
+        },
+        {
+          "id": "LC-VY-MA",
+          "code": "MA",
+          "name": "Mậu A",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Mậu A, Xã Yên Thái, Xã An Thịnh, Xã Mậu Đông, Xã Ngòi A"
+        },
+        {
+          "id": "LC-VY-MV",
+          "code": "MV",
+          "name": "Mỏ Vàng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã An Lương, Xã Mỏ Vàng"
+        }
       ]
     },
     {
@@ -207,9 +880,50 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Yên Bái cũ",
-      "postal_code": ["328000", "328900"],
+      "postal_code": [
+        "328000",
+        "328900"
+      ],
       "wards": [
-        { "id": "LC-TY-CB", "code": "CB", "name": "TT. Cổ Phúc", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-TY-CB",
+          "code": "CB",
+          "name": "TT. Cổ Phúc",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-TY-TY",
+          "code": "TY",
+          "name": "Trấn Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Cổ Phúc, Xã Báo Đáp, Xã Tân Đồng, Xã Thành Thịnh, Xã Hòa Cuông, Xã Minh Quán"
+        },
+        {
+          "id": "LC-TY-VH",
+          "code": "VH",
+          "name": "Việt Hồng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Việt Cường, Xã Vân Hội, Xã Việt Hồng"
+        },
+        {
+          "id": "LC-TY-HK",
+          "code": "HK",
+          "name": "Hưng Khánh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hồng Ca, Xã Hưng Khánh"
+        },
+        {
+          "id": "LC-TY-LT",
+          "code": "LT",
+          "name": "Lương Thịnh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hưng Thịnh, Xã Lương Thịnh"
+        }
       ]
     },
     {
@@ -219,10 +933,57 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Hồ Thác Bà (Yên Bái cũ)",
-      "postal_code": ["323000", "323900"],
+      "postal_code": [
+        "323000",
+        "323900"
+      ],
       "wards": [
-        { "id": "LC-YB-TB", "code": "TB", "name": "TT. Yên Bình", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LC-YB-TH", "code": "TH", "name": "TT. Thác Bà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-YB-TB",
+          "code": "TB",
+          "name": "TT. Yên Bình",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-YB-TH",
+          "code": "TH",
+          "name": "TT. Thác Bà",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-YB-YB",
+          "code": "YB",
+          "name": "Yên Bình",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Yên Bình, Xã Tân Hương, Xã Thịnh Hưng, Xã Đại Đồng"
+        },
+        {
+          "id": "LC-YB-YT",
+          "code": "YT",
+          "name": "Yên Thành",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phúc Ninh, Xã Mỹ Gia, Xã Xuân Lai, Xã Phúc An, Xã Yên Thành"
+        },
+        {
+          "id": "LC-YB-BÁ",
+          "code": "BÁ",
+          "name": "Bảo Ái",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cảm Ân, Xã Mông Sơn, Xã Tân Nguyên, Xã Bảo Ái"
+        },
+        {
+          "id": "LC-YB-CN",
+          "code": "CN",
+          "name": "Cảm Nhân",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Xuân Long, Xã Ngọc Chấn, Xã Cảm Nhân"
+        }
       ]
     },
     {
@@ -232,9 +993,50 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Chợ đá quý (Yên Bái cũ)",
-      "postal_code": ["329000", "329900"],
+      "postal_code": [
+        "329000",
+        "329900"
+      ],
       "wards": [
-        { "id": "LC-LY-YT", "code": "YT", "name": "TT. Yên Thế", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LC-LY-YT",
+          "code": "YT",
+          "name": "TT. Yên Thế",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LC-LY-KH",
+          "code": "KH",
+          "name": "Khánh Hòa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tô Mậu, Xã An Lạc, Xã Động Quan, Xã Khánh Hòa"
+        },
+        {
+          "id": "LC-LY-LT",
+          "code": "LT",
+          "name": "Lâm Thượng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mai Sơn, Xã Khánh Thiện, Xã Tân Phượng, Xã Lâm Thượng"
+        },
+        {
+          "id": "LC-LY-LY",
+          "code": "LY",
+          "name": "Lục Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Yên Thế, Xã Minh Xuân, Xã Yên Thắng, Xã Liễu Đô"
+        },
+        {
+          "id": "LC-LY-ML",
+          "code": "ML",
+          "name": "Mường Lai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã An Phú, Xã Vĩnh Lạc, Xã Minh Tiến, Xã Mường Lai"
+        }
       ]
     }
   ],

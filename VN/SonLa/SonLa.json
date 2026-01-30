@@ -10,7 +10,10 @@
     "area_code": "0212",
     "postal_code": {
       "type": "range",
-      "value": ["360000", "369999"],
+      "value": [
+        "360000",
+        "369999"
+      ],
       "note": "Mã bưu chính quốc gia (đầu số 36)"
     }
   },
@@ -22,11 +25,57 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Tỉnh lỵ",
-      "postal_code": ["360000", "361000"],
+      "postal_code": [
+        "360000",
+        "361000"
+      ],
       "wards": [
-        { "id": "SL-TP-TL", "code": "TL", "name": "Tô Hiệu", "type": "Phường", "type_code": "WARD" },
-        { "id": "SL-TP-QT", "code": "QT", "name": "Quyết Thắng", "type": "Phường", "type_code": "WARD" },
-        { "id": "SL-TP-CL", "code": "CL", "name": "Chiềng Lề", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "SL-TP-TH",
+          "code": "TH",
+          "name": "Tô Hiệu",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Quyết Thắng, Phường Quyết Tâm, Phường Chiềng Lề, Phường Tô Hiệu"
+        },
+        {
+          "id": "SL-TP-QT",
+          "code": "QT",
+          "name": "Quyết Thắng",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "SL-TP-CL",
+          "code": "CL",
+          "name": "Chiềng Lề",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "SL-TP-CA",
+          "code": "CA",
+          "name": "Chiềng An",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Chiềng An, Xã Chiềng Xôm, Xã Chiềng Đen"
+        },
+        {
+          "id": "SL-TP-CC",
+          "code": "CC",
+          "name": "Chiềng Cơi",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Chiềng Cơi, Xã Hua La, Xã Chiềng Cọ"
+        },
+        {
+          "id": "SL-TP-CS",
+          "code": "CS",
+          "name": "Chiềng Sinh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Chiềng Sinh, Xã Chiềng Ngần"
+        }
       ]
     },
     {
@@ -36,10 +85,81 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Khu du lịch quốc gia (Đang quy hoạch lên Thị xã)",
-      "postal_code": ["363000", "363900"],
+      "postal_code": [
+        "363000",
+        "363900"
+      ],
       "wards": [
-        { "id": "SL-MC-TT", "code": "TT", "name": "TT. Mộc Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "SL-MC-NT", "code": "NT", "name": "TT. Nông Trường Mộc Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "SL-MC-TT",
+          "code": "TT",
+          "name": "TT. Mộc Châu",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-MC-NT",
+          "code": "NT",
+          "name": "TT. Nông Trường Mộc Châu",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-MC-CS",
+          "code": "CS",
+          "name": "Chiềng Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Xuân, Xã Chiềng Sơn"
+        },
+        {
+          "id": "SL-MC-ĐK",
+          "code": "ĐK",
+          "name": "Đoàn Kết",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Chung (thị xã Mộc Châu), Xã Đoàn Kết"
+        },
+        {
+          "id": "SL-MC-LS",
+          "code": "LS",
+          "name": "Lóng Sập",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Khừa, Xã Lóng Sập"
+        },
+        {
+          "id": "SL-MC-MC",
+          "code": "MC",
+          "name": "Mộc Châu",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Mộc Lỵ, Phường Mường Sang, Xã Chiềng Hắc"
+        },
+        {
+          "id": "SL-MC-MS",
+          "code": "MS",
+          "name": "Mộc Sơn",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đông Sang, Phường Mộc Sơn"
+        },
+        {
+          "id": "SL-MC-TN",
+          "code": "TN",
+          "name": "Thảo Nguyên",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cờ Đỏ, Phường Thảo Ngu yên"
+        },
+        {
+          "id": "SL-MC-VS",
+          "code": "VS",
+          "name": "Vân Sơn",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Bình Minh, Phường Vân Sơn"
+        }
       ]
     },
     {
@@ -49,9 +169,43 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Tách ra từ Mộc Châu cũ",
-      "postal_code": ["364000", "364500"],
+      "postal_code": [
+        "364000",
+        "364500"
+      ],
       "wards": [
-        { "id": "SL-VH-VH", "code": "VH", "name": "Vân Hồ", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "SL-VH-VH",
+          "code": "VH",
+          "name": "Vân Hồ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Lóng Luông, Xã Chiềng Yên, Xã Mường Men, Xã Vân Hồ"
+        },
+        {
+          "id": "SL-VH-SK",
+          "code": "SK",
+          "name": "Song Khủa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Tè, Xã Liên Hòa, Xã Quang Minh, Xã Song Khủa"
+        },
+        {
+          "id": "SL-VH-TM",
+          "code": "TM",
+          "name": "Tô Múa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Khoa, Xã Suối Bàng, Xã Tô Múa"
+        },
+        {
+          "id": "SL-VH-XN",
+          "code": "XN",
+          "name": "Xuân Nha",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Xuân, Xã Xuân Nha"
+        }
       ]
     },
     {
@@ -61,9 +215,51 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Di dời tái định cư thủy điện Sơn La",
-      "postal_code": ["365000", "365900"],
+      "postal_code": [
+        "365000",
+        "365900"
+      ],
       "wards": [
-        { "id": "SL-QN-MG", "code": "MG", "name": "Mường Giàng", "type": "Xã", "type_code": "COMMUNE", "note": "Trung tâm huyện lỵ mới" }
+        {
+          "id": "SL-QN-MG",
+          "code": "MG",
+          "name": "Mường Giàng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Trung tâm huyện lỵ mới"
+        },
+        {
+          "id": "SL-QN-MC",
+          "code": "MC",
+          "name": "Mường Chiên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Khay, Xã Cà Nàng, Xã Mường Chiên"
+        },
+        {
+          "id": "SL-QN-MG",
+          "code": "MG",
+          "name": "Mường Giôn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Pá Ma Pha Khinh, Xã Mường Giôn"
+        },
+        {
+          "id": "SL-QN-MS",
+          "code": "MS",
+          "name": "Mường Sại",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nặm Ét, Xã Mường Sại"
+        },
+        {
+          "id": "SL-QN-QN",
+          "code": "QN",
+          "name": "Quỳnh Nhai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Mường Giàng, Xã Chiềng Bằng, Xã Chiềng Khoang, Xã Chiềng Ơn"
+        }
       ]
     },
     {
@@ -73,9 +269,58 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Nơi đặt nhà máy thủy điện Sơn La",
-      "postal_code": ["366000", "366900"],
+      "postal_code": [
+        "366000",
+        "366900"
+      ],
       "wards": [
-        { "id": "SL-ML-IO", "code": "IO", "name": "TT. Ít Ong", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "SL-ML-IO",
+          "code": "IO",
+          "name": "TT. Ít Ong",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-ML-CH",
+          "code": "CH",
+          "name": "Chiềng Hoa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Ân, Xã Chiềng Công, Xã Chiềng Hoa"
+        },
+        {
+          "id": "SL-ML-CL",
+          "code": "CL",
+          "name": "Chiềng Lao",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Giôn, Xã Hua Trai, Xã Chiềng Lao"
+        },
+        {
+          "id": "SL-ML-MB",
+          "code": "MB",
+          "name": "Mường Bú",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Chùm, Xã Tạ Bú, Xã Mường Bú"
+        },
+        {
+          "id": "SL-ML-ML",
+          "code": "ML",
+          "name": "Mường La",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Ít Ong, Xã Nặm Păm, Xã Chiềng San, Xã Chiềng Muôn, Xã Mường Trai, Xã Pi Toong"
+        },
+        {
+          "id": "SL-ML-NC",
+          "code": "NC",
+          "name": "Ngọc Chiến",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Ngọc Chiến (Giữ nguyên, Không sáp nhập)"
+        }
       ]
     },
     {
@@ -84,9 +329,98 @@
       "name": "Thuận Châu",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["367000", "367900"],
+      "postal_code": [
+        "367000",
+        "367900"
+      ],
       "wards": [
-        { "id": "SL-TC-TT", "code": "TT", "name": "TT. Thuận Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "SL-TC-TT",
+          "code": "TT",
+          "name": "TT. Thuận Châu",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-TC-BT",
+          "code": "BT",
+          "name": "Bình Thuận",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phổng Lái, Xã Chiềng Pha"
+        },
+        {
+          "id": "SL-TC-CL",
+          "code": "CL",
+          "name": "Chiềng La",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Ngàm, Xã Nong Lay, Xã Tông Cọ, Xã Chiềng La"
+        },
+        {
+          "id": "SL-TC-CM",
+          "code": "CM",
+          "name": "Co Mạ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Co Tòng, Xã Pá Lông, Xã Co Mạ"
+        },
+        {
+          "id": "SL-TC-LH",
+          "code": "LH",
+          "name": "Long Hẹ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã É Tòng, Xã Long Hẹ"
+        },
+        {
+          "id": "SL-TC-MN",
+          "code": "MN",
+          "name": "Muổi Nọi",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bản Lầm, Xã Bon Phặng, Xã Muổi Nọi"
+        },
+        {
+          "id": "SL-TC-MB",
+          "code": "MB",
+          "name": "Mường Bám",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Mường Bám (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "SL-TC-MÉ",
+          "code": "MÉ",
+          "name": "Mường É",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phổng Lập, Xã Mường É"
+        },
+        {
+          "id": "SL-TC-MK",
+          "code": "MK",
+          "name": "Mường Khiêng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Liệp Tè, Xã Bó Mười, Xã Mường Khiêng"
+        },
+        {
+          "id": "SL-TC-NL",
+          "code": "NL",
+          "name": "Nậm Lầu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Bôm, Xã Púng Tra, Xã Nậm Lầu"
+        },
+        {
+          "id": "SL-TC-TC",
+          "code": "TC",
+          "name": "Thuận Châu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Thuận Châu, Xã Phổng Ly, Xã Thôm Mòn, Xã Tông Lạnh, Xã Chiềng Pấc"
+        }
       ]
     },
     {
@@ -95,9 +429,90 @@
       "name": "Phù Yên",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["368000", "368900"],
+      "postal_code": [
+        "368000",
+        "368900"
+      ],
       "wards": [
-        { "id": "SL-PY-TT", "code": "TT", "name": "TT. Phù Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "SL-PY-TT",
+          "code": "TT",
+          "name": "TT. Phù Yên",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-PY-GP",
+          "code": "GP",
+          "name": "Gia Phù",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tường Phù, Xã Suối Bau, Xã Sập Xa, Xã Gia Phù"
+        },
+        {
+          "id": "SL-PY-KB",
+          "code": "KB",
+          "name": "Kim Bon",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đá Đỏ, Xã Kim Bon"
+        },
+        {
+          "id": "SL-PY-MB",
+          "code": "MB",
+          "name": "Mường Bang",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Do, Xã Mường Lang, Xã Mường Bang"
+        },
+        {
+          "id": "SL-PY-MC",
+          "code": "MC",
+          "name": "Mường Cơi",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Thải, Xã Tân Lang, Xã Mường Cơi"
+        },
+        {
+          "id": "SL-PY-PY",
+          "code": "PY",
+          "name": "Phù Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Quang Huy, Xã Huy Hạ, Xã Huy Tường, Xã Huy Tân, Xã Huy Thượng"
+        },
+        {
+          "id": "SL-PY-ST",
+          "code": "ST",
+          "name": "Suối Tọ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Suối Tọ (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "SL-PY-TP",
+          "code": "TP",
+          "name": "Tân Phong",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bắc Phong, Xã Nam Phong, Xã Tân Phong"
+        },
+        {
+          "id": "SL-PY-TY",
+          "code": "TY",
+          "name": "Tân Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Tân Yên (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "SL-PY-TH",
+          "code": "TH",
+          "name": "Tường Hạ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tường Thượng, Xã Tường Phong, Xã Tường Tiến, Xã Tường Hạ"
+        }
       ]
     },
     {
@@ -107,10 +522,66 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Vùng săn mây Tà Xùa",
-      "postal_code": ["369000", "369500"],
+      "postal_code": [
+        "369000",
+        "369500"
+      ],
       "wards": [
-        { "id": "SL-BY-TT", "code": "TT", "name": "TT. Bắc Yên", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "SL-BY-TX", "code": "TX", "name": "Tà Xùa", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "SL-BY-TT",
+          "code": "TT",
+          "name": "TT. Bắc Yên",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-BY-TX",
+          "code": "TX",
+          "name": "Tà Xùa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Làng Chếu, Xã Háng Đồng, Xã Tà Xùa"
+        },
+        {
+          "id": "SL-BY-BY",
+          "code": "BY",
+          "name": "Bắc Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Bắc Yên, Xã Phiêng Ban, Xã Hồng Ngài, Xã Song Pe"
+        },
+        {
+          "id": "SL-BY-CS",
+          "code": "CS",
+          "name": "Chiềng Sại",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phiêng Côn, Xã Chiềng Sại"
+        },
+        {
+          "id": "SL-BY-PN",
+          "code": "PN",
+          "name": "Pắc Ngà",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chim Vàn, Xã Pắc Ngà"
+        },
+        {
+          "id": "SL-BY-TK",
+          "code": "TK",
+          "name": "Tạ Khoa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Khoa, Xã Hua Nhàn, Xã Tạ Khoa"
+        },
+        {
+          "id": "SL-BY-XV",
+          "code": "XV",
+          "name": "Xím Vàng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hang Chú, Xã Xí m Vàng"
+        }
       ]
     },
     {
@@ -120,9 +591,82 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Vùng trồng cây ăn quả, sân bay Nà Sản",
-      "postal_code": ["362000", "362900"],
+      "postal_code": [
+        "362000",
+        "362900"
+      ],
       "wards": [
-        { "id": "SL-MS-HL", "code": "HL", "name": "TT. Hát Lót", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "SL-MS-HL",
+          "code": "HL",
+          "name": "TT. Hát Lót",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-MS-CM",
+          "code": "CM",
+          "name": "Chiềng Mai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Ban, Xã Chiềng Kheo, Xã Chiềng Dong, Xã Chiềng Ve, Xã Chiềng Mai"
+        },
+        {
+          "id": "SL-MS-CM",
+          "code": "CM",
+          "name": "Chiềng Mung",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Bằng, Xã Mường Bon, Xã Chiềng Mung"
+        },
+        {
+          "id": "SL-MS-CS",
+          "code": "CS",
+          "name": "Chiềng Sung",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Chăn, Xã Chiềng Sung"
+        },
+        {
+          "id": "SL-MS-MS",
+          "code": "MS",
+          "name": "Mai Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Hát Lót, Xã Hát Lót, Xã Cò Nòi"
+        },
+        {
+          "id": "SL-MS-MC",
+          "code": "MC",
+          "name": "Mường Chanh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Chung (huyện Mai Sơn), Xã Mường Chanh"
+        },
+        {
+          "id": "SL-MS-PC",
+          "code": "PC",
+          "name": "Phiêng Cằm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Nơi, Xã Phiêng Cằm"
+        },
+        {
+          "id": "SL-MS-PP",
+          "code": "PP",
+          "name": "Phiêng Pằn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nà Ớt, Xã Chiềng Lương, Xã Phiêng Pằn"
+        },
+        {
+          "id": "SL-MS-TH",
+          "code": "TH",
+          "name": "Tà Hộc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nà Bó, Xã Tà Hộc"
+        }
       ]
     },
     {
@@ -132,9 +676,90 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Vùng nhãn Sông Mã",
-      "postal_code": ["369600", "369900"],
+      "postal_code": [
+        "369600",
+        "369900"
+      ],
       "wards": [
-        { "id": "SL-SM-TT", "code": "TT", "name": "TT. Sông Mã", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "SL-SM-TT",
+          "code": "TT",
+          "name": "TT. Sông Mã",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-SM-BS",
+          "code": "BS",
+          "name": "Bó Sinh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Pú Bẩu, Xã Chiềng En, Xã Bó Sinh"
+        },
+        {
+          "id": "SL-SM-CK",
+          "code": "CK",
+          "name": "Chiềng Khoong",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Cai, Xã Chiềng Khoong"
+        },
+        {
+          "id": "SL-SM-CK",
+          "code": "CK",
+          "name": "Chiềng Khương",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Sai, Xã Chiềng Khương"
+        },
+        {
+          "id": "SL-SM-CS",
+          "code": "CS",
+          "name": "Chiềng Sơ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Yên Hưng, Xã Chiềng Sơ"
+        },
+        {
+          "id": "SL-SM-HM",
+          "code": "HM",
+          "name": "Huổi Một",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Mằn, Xã Huổi Một"
+        },
+        {
+          "id": "SL-SM-MH",
+          "code": "MH",
+          "name": "Mường Hung",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Cang, Xã Mường Hung"
+        },
+        {
+          "id": "SL-SM-ML",
+          "code": "ML",
+          "name": "Mường Lầm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đứa Mòn, Xã Mường Lầm"
+        },
+        {
+          "id": "SL-SM-NT",
+          "code": "NT",
+          "name": "Nậm Ty",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Phung, Xã Nậm Ty"
+        },
+        {
+          "id": "SL-SM-SM",
+          "code": "SM",
+          "name": "Sông Mã",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Sông Mã, Xã Nà Nghịu"
+        }
       ]
     },
     {
@@ -144,9 +769,43 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện biên giới (tách từ Sông Mã)",
-      "postal_code": ["369950", "369999"],
+      "postal_code": [
+        "369950",
+        "369999"
+      ],
       "wards": [
-        { "id": "SL-SC-SC", "code": "SC", "name": "Sốp Cộp", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "SL-SC-SC",
+          "code": "SC",
+          "name": "Sốp Cộp",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Và, Xã Nậm Lạnh, Xã Sốp Cộp"
+        },
+        {
+          "id": "SL-SC-ML",
+          "code": "ML",
+          "name": "Mường Lạn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Mường Lạn (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "SL-SC-ML",
+          "code": "ML",
+          "name": "Mường Lèo",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Mường Lèo (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "SL-SC-PB",
+          "code": "PB",
+          "name": "Púng Bánh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Dồm Cang, Xã Sam Kha, Xã Púng Bánh"
+        }
       ]
     },
     {
@@ -156,9 +815,58 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Vùng xoài Yên Châu",
-      "postal_code": ["362500", "362800"],
+      "postal_code": [
+        "362500",
+        "362800"
+      ],
       "wards": [
-        { "id": "SL-YC-TT", "code": "TT", "name": "TT. Yên Châu", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "SL-YC-TT",
+          "code": "TT",
+          "name": "TT. Yên Châu",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "SL-YC-CH",
+          "code": "CH",
+          "name": "Chiềng Hặc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tú Nang, Xã Mường Lựm, Xã Chiềng Hặc"
+        },
+        {
+          "id": "SL-YC-LP",
+          "code": "LP",
+          "name": "Lóng Phiêng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Tương, Xã Lóng Phiêng"
+        },
+        {
+          "id": "SL-YC-PK",
+          "code": "PK",
+          "name": "Phiêng Khoài",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Phiêng Khoài (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "SL-YC-YC",
+          "code": "YC",
+          "name": "Yên Châu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Yên Châu, Xã Chiềng Đông, Xã Chiềng Sàng, Xã Chiềng Pằn, Xã Chiềng Khoi, Xã Sặp Vạt"
+        },
+        {
+          "id": "SL-YC-YS",
+          "code": "YS",
+          "name": "Yên Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng On, Xã Yên Sơn"
+        }
       ]
     }
   ],

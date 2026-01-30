@@ -10,7 +10,10 @@
     "area_code": "0213",
     "postal_code": {
       "type": "range",
-      "value": ["390000", "399999"],
+      "value": [
+        "390000",
+        "399999"
+      ],
       "note": "Mã bưu chính quốc gia (đầu số 39)"
     }
   },
@@ -22,11 +25,41 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Tỉnh lỵ (Trung tâm hành chính mới)",
-      "postal_code": ["390000", "391000"],
+      "postal_code": [
+        "390000",
+        "391000"
+      ],
       "wards": [
-        { "id": "LCA-TP-QT", "code": "QT", "name": "Quyết Thắng", "type": "Phường", "type_code": "WARD" },
-        { "id": "LCA-TP-TP", "code": "TP", "name": "Tân Phong", "type": "Phường", "type_code": "WARD" },
-        { "id": "LCA-TP-DP", "code": "DP", "name": "Đông Phong", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "LCA-TP-QT",
+          "code": "QT",
+          "name": "Quyết Thắng",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LCA-TP-TP",
+          "code": "TP",
+          "name": "Tân Phong",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Tân Phong, Phường Đông Phong, Xã San Thàng, Xã Nùng Nàng, Xã Bản Giang"
+        },
+        {
+          "id": "LCA-TP-DP",
+          "code": "DP",
+          "name": "Đông Phong",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "LCA-TP-ĐK",
+          "code": "ĐK",
+          "name": "Đoàn Kết",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đoàn Kết, Phường Quyết Tiến, Phường Quyết Thắng, Xã Lản Nhì Thàng, Xã Sùng Phài"
+        }
       ]
     },
     {
@@ -36,10 +69,50 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Cửa ngõ vào thành phố",
-      "postal_code": ["391500", "391900"],
+      "postal_code": [
+        "391500",
+        "391900"
+      ],
       "wards": [
-        { "id": "LCA-TD-TT", "code": "TT", "name": "TT. Tam Đường", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LCA-TD-BL", "code": "BL", "name": "Bình Lư", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "LCA-TD-TT",
+          "code": "TT",
+          "name": "TT. Tam Đường",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LCA-TD-BL",
+          "code": "BL",
+          "name": "Bình Lư",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Tam Đường, Xã Sơn Bình, Xã Bình Lư"
+        },
+        {
+          "id": "LCA-TD-TL",
+          "code": "TL",
+          "name": "Tả Lèng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Giang Ma, Xã Hồ Thầu, Xã Tả Lèng"
+        },
+        {
+          "id": "LCA-TD-BB",
+          "code": "BB",
+          "name": "Bản Bo",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nà Tăm, Xã Bản Bo"
+        },
+        {
+          "id": "LCA-TD-KH",
+          "code": "KH",
+          "name": "Khun Há",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bản Hon, Xã Khun Há"
+        }
       ]
     },
     {
@@ -49,10 +122,65 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện biên giới (Cửa khẩu Ma Lù Thàng)",
-      "postal_code": ["392000", "392900"],
+      "postal_code": [
+        "392000",
+        "392900"
+      ],
       "wards": [
-        { "id": "LCA-PT-TT", "code": "TT", "name": "TT. Phong Thổ", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LCA-PT-MLP", "code": "MLP", "name": "Ma Li Pho", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "LCA-PT-TT",
+          "code": "TT",
+          "name": "TT. Phong Thổ",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LCA-PT-MLP",
+          "code": "MLP",
+          "name": "Ma Li Pho",
+          "type": "Xã",
+          "type_code": "COMMUNE"
+        },
+        {
+          "id": "LCA-PT-PT",
+          "code": "PT",
+          "name": "Phong Thổ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Phong Thổ, Xã Huổi Luông, Xã Ma Li Pho, Xã Mường So"
+        },
+        {
+          "id": "LCA-PT-SLL",
+          "code": "SLL",
+          "name": "Sì Lở Lầu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Vàng Ma Chải, Xã Mồ Sì San, Xã Pa Vây Sử, Xã Sì Lở Lầu"
+        },
+        {
+          "id": "LCA-PT-SSH",
+          "code": "SSH",
+          "name": "Sin Suối Hồ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Xe, Xã Thèn Sin, Xã Sin Suối Hồ"
+        },
+        {
+          "id": "LCA-PT-DS",
+          "code": "DS",
+          "name": "Dào San",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tung Qua Lìn, Xã Mù Sang, Xã Dào San"
+        },
+        {
+          "id": "LCA-PT-KL",
+          "code": "KL",
+          "name": "Khổng Lào",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hoang Thèn, Xã Bản Lang, Xã Khổng Lào"
+        }
       ]
     },
     {
@@ -62,9 +190,82 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Cao nguyên Sìn Hồ",
-      "postal_code": ["393000", "393900"],
+      "postal_code": [
+        "393000",
+        "393900"
+      ],
       "wards": [
-        { "id": "LCA-SH-TT", "code": "TT", "name": "TT. Sìn Hồ", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "LCA-SH-TT",
+          "code": "TT",
+          "name": "TT. Sìn Hồ",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LCA-SH-NC",
+          "code": "NC",
+          "name": "Nậm Cuổi",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Hăn, Xã Nậm Cuổi"
+        },
+        {
+          "id": "LCA-SH-NM",
+          "code": "NM",
+          "name": "Nậm Mạ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Căn Co, Xã Nậm Mạ"
+        },
+        {
+          "id": "LCA-SH-NT",
+          "code": "NT",
+          "name": "Nậm Tăm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Lùng Thàng, Xã Nậm Cha, Xã Nậm Tăm"
+        },
+        {
+          "id": "LCA-SH-PT",
+          "code": "PT",
+          "name": "Pa Tần",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Ban, Xã Trung Chải, Xã Pa Tần"
+        },
+        {
+          "id": "LCA-SH-PSC",
+          "code": "PSC",
+          "name": "Pu Sam Cáp",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Pa Khóa, Xã Noong Hẻo, Xã Pu Sam Cáp"
+        },
+        {
+          "id": "LCA-SH-SH",
+          "code": "SH",
+          "name": "Sìn Hồ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Sìn Hồ, Xã Sà Dề Phìn, Xã Phăng Sô Lin, Xã Tả Phìn"
+        },
+        {
+          "id": "LCA-SH-TSC",
+          "code": "TSC",
+          "name": "Tủa Sín Chải",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Làng Mô, Xã Tả Ngảo, Xã Tủa Sín Chải"
+        },
+        {
+          "id": "LCA-SH-HT",
+          "code": "HT",
+          "name": "Hồng Thu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phìn Hồ, Xã Ma Quai, Xã Hồng Thu"
+        }
       ]
     },
     {
@@ -74,10 +275,50 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện có Thủy điện Lai Châu",
-      "postal_code": ["394000", "394900"],
+      "postal_code": [
+        "394000",
+        "394900"
+      ],
       "wards": [
-        { "id": "LCA-NN-TT", "code": "TT", "name": "TT. Nậm Nhùn", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LCA-NN-MB", "code": "MB", "name": "Mường Mô", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "LCA-NN-TT",
+          "code": "TT",
+          "name": "TT. Nậm Nhùn",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LCA-NN-MM",
+          "code": "MM",
+          "name": "Mường Mô",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Chà, Xã Mường Mô"
+        },
+        {
+          "id": "LCA-NN-NH",
+          "code": "NH",
+          "name": "Nậm Hàng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Nậm Nhùn, Xã Nậm Manh, Xã Nậm Hàng"
+        },
+        {
+          "id": "LCA-NN-HB",
+          "code": "HB",
+          "name": "Hua Bum",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Vàng San, Xã Hua Bum"
+        },
+        {
+          "id": "LCA-NN-LL",
+          "code": "LL",
+          "name": "Lê Lợi",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Pì, Xã Pú Đao, Xã Chăn Nưa, Xã Lê Lợi"
+        }
       ]
     },
     {
@@ -87,10 +328,81 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện cực Tây Bắc (Biên giới)",
-      "postal_code": ["395000", "395900"],
+      "postal_code": [
+        "395000",
+        "395900"
+      ],
       "wards": [
-        { "id": "LCA-MT-TT", "code": "TT", "name": "TT. Mường Tè", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LCA-MT-KL", "code": "KL", "name": "Ka Lăng", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "LCA-MT-TT",
+          "code": "TT",
+          "name": "TT. Mường Tè",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LCA-MT-KL",
+          "code": "KL",
+          "name": "Ka Lăng",
+          "type": "Xã",
+          "type_code": "COMMUNE"
+        },
+        {
+          "id": "LCA-MT-MT",
+          "code": "MT",
+          "name": "Mường Tè",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Khao, Xã Mường Tè"
+        },
+        {
+          "id": "LCA-MT-PỦ",
+          "code": "PỦ",
+          "name": "Pa Ủ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tá Bạ, Xã Pa Ủ"
+        },
+        {
+          "id": "LCA-MT-TT",
+          "code": "TT",
+          "name": "Tà Tổng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Tà Tổng (Giữ nguyên, Không sáp nhập)"
+        },
+        {
+          "id": "LCA-MT-TL",
+          "code": "TL",
+          "name": "Thu Lũm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Ka Lăng, Xã Thu Lũm"
+        },
+        {
+          "id": "LCA-MT-BN",
+          "code": "BN",
+          "name": "Bum Nưa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Pa Vệ Sủ, Xã Bum Nưa"
+        },
+        {
+          "id": "LCA-MT-BT",
+          "code": "BT",
+          "name": "Bum Tở",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Mường Tè, Xã Can Hồ, Xã Bum Tở"
+        },
+        {
+          "id": "LCA-MT-MC",
+          "code": "MC",
+          "name": "Mù Cả",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "xã Mù Cả (Giữ nguyên, Không sáp nhập)"
+        }
       ]
     },
     {
@@ -99,10 +411,50 @@
       "name": "Than Uyên",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["396000", "396900"],
+      "postal_code": [
+        "396000",
+        "396900"
+      ],
       "wards": [
-        { "id": "LCA-ThU-TT", "code": "TT", "name": "TT. Than Uyên", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LCA-ThU-MK", "code": "MK", "name": "Mường Kim", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "LCA-ThU-TT",
+          "code": "TT",
+          "name": "TT. Than Uyên",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LCA-ThU-MK",
+          "code": "MK",
+          "name": "Mường Kim",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tà Mung, Xã Tà Hừa, Xã Pha Mu, Xã Mường Kim"
+        },
+        {
+          "id": "LCA-ThU-MT",
+          "code": "MT",
+          "name": "Mường Than",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phúc Than, Xã Mường Mít"
+        },
+        {
+          "id": "LCA-ThU-TU",
+          "code": "TU",
+          "name": "Than Uyên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Than Uyên, Xã Mường Than, Xã Hua Nà, Xã Mường Cang"
+        },
+        {
+          "id": "LCA-ThU-KO",
+          "code": "KO",
+          "name": "Khoen On",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Ta Gia, Xã Khoen On"
+        }
       ]
     },
     {
@@ -112,10 +464,57 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Vùng chè Tân Uyên",
-      "postal_code": ["397000", "397900"],
+      "postal_code": [
+        "397000",
+        "397900"
+      ],
       "wards": [
-        { "id": "LCA-TU-TT", "code": "TT", "name": "TT. Tân Uyên", "type": "Thị trấn", "type_code": "TOWNSHIP" },
-        { "id": "LCA-TU-PK", "code": "PK", "name": "Pác Ta", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "LCA-TU-TT",
+          "code": "TT",
+          "name": "TT. Tân Uyên",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "LCA-TU-PK",
+          "code": "PK",
+          "name": "Pác Ta",
+          "type": "Xã",
+          "type_code": "COMMUNE"
+        },
+        {
+          "id": "LCA-TU-NS",
+          "code": "NS",
+          "name": "Nậm Sỏ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tà Mít, Xã Nậm Sỏ"
+        },
+        {
+          "id": "LCA-TU-PT",
+          "code": "PT",
+          "name": "Pắc Ta",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hố Mít, Xã Pắc Ta"
+        },
+        {
+          "id": "LCA-TU-TU",
+          "code": "TU",
+          "name": "Tân Uyên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Tân Uyên, Xã Trung Đồng, Xã Thân Thuộc, Xã Nậm Cần"
+        },
+        {
+          "id": "LCA-TU-MK",
+          "code": "MK",
+          "name": "Mường Khoa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phúc Khoa, Xã Mường Khoa"
+        }
       ]
     }
   ],

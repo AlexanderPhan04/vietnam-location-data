@@ -10,7 +10,10 @@
     "area_code": "0215",
     "postal_code": {
       "type": "range",
-      "value": ["380000", "389999"],
+      "value": [
+        "380000",
+        "389999"
+      ],
       "note": "Mã bưu chính quốc gia (đầu số 38)"
     }
   },
@@ -22,11 +25,57 @@
       "type": "Thành phố",
       "type_code": "CITY",
       "note": "Tỉnh lỵ (Di tích lịch sử đặc biệt)",
-      "postal_code": ["380000", "381000"],
+      "postal_code": [
+        "380000",
+        "381000"
+      ],
       "wards": [
-        { "id": "DB-TP-MT", "code": "MT", "name": "Mường Thanh", "type": "Phường", "type_code": "WARD" },
-        { "id": "DB-TP-HL", "code": "HL", "name": "Him Lam", "type": "Phường", "type_code": "WARD" },
-        { "id": "DB-TP-TN", "code": "TN", "name": "Thanh Nưa", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "DB-TP-MT",
+          "code": "MT",
+          "name": "Mường Thanh",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Noong Bua, Phường Nam Thanh, Xã Thanh Xương"
+        },
+        {
+          "id": "DB-TP-HL",
+          "code": "HL",
+          "name": "Him Lam",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "DB-TP-TN",
+          "code": "TN",
+          "name": "Thanh Nưa",
+          "type": "Xã",
+          "type_code": "COMMUNE"
+        },
+        {
+          "id": "DB-TP-ĐBP",
+          "code": "ĐBP",
+          "name": "Điện Biên Phủ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Him Lam, Phường Tân Thanh, Phường Mường Thanh, Phường Thanh Bình, Phường Thanh Trường, Xã Thanh Minh"
+        },
+        {
+          "id": "DB-TP-MP",
+          "code": "MP",
+          "name": "Mường Phăng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nà Nhạn, Xã Pá Khoang, Xã Mường Phăng"
+        },
+        {
+          "id": "DB-TP-NT",
+          "code": "NT",
+          "name": "Nà Tấu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Đăng, Xã Ngối Cáy, Xã Nà Tấu"
+        }
       ]
     },
     {
@@ -36,10 +85,33 @@
       "type": "Thị xã",
       "type_code": "TOWN",
       "note": "Thủ phủ cũ (Lai Châu cũ)",
-      "postal_code": ["382000", "382500"],
+      "postal_code": [
+        "382000",
+        "382500"
+      ],
       "wards": [
-        { "id": "DB-ML-SD", "code": "SD", "name": "Sông Đà", "type": "Phường", "type_code": "WARD" },
-        { "id": "DB-ML-NL", "code": "NL", "name": "Na Lay", "type": "Phường", "type_code": "WARD" }
+        {
+          "id": "DB-ML-SD",
+          "code": "SD",
+          "name": "Sông Đà",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "DB-ML-NL",
+          "code": "NL",
+          "name": "Na Lay",
+          "type": "Phường",
+          "type_code": "WARD"
+        },
+        {
+          "id": "DB-ML-ML",
+          "code": "ML",
+          "name": "Mường Lay",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Sông Đà, Phường Na Lay, Xã Lay Nưa, Xã Sá Tổng"
+        }
       ]
     },
     {
@@ -49,10 +121,74 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện vành đai thành phố",
-      "postal_code": ["382800", "383500"],
+      "postal_code": [
+        "382800",
+        "383500"
+      ],
       "wards": [
-        { "id": "DB-DB-NT", "code": "NT", "name": "Nà Tấu", "type": "Xã", "type_code": "COMMUNE" },
-        { "id": "DB-DB-MN", "code": "MN", "name": "Mường Nhà", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "DB-DB-NT",
+          "code": "NT",
+          "name": "Nà Tấu",
+          "type": "Xã",
+          "type_code": "COMMUNE"
+        },
+        {
+          "id": "DB-DB-MN",
+          "code": "MN",
+          "name": "Mường Nhà",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Lói, Xã Phu Luông, Xã Mường Nhà"
+        },
+        {
+          "id": "DB-DB-NN",
+          "code": "NN",
+          "name": "Núa Ngam",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hẹ Muông, Xã Na Tông, Xã Núa Ngam"
+        },
+        {
+          "id": "DB-DB-SM",
+          "code": "SM",
+          "name": "Sam Mứn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Pom Lót, Xã Na Ư"
+        },
+        {
+          "id": "DB-DB-TA",
+          "code": "TA",
+          "name": "Thanh An",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Noong Hẹt, Xã Sam Mứn, Xã Thanh An"
+        },
+        {
+          "id": "DB-DB-TN",
+          "code": "TN",
+          "name": "Thanh Nưa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hua Thanh, Xã Thanh Luông, Xã Thanh Hưng, Xã Thanh Chăn, Xã Thanh Nưa"
+        },
+        {
+          "id": "DB-DB-TY",
+          "code": "TY",
+          "name": "Thanh Yên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Noong Luống, Xã Pa Thơm, Xã Thanh Yên"
+        },
+        {
+          "id": "DB-DB-MP",
+          "code": "MP",
+          "name": "Mường Pồn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mường Mươn, Xã Mường Pồn"
+        }
       ]
     },
     {
@@ -61,9 +197,66 @@
       "name": "Điện Biên Đông",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["383800", "384500"],
+      "postal_code": [
+        "383800",
+        "384500"
+      ],
       "wards": [
-        { "id": "DB-DBD-TT", "code": "TT", "name": "TT. Điện Biên Đông", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "DB-DBD-TT",
+          "code": "TT",
+          "name": "TT. Điện Biên Đông",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "DB-DBD-PG",
+          "code": "PG",
+          "name": "Phình Giàng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Pú Hồng, Xã Phình Giàng"
+        },
+        {
+          "id": "DB-DBD-PN",
+          "code": "PN",
+          "name": "Pu Nhi",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nong U, Xã Pu Nhi"
+        },
+        {
+          "id": "DB-DBD-TD",
+          "code": "TD",
+          "name": "Tìa Dình",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Háng Lìa, Xã Tìa Dình"
+        },
+        {
+          "id": "DB-DBD-XD",
+          "code": "XD",
+          "name": "Xa Dung",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phì Nhừ, Xã Xa Dung"
+        },
+        {
+          "id": "DB-DBD-ML",
+          "code": "ML",
+          "name": "Mường Luân",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chiềng Sơ, Xã Luân Giói, Xã Mường Luân"
+        },
+        {
+          "id": "DB-DBD-NS",
+          "code": "NS",
+          "name": "Na Son",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Điện Biên Đông, Xã Keo Lôm, Xã Na Son"
+        }
       ]
     },
     {
@@ -72,9 +265,34 @@
       "name": "Mường Ảng",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["384800", "385200"],
+      "postal_code": [
+        "384800",
+        "385200"
+      ],
       "wards": [
-        { "id": "DB-MA-TT", "code": "TT", "name": "TT. Mường Ảng", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "DB-MA-TT",
+          "code": "TT",
+          "name": "TT. Mường Ảng",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "DB-MA-BL",
+          "code": "BL",
+          "name": "Búng Lao",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Ẳng Tở, Xã Chiềng Đông, Xã Búng Lao"
+        },
+        {
+          "id": "DB-MA-MẢ",
+          "code": "MẢ",
+          "name": "Mường Ảng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Mường Ảng, Xã Ẳng Nưa, Xã Ẳng Cang"
+        }
       ]
     },
     {
@@ -83,9 +301,58 @@
       "name": "Mường Chà",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["385500", "386200"],
+      "postal_code": [
+        "385500",
+        "386200"
+      ],
       "wards": [
-        { "id": "DB-MC-TT", "code": "TT", "name": "TT. Mường Chà", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "DB-MC-TT",
+          "code": "TT",
+          "name": "TT. Mường Chà",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "DB-MC-NN",
+          "code": "NN",
+          "name": "Nậm Nèn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Huổi Mí, Xã Nậm Nèn"
+        },
+        {
+          "id": "DB-MC-PH",
+          "code": "PH",
+          "name": "Pa Ham",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hừa Ngài, Xã Pa Ham"
+        },
+        {
+          "id": "DB-MC-MC",
+          "code": "MC",
+          "name": "Mường Chà",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chà Cang, Xã Chà Nưa, Xã Nậm Tin, Xã Pa Tần"
+        },
+        {
+          "id": "DB-MC-MT",
+          "code": "MT",
+          "name": "Mường Tùng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Huổi Lèng, Xã Mường Tùng"
+        },
+        {
+          "id": "DB-MC-NS",
+          "code": "NS",
+          "name": "Na Sang",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Mường Chà, Xã Ma Thì Hồ, Xã Sa Lông, Xã Na Sang"
+        }
       ]
     },
     {
@@ -95,10 +362,59 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện cực Tây (Ngã ba biên giới A Pa Chải)",
-      "postal_code": ["386500", "387200"],
+      "postal_code": [
+        "386500",
+        "387200"
+      ],
       "wards": [
-        { "id": "DB-MN-MN", "code": "MN", "name": "Mường Nhé", "type": "Xã", "type_code": "COMMUNE" },
-        { "id": "DB-MN-SIN", "code": "SIN", "name": "Sín Thầu", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "DB-MN-MN",
+          "code": "MN",
+          "name": "Mường Nhé",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Vì, Xã Chung Chải, Xã Mường Nhé"
+        },
+        {
+          "id": "DB-MN-ST",
+          "code": "ST",
+          "name": "Sín Thầu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Sen Thượng, Xã Leng Su Sìn, Xã Sín Thầu"
+        },
+        {
+          "id": "DB-MN-QL",
+          "code": "QL",
+          "name": "Quảng Lâm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Na Cô Sa, Xã Quảng Lâm"
+        },
+        {
+          "id": "DB-MN-ML",
+          "code": "ML",
+          "name": "Mường Lạn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nặm Lịch, Xã Xuân Lao, Xã Mường Lạn"
+        },
+        {
+          "id": "DB-MN-MT",
+          "code": "MT",
+          "name": "Mường Toong",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Huổi Lếch, Xã Mường Toong"
+        },
+        {
+          "id": "DB-MN-NK",
+          "code": "NK",
+          "name": "Nậm Kè",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Pá Mỳ, Xã Nậm Kè"
+        }
       ]
     },
     {
@@ -108,9 +424,43 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "note": "Huyện mới thành lập (tách từ Mường Nhé/Mường Chà)",
-      "postal_code": ["387500", "387900"],
+      "postal_code": [
+        "387500",
+        "387900"
+      ],
       "wards": [
-        { "id": "DB-NP-NP", "code": "NP", "name": "Nà Hỳ", "type": "Xã", "type_code": "COMMUNE" }
+        {
+          "id": "DB-NP-NH",
+          "code": "NH",
+          "name": "Nà Hỳ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nà Khoa, Xã Nậm Nhừ, Xã Nậm Chua, Xã Nà Hỳ"
+        },
+        {
+          "id": "DB-NP-SPP",
+          "code": "SPP",
+          "name": "Si Pa Phìn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phìn Hồ, Xã Si Pa Phìn"
+        },
+        {
+          "id": "DB-NP-CT",
+          "code": "CT",
+          "name": "Chà Tở",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nậm Khăn, Xã Chà Tở"
+        },
+        {
+          "id": "DB-NP-NB",
+          "code": "NB",
+          "name": "Nà Bủng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Vàng Đán, Xã Nà Bủng"
+        }
       ]
     },
     {
@@ -119,9 +469,58 @@
       "name": "Tủa Chùa",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["388000", "388800"],
+      "postal_code": [
+        "388000",
+        "388800"
+      ],
       "wards": [
-        { "id": "DB-TC-TT", "code": "TT", "name": "TT. Tủa Chùa", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "DB-TC-TT",
+          "code": "TT",
+          "name": "TT. Tủa Chùa",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "DB-TC-SN",
+          "code": "SN",
+          "name": "Sáng Nhè",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Xá Nhè, Xã Mường Đun, Xã Phình Sáng"
+        },
+        {
+          "id": "DB-TC-SC",
+          "code": "SC",
+          "name": "Sín Chải",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tả Sìn Thàng, Xã Lao Xả Phình, Xã Sín Chải"
+        },
+        {
+          "id": "DB-TC-SP",
+          "code": "SP",
+          "name": "Sính Phình",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Trung Thu, Xã Tả Phìn, Xã Sính Phình"
+        },
+        {
+          "id": "DB-TC-TC",
+          "code": "TC",
+          "name": "Tủa Chùa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Tủa Chùa, Xã Mường Báng, Xã Nà Tòng"
+        },
+        {
+          "id": "DB-TC-TT",
+          "code": "TT",
+          "name": "Tủa Thàng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Huổi Só, Xã Tủa Thàng"
+        }
       ]
     },
     {
@@ -130,9 +529,58 @@
       "name": "Tuần Giáo",
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
-      "postal_code": ["389000", "389800"],
+      "postal_code": [
+        "389000",
+        "389800"
+      ],
       "wards": [
-        { "id": "DB-TG-TT", "code": "TT", "name": "TT. Tuần Giáo", "type": "Thị trấn", "type_code": "TOWNSHIP" }
+        {
+          "id": "DB-TG-TT",
+          "code": "TT",
+          "name": "TT. Tuần Giáo",
+          "type": "Thị trấn",
+          "type_code": "TOWNSHIP"
+        },
+        {
+          "id": "DB-TG-PN",
+          "code": "PN",
+          "name": "Pú Nhung",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Rạng Đông, Xã Ta Ma, Xã Pú Nhung"
+        },
+        {
+          "id": "DB-TG-QT",
+          "code": "QT",
+          "name": "Quài Tở",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tỏa Tình, Xã Tênh Phông, Xã Quài Tở"
+        },
+        {
+          "id": "DB-TG-TG",
+          "code": "TG",
+          "name": "Tuần Giáo",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Tuần Giáo, Xã Quài Cang, Xã Quài Nưa"
+        },
+        {
+          "id": "DB-TG-CS",
+          "code": "CS",
+          "name": "Chiềng Sinh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nà Sáy, Xã Mường Thín, Xã Mường Khong, Xã Chiềng Sinh"
+        },
+        {
+          "id": "DB-TG-MM",
+          "code": "MM",
+          "name": "Mường Mùn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mùn Chung, Xã Pú Xi, Xã Mường Mùn"
+        }
       ]
     }
   ],

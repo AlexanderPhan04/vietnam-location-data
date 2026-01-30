@@ -23,7 +23,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["111000", "111999"],
+      "postal_code": [
+        "111000",
+        "111999"
+      ],
       "wards": [
         {
           "id": "HN-BD-PH",
@@ -40,6 +43,30 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "111200"
+        },
+        {
+          "id": "HN-BD-BĐ",
+          "code": "BĐ",
+          "name": "Ba Đình",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Quán Thánh, Phường Trúc Bạch, Phường Cửa Nam, Phường Điện Biên, Phường Đội Cấn, Phường Kim Mã, Phường Ngọc Hà, Phường Thụy Khuê, Phường Cửa Đông (phần còn lại sau khi sáp nhập vào phường Hoàn Kiếm), Phường Đồng Xuân (phần còn lại sau khi sáp nhập vào phường Hoàn Kiếm)"
+        },
+        {
+          "id": "HN-BD-GV",
+          "code": "GV",
+          "name": "Giảng Võ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Giảng Võ, Phường Cát Linh, Phường Láng Hạ, Phường Ngọc Khánh, Phường Thành Công, Phường Cống Vị (phần còn lại sau khi sáp nhập vào phường Ngọc Hà), Phường Kim Mã (phần còn lại sau khi sáp nhập vào phường Ba Đình, phường Ngọc Hà)"
+        },
+        {
+          "id": "HN-BD-NH",
+          "code": "NH",
+          "name": "Ngọc Hà",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Vĩnh Phúc, Phường Liễu Giai, Phường Cống Vị, Phường Kim Mã, Phường Ngọc Khánh, Phường Nghĩa Đô, Phường Đội Cấn (phần còn lại sau khi sáp nhập vào phường Ba Đình), Phường Ngọc Hà (phần còn lại sau khi sáp nhập vào phường Ba Đình)"
         }
       ]
     },
@@ -50,7 +77,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["110000", "110999"],
+      "postal_code": [
+        "110000",
+        "110999"
+      ],
       "wards": [
         {
           "id": "HN-HK-HB",
@@ -67,6 +97,22 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "110200"
+        },
+        {
+          "id": "HN-HK-CN",
+          "code": "CN",
+          "name": "Cửa Nam",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hàng Bài, Phường Phan Chu Trinh, Phường Trần Hưng Đạo, Phường Cửa Nam, Phường Nguyễn Du, Phường Phạm Đình Hổ, Phường Hàng Bông (phần còn lại sau khi sáp nhập vào phường Hoàn Kiếm), Phường Hàng Trống (phần còn lại sau khi sáp nhập vào phường Hoàn Kiếm), Phường Tràng Tiền (phần còn lại sau khi sáp nhập vào phường Hoàn Kiếm)"
+        },
+        {
+          "id": "HN-HK-HK",
+          "code": "HK",
+          "name": "Hoàn Kiếm",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hàng Bạc, Phường Hàng Bồ, Phường Hàng Buồm, Phường Hàng Đào, Phường Hàng Gai, Phường Hàng Mã, Phường Lý Thái Tổ, Phường Cửa Đông, Phường Cửa Nam, Phường Điện Biên, Phường Đồng Xuân, Phường Hàng Bông, Phường Hàng Trống, Phường Tràng Tiền"
         }
       ]
     },
@@ -77,7 +123,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["112000", "112999"],
+      "postal_code": [
+        "112000",
+        "112999"
+      ],
       "wards": [
         {
           "id": "HN-TH-YB",
@@ -94,6 +143,22 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "112200"
+        },
+        {
+          "id": "HN-TH-PT",
+          "code": "PT",
+          "name": "Phú Thượng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đông Ngạc, Phường Xuân La, Phường Xuân Đỉnh, Phường Xuân Tảo, Phường Phú Thượng (phần còn lại sau khi sáp nhập vào phường Hồng Hà, phường Tây Hồ)"
+        },
+        {
+          "id": "HN-TH-TH",
+          "code": "TH",
+          "name": "Tây Hồ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Bưởi, Phường Phú Thượng, Phường Xuân La, Phường Nhật Tân (phần còn lại sau khi sáp nhập vào phường Hồng Hà), Phường Quảng An (phần còn lại sau khi sáp nhập vào phường Hồng Hà), Phường Tứ Liên (phần còn lại sau khi sáp nhập vào phường Hồng Hà), Phường Yên Phụ (phần còn lại sau khi sáp nhập vào phường Hồng Hà), Phường Nghĩa Đô (phần còn lại sau khi sáp nhập vào phường Ngọc Hà, phường Nghĩa Đô), Phường Thụy Khuê (phần còn lại sau khi sáp nhập vào phường Ba Đình)"
         }
       ]
     },
@@ -104,7 +169,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["118000", "118999"],
+      "postal_code": [
+        "118000",
+        "118999"
+      ],
       "wards": [
         {
           "id": "HN-LB-GL",
@@ -115,12 +183,37 @@
           "postal_code": "118100"
         },
         {
-          "id": "HN-LB-BT",
-          "code": "BT",
+          "id": "HN-LB-BĐ",
+          "code": "BĐ",
           "name": "Bồ Đề",
           "type": "Phường",
           "type_code": "WARD",
-          "postal_code": "118200"
+          "postal_code": "118200",
+          "note": "Phường Ngọc Lâm, Phường Đức Giang, Phường Gia Thụy, Phường Thượng Thanh, Phường Phúc Đồng, Phường Ngọc Thụy (phần còn lại sau khi sáp nhập vào phường Hồng Hà), Phường Bồ Đề (phần còn lại sau khi sáp nhập vào phường Hồng Hà, phường Long Biên), Phường Long Biên (phần còn lại sau khi sáp nhập vào phường Long Biên)"
+        },
+        {
+          "id": "HN-LB-LB",
+          "code": "LB",
+          "name": "Long Biên",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cự Khối, Phường Phúc Đồng, Phường Thạch Bàn, Xã Bát Tràng, Phường Long Biên, Phường Bồ Đề, Phường Gia Thụy"
+        },
+        {
+          "id": "HN-LB-PL",
+          "code": "PL",
+          "name": "Phúc Lợi",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Thạch Bàn, Xã Cổ Bi, Phường Giang Biên (phần còn lại sau khi sáp nhập vào phường Việt Hưng), Phường Việt Hưng (phần còn lại sau khi sáp nhập vào phường Việt Hưng), Phường Phúc Lợi (phần còn lại sau khi sáp nhập vào phường Việt Hưng), Phường Phúc Đồng (phần còn lại sau khi sáp nhập vào phường Long Biên, phường Bồ Đề, phường Việt Hưng)"
+        },
+        {
+          "id": "HN-LB-VH",
+          "code": "VH",
+          "name": "Việt Hưng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Giang Biên, Phường Phúc Đồng, Phường Việt Hưng, Phường Phúc Lợi, Phường Gia Thụy (phần còn lại sau khi sáp nhập vào phường Long Biên, phường Bồ Đề), Phường Đức Giang (phần còn lại sau khi sáp nhập vào phường Bồ Đề), Phường Thượng Thanh (phần còn lại sau khi sáp nhập vào phường Bồ Đề)"
         }
       ]
     },
@@ -131,7 +224,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["113000", "113999"],
+      "postal_code": [
+        "113000",
+        "113999"
+      ],
       "wards": [
         {
           "id": "HN-CG-DV",
@@ -142,12 +238,29 @@
           "postal_code": "113100"
         },
         {
-          "id": "HN-CG-YHoa",
+          "id": "HN-CG-YH",
           "code": "YH",
           "name": "Yên Hòa",
           "type": "Phường",
           "type_code": "WARD",
-          "postal_code": "113200"
+          "postal_code": "113200",
+          "note": "Phường Mễ Trì, Phường Nhân Chính, Phường Trung Hòa, Phường Yên Hòa (phần còn lại sau khi sáp nhập vào phường Cầu Giấy)"
+        },
+        {
+          "id": "HN-CG-CG",
+          "code": "CG",
+          "name": "Cầu Giấy",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Dịch Vọng, Phường Dịch Vọng Hậu, Phường Quan Hoa, Phường Mỹ Đình 1, Phường Mỹ Đình 2, Phường Yên Hòa"
+        },
+        {
+          "id": "HN-CG-NĐ",
+          "code": "NĐ",
+          "name": "Nghĩa Đô",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Nghĩa Tân, Phường Cổ Nhuế 1, Phường Mai Dịch, Phường Nghĩa Đô, Phường Xuân La, Phường Xuân Tảo, Phường Dịch Vọng (phần còn lại sau khi sáp nhập vào phường Cầu Giấy), Phường Dịch Vọng Hậu (phần còn lại sau khi sáp nhập vào phường Cầu Giấy), Phường Quan Hoa (phần còn lại sau khi sáp nhập vào phường Cầu Giấy)"
         }
       ]
     },
@@ -158,7 +271,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["115000", "115999"],
+      "postal_code": [
+        "115000",
+        "115999"
+      ],
       "wards": [
         {
           "id": "HN-DD-KL",
@@ -166,7 +282,8 @@
           "name": "Kim Liên",
           "type": "Phường",
           "type_code": "WARD",
-          "postal_code": "115100"
+          "postal_code": "115100",
+          "note": "Phường Kim Liên, Phường Khương Thượng, Phường Nam Đồng, Phường Phương Liên Trung Tự, Phường Trung Liệt, Phường Phương Mai (phần còn lại sau khi sáp nhập vào phường Bạch Mai), Phường Quang Trung (quận Đống Đa) (phần còn lại sau khi sáp nhập vào phường Đống Đa)"
         },
         {
           "id": "HN-DD-LH",
@@ -175,6 +292,38 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "115200"
+        },
+        {
+          "id": "HN-DD-ĐĐ",
+          "code": "ĐĐ",
+          "name": "Đống Đa",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Thịnh Quang, Phường Quang Trung (quận Đống Đa), Phường Láng Hạ, Phường Nam Đồng, Phường Ô Chợ Dừa, Phường Trung Liệt"
+        },
+        {
+          "id": "HN-DD-L",
+          "code": "L",
+          "name": "Láng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Láng Thượng, Phường Láng Hạ (phần còn lại sau khi sáp nhập vào phường Giảng Võ, phường Đống Đa), Phường Ngọc Khánh (phần còn lại sau khi sáp nhập vào phường Ngọc Hà, phường Giảng Võ)"
+        },
+        {
+          "id": "HN-DD-ÔCD",
+          "code": "ÔCD",
+          "name": "Ô Chợ Dừa",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cát Linh (phần còn lại sau khi sáp nhập vào phường Giảng Võ), Phường Điện Biên (phần còn lại sau khi sáp nhập vào phường Hoàn Kiếm, phường Ba Đình, phường Văn Miếu Quốc Tử Giám), Phường Thành Công (phần còn lại sau khi sáp nhập vào phường Giảng Võ), Phường Ô Chợ Dừa (phần còn lại sau khi sáp nhập vào phường Đống Đa), Phường Trung Liệt (phần còn lại sau khi sáp nhập vào phường Đống Đa, phường Kim Liên), Phường Hàng Bột (phần còn lại sau khi sáp nhập vào phường Văn Miếu Quốc Tử Giám), Phường Văn Miếu Quốc Tử Giám (phần còn lại sau khi sáp nhập vào phường Văn Miếu Quốc Tử Giám)"
+        },
+        {
+          "id": "HN-DD-VM-QTG",
+          "code": "VM-QTG",
+          "name": "Văn Miếu - Quốc Tử Giám",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Khâm Thiên, Phường Thổ Quan, Phường Văn Chương, Phường Điện Biên, Phường Hàng Bột, Phường Văn Miếu Quốc Tử Giám, Phường Cửa Nam (phần còn lại sau khi sáp nhập vào phường Hoàn Kiếm, phường Cửa Nam, phường Ba Đình), Phường Lê Đại Hành (phần còn lại sau khi sáp nhập vào phường Hai Bà Trưng, phường Bạch Mai), Phường Nam Đồng (phần còn lại sau khi sáp nhập vào phường Đống Đa, phường Kim Liên), Phường Nguyễn Du (phần còn lại sau khi sáp nhập vào phường Cửa Nam, phường Hai Bà Trưng), Phường Phương Liên Trung Tự (phần còn lại sau khi sáp nhập vào phường Kim Liên)"
         }
       ]
     },
@@ -185,7 +334,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["116000", "116999"],
+      "postal_code": [
+        "116000",
+        "116999"
+      ],
       "wards": [
         {
           "id": "HN-HBT-BM",
@@ -193,7 +345,8 @@
           "name": "Bạch Mai",
           "type": "Phường",
           "type_code": "WARD",
-          "postal_code": "116100"
+          "postal_code": "116100",
+          "note": "Phường Bạch Mai, Phường Bách Khoa, Phường Quỳnh Mai, Phường Minh Khai (quận Hai Bà Trưng), Phường Đồng Tâm, Phường Lê Đại Hành, Phường Phương Mai, Phường Trương Định, Phường Thanh Nhàn (phần còn lại sau khi sáp nhập vào phường Hai Bà Trưng)"
         },
         {
           "id": "HN-HBT-MHK",
@@ -202,6 +355,22 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "116200"
+        },
+        {
+          "id": "HN-HBT-VT",
+          "code": "VT",
+          "name": "Vĩnh Tuy",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Mai Động, Phường Thanh Lương, Phường Vĩnh Hưng, Phường Vĩnh Tuy"
+        },
+        {
+          "id": "HN-HBT-HBT",
+          "code": "HBT",
+          "name": "Hai Bà Trưng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đồng Nhân, Phường Phố Huế, Phường Bạch Đằng, Phường Lê Đại Hành, Phường Nguyễn Du, Phường Thanh Nhàn, Phường Phạm Đình Hổ (phần còn lại sau khi sáp nhập vào phường Cửa Nam)"
         }
       ]
     },
@@ -212,7 +381,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["117000", "117999"],
+      "postal_code": [
+        "117000",
+        "117999"
+      ],
       "wards": [
         {
           "id": "HN-HM-DL",
@@ -229,6 +401,62 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "117200"
+        },
+        {
+          "id": "HN-HM-YS",
+          "code": "YS",
+          "name": "Yên Sở",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Thịnh Liệt, Phường Yên Sở, Xã Tứ Hiệp, Phường Hoàng Liệt (phần còn lại sau khi sáp nhập vào phường Hoàng Mai, phường Định Công, phường Hoàng Liệt), Phường Trần Phú (phần còn lại sau khi sáp nhập vào phường Lĩnh Nam, phường Hoàng Mai)"
+        },
+        {
+          "id": "HN-HM-ĐC",
+          "code": "ĐC",
+          "name": "Định Công",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Định Công, Phường Hoàng Liệt, Phường Thịnh Liệt, Xã Tân Triều, Xã Thanh Liệt, Phường Đại Kim, Phường Giáp Bát (phần còn lại sau khi sáp nhập vào phường Hoàng Mai, phường Tương Mai)"
+        },
+        {
+          "id": "HN-HM-HL",
+          "code": "HL",
+          "name": "Hoàng Liệt",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hoàng Liệt, Thị trấn Văn Điển, Xã Tam Hiệp (huyện Thanh Trì), Xã Thanh Liệt, Phường Đại Kim"
+        },
+        {
+          "id": "HN-HM-HM",
+          "code": "HM",
+          "name": "Hoàng Mai",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Giáp Bát, Phường Hoàng Liệt, Phường Hoàng Văn Thụ, Phường Lĩnh Nam, Phường Tân Mai, Phường Thịnh Liệt, Phường Tương Mai, Phường Trần Phú, Phường Vĩnh Hưng, Phường Yên Sở"
+        },
+        {
+          "id": "HN-HM-LN",
+          "code": "LN",
+          "name": "Lĩnh Nam",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Lĩnh Nam, Phường Thanh Trì, Phường Trần Phú, Phường Yên Sở, Phường Thanh Lương (phần còn lại sau khi sáp nhập vào phường Vĩnh Tuy, phường Hồng Hà)"
+        },
+        {
+          "id": "HN-HM-TM",
+          "code": "TM",
+          "name": "Tương Mai",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Giáp Bát, Phường Phương Liệt, Phường Mai Động (phần còn lại sau khi sáp nhập vào phường Vĩnh Tuy), Phường Minh Khai (quận Hai Bà Trưng) (phần còn lại sau khi sáp nhập vào phường Bạch Mai), Phường Đồng Tâm (phần còn lại sau khi sáp nhập vào phường Bạch Mai), Phường Trương Định (phần còn lại sau khi sáp nhập vào phường Bạch Mai), Phường Hoàng Văn Thụ (phần còn lại sau khi sáp nhập vào phường Hoàng Mai), Phường Tân Mai (phần còn lại sau khi sáp nhập vào phường Hoàng Mai), Phường Tương Mai (phần còn lại sau khi sáp nhập vào phường Hoàng Mai), Phường Vĩnh Hưng (phần còn lại sau khi sáp nhập vào phường Vĩnh Tuy, phường Hoàng Mai, phường Vĩnh Hưng)"
+        },
+        {
+          "id": "HN-HM-VH",
+          "code": "VH",
+          "name": "Vĩnh Hưng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Vĩnh Hưng, Phường Lĩnh Nam (phần còn lại sau khi sáp nhập vào phường Lĩnh Nam, phường Hoàng Mai), Phường Thanh Trì (phần còn lại sau khi sáp nhập vào phường Lĩnh Nam), Phường Vĩnh Tuy (phần còn lại sau khi sáp nhập vào phường Vĩnh Tuy)"
         }
       ]
     },
@@ -239,7 +467,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["114000", "114999"],
+      "postal_code": [
+        "114000",
+        "114999"
+      ],
       "wards": [
         {
           "id": "HN-TX-TXB",
@@ -256,6 +487,30 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "114200"
+        },
+        {
+          "id": "HN-TX-KĐ",
+          "code": "KĐ",
+          "name": "Khương Đình",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Hạ Đình, Phường Khương Đình, Phường Khương Trung, Phường Đại Kim, Xã Tân Triều, Phường Thanh Xuân Trung (phần còn lại sau khi sáp nhập vào phường Thanh Xuân), Phường Thượng Đình (phần còn lại sau khi sáp nhập vào phường Thanh Xuân)"
+        },
+        {
+          "id": "HN-TX-PL",
+          "code": "PL",
+          "name": "Phương Liệt",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Khương Mai, Phường Thịnh Liệt (phần còn lại sau khi sáp nhập vào phường Hoàng Mai, phường Định Công, phường Yên Sở), Phường Phương Liệt (phần còn lại sau khi sáp nhập vào phường Tương Mai), Phường Định Công (phần còn lại sau khi sáp nhập vào phường Định Công), Phường Khương Đình (phần còn lại sau khi sáp nhập vào phường Khương Đình), Phường Khương Trung (phần còn lại sau khi sáp nhập vào phường Khương Đình)"
+        },
+        {
+          "id": "HN-TX-TX",
+          "code": "TX",
+          "name": "Thanh Xuân",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Nhân Chính, Phường Thanh Xuân Bắc, Phường Thanh Xuân Trung, Phường Thượng Đình, Phường Trung Hoà, Phường Trung Văn"
         }
       ]
     },
@@ -266,7 +521,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["120000", "120999"],
+      "postal_code": [
+        "120000",
+        "120999"
+      ],
       "wards": [
         {
           "id": "HN-NTL-MD",
@@ -283,6 +541,38 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "120200"
+        },
+        {
+          "id": "HN-NTL-XP",
+          "code": "XP",
+          "name": "Xuân Phương",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Phương Canh, Phường Xuân Phương, Phường Đại Mỗ, Phường Tây Mỗ, Xã Vân Canh, Phường Minh Khai (quận Bắc Từ Liêm) (phần còn lại sau khi sáp nhập vào phường Tây Tựu, phường Đông Ngạc, phường Thượng Cát), Phường Phúc Diễn (phần còn lại sau khi sáp nhập vào phường Phú Diễn)"
+        },
+        {
+          "id": "HN-NTL-ĐM",
+          "code": "ĐM",
+          "name": "Đại Mỗ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đại Mỗ, Phường Dương Nội, Phường Mộ Lao, Phường Mễ Trì (phần còn lại sau khi sáp nhập vào phường Yên Hòa, phường Từ Liêm), Phường Nhân Chính (phần còn lại sau khi sáp nhập vào phường Thanh Xuân, phường Yên Hòa), Phường Trung Hòa (phần còn lại sau khi sáp nhập vào phường Thanh Xuân, phường Yên Hòa), Phường Phú Đô (phần còn lại sau khi sáp nhập vào phường Từ Liêm), Phường Trung Văn (phần còn lại sau khi sáp nhập vào phường Thanh Xuân)"
+        },
+        {
+          "id": "HN-NTL-TM",
+          "code": "TM",
+          "name": "Tây Mỗ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đại Mỗ, Phường Dương Nội, Xã An Khánh, Phường Tây Mỗ (phần còn lại sau khi sáp nhập vào phường Xuân Phương)"
+        },
+        {
+          "id": "HN-NTL-TL",
+          "code": "TL",
+          "name": "Từ Liêm",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Cầu Diễn, Phường Mễ Trì, Phường Phú Đô, Phường Mai Dịch (phần còn lại sau khi sáp nhập vào phường Nghĩa Đô, phường Phú Diễn), Phường Mỹ Đình 1 (phần còn lại sau khi sáp nhập vào phường Cầu Giấy), Phường Mỹ Đình 2 (phần còn lại sau khi sáp nhập vào phường Cầu Giấy)"
         }
       ]
     },
@@ -293,23 +583,52 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["119000", "119999"],
+      "postal_code": [
+        "119000",
+        "119999"
+      ],
       "wards": [
         {
-          "id": "HN-BTL-PV",
-          "code": "PV",
+          "id": "HN-BTL-PD",
+          "code": "PD",
           "name": "Phú Diễn",
           "type": "Phường",
           "type_code": "WARD",
-          "postal_code": "119100"
+          "postal_code": "119100",
+          "note": "Phường Phú Diễn, Phường Cổ Nhuế 1, Phường Mai Dịch, Phường Phúc Diễn"
         },
         {
-          "id": "HN-BTL-XP",
-          "code": "XP",
+          "id": "HN-BTL-XĐ",
+          "code": "XĐ",
           "name": "Xuân Đỉnh",
           "type": "Phường",
           "type_code": "WARD",
-          "postal_code": "119200"
+          "postal_code": "119200",
+          "note": "Phường Xuân Đỉnh, Phường Cổ Nhuế 1 (phần còn lại sau khi sáp nhập vào phường Nghĩa Đô, phường Phú Diễn), Phường Xuân La (phần còn lại sau khi sáp nhập vào phường Nghĩa Đô, phường Tây Hồ, phường Phú Thượng), Phường Xuân Tảo (phần còn lại sau khi sáp nhập vào phường Nghĩa Đô, phường Phú Thượng)"
+        },
+        {
+          "id": "HN-BTL-ĐN",
+          "code": "ĐN",
+          "name": "Đông Ngạc",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đức Thắng, Phường Cổ Nhuế 2, Phường Thụy Phương, Phường Minh Khai (quận Bắc Từ Liêm), Phường Đông Ngạc (phần còn lại sau khi sáp nhập vào phường Phú Thượng), Phường Xuân Đỉnh (phần còn lại sau khi sáp nhập vào phường Phú Thượng, phường Xuân Đỉnh)"
+        },
+        {
+          "id": "HN-BTL-TT",
+          "code": "TT",
+          "name": "Tây Tựu",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Minh Khai (quận Bắc Từ Liêm), Phường Tây Tựu, Xã Kim Chung (huyện Hoài Đức)"
+        },
+        {
+          "id": "HN-BTL-TC",
+          "code": "TC",
+          "name": "Thượng Cát",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Liên Mạc, Phường Thượng Cát, Phường Minh Khai (quận Bắc Từ Liêm), Phường Tây Tựu, Phường Cổ Nhuế 2 (phần còn lại sau khi sáp nhập vào phường Đông Ngạc), Phường Thụy Phương (phần còn lại sau khi sáp nhập vào phường Đông Ngạc)"
         }
       ]
     },
@@ -320,7 +639,10 @@
       "type": "Quận",
       "type_code": "URBAN_DISTRICT",
       "area_code": "024",
-      "postal_code": ["151000", "151999"],
+      "postal_code": [
+        "151000",
+        "151999"
+      ],
       "wards": [
         {
           "id": "HN-HD-NQ",
@@ -337,6 +659,46 @@
           "type": "Phường",
           "type_code": "WARD",
           "postal_code": "151200"
+        },
+        {
+          "id": "HN-HD-YN",
+          "code": "YN",
+          "name": "Yên Nghĩa",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Đồng Mai, Phường Yên Nghĩa (phần còn lại sau khi sáp nhập vào phường Dương Nội)"
+        },
+        {
+          "id": "HN-HD-DN",
+          "code": "DN",
+          "name": "Dương Nội",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Dương Nội, Phường Phú La, Phường Yên Nghĩa, Xã La Phù, Phường Đại Mỗ (phần còn lại sau khi sáp nhập vào phường Xuân Phương, phường Tây Mỗ, phường Đại Mỗ, phường Hà Đông), Phường La Khê (phần còn lại sau khi sáp nhập vào phường Hà Đông)"
+        },
+        {
+          "id": "HN-HD-HĐ",
+          "code": "HĐ",
+          "name": "Hà Đông",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Phúc La, Phường Vạn Phúc, Phường Quang Trung (quận Hà Đông), Phường Đại Mỗ, Phường Hà Cầu, Phường La Khê, Phường Văn Quán, Xã Tân Triều, Phường Mộ Lao (phần còn lại sau khi sáp nhập vào phường Đại Mỗ)"
+        },
+        {
+          "id": "HN-HD-KH",
+          "code": "KH",
+          "name": "Kiến Hưng",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Kiến Hưng, Phường Phú Lương, Phường Quang Trung (quận Hà Đông) (phần còn lại sau khi sáp nhập vào phường Hà Đông), Phường Hà Cầu (phần còn lại sau khi sáp nhập vào phường Hà Đông), Phường Phú La (phần còn lại sau khi sáp nhập vào phường Dương Nội)"
+        },
+        {
+          "id": "HN-HD-PL",
+          "code": "PL",
+          "name": "Phú Lương",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Phú Lãm, Phường Kiến Hưng, Phường Phú Lương, Xã Cự Khê, Xã Hữu Hòa"
         }
       ]
     },
@@ -347,7 +709,10 @@
       "type": "Thị xã",
       "type_code": "TOWN",
       "area_code": "024",
-      "postal_code": ["154000", "154999"],
+      "postal_code": [
+        "154000",
+        "154999"
+      ],
       "wards": [
         {
           "id": "HN-ST-LT",
@@ -364,6 +729,22 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "154200"
+        },
+        {
+          "id": "HN-ST-ST",
+          "code": "ST",
+          "name": "Sơn Tây",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Ngô Quyền, Phường Phú Thịnh, Phường Viên Sơn, Xã Đường Lâm, Phường Trung Hưng, Phường Sơn Lộc, Xã Thanh Mỹ"
+        },
+        {
+          "id": "HN-ST-TT",
+          "code": "TT",
+          "name": "Tùng Thiện",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Xuân Khanh, Phường Trung Sơn Trầm, Xã Xuân Sơn, Phường Trung Hưng (phần còn lại sau khi sáp nhập vào phường Sơn Tây), Phường Sơn Lộc (phần còn lại sau khi sáp nhập vào phường Sơn Tây), Xã Thanh Mỹ (phần còn lại sau khi sáp nhập vào phường Sơn Tây)"
         }
       ]
     },
@@ -374,7 +755,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["155000", "155999"],
+      "postal_code": [
+        "155000",
+        "155999"
+      ],
       "wards": [
         {
           "id": "HN-BV-TT",
@@ -391,6 +775,70 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "155200"
+        },
+        {
+          "id": "HN-BV-YB",
+          "code": "YB",
+          "name": "Yên Bài",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Vân Hòa, Xã Yên Bài, Xã Thạch Hòa"
+        },
+        {
+          "id": "HN-BV-BV",
+          "code": "BV",
+          "name": "Ba Vì",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Ba Vì, Xã Khánh Thượng, Xã Minh Quang (phần còn lại sau khi sáp nhập vào xã Bất Bạt)"
+        },
+        {
+          "id": "HN-BV-BB",
+          "code": "BB",
+          "name": "Bất Bạt",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thuần Mỹ, Xã Tòng Bạt, Xã Sơn Đà, Xã Cẩm Lĩnh, Xã Minh Quang"
+        },
+        {
+          "id": "HN-BV-CĐ",
+          "code": "CĐ",
+          "name": "Cổ Đô",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phú Cường (huyện Ba Vì), Xã Cổ Đô, Xã Phong Vân, Xã Phú Hồng, Xã Phú Đông, Xã Vạn Thắng"
+        },
+        {
+          "id": "HN-BV-MC",
+          "code": "MC",
+          "name": "Minh Châu",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Minh Châu, Thị trấn Tây Đằng, Xã Chu Minh"
+        },
+        {
+          "id": "HN-BV-QO",
+          "code": "QO",
+          "name": "Quảng Oai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cam Thượng, Xã Đông Quang, Xã Tiên Phong, Xã Thụy An, Thị trấn Tây Đằng (phần còn lại sau khi sáp nhập vào xã Minh Châu), Xã Chu Minh (phần còn lại sau khi sáp nhập vào xã Minh Châu)"
+        },
+        {
+          "id": "HN-BV-SH",
+          "code": "SH",
+          "name": "Suối Hai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Ba Trại, Xã Tản Lĩnh, Xã Thụy An (phần còn lại sau khi sáp nhập vào xã Quảng Oai), Xã Cẩm Lĩnh (phần còn lại sau khi sáp nhập vào xã Bất Bạt)"
+        },
+        {
+          "id": "HN-BV-VL",
+          "code": "VL",
+          "name": "Vật Lại",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thái Hòa, Xã Phú Sơn (huyện Ba Vì), Xã Đồng Thái, Xã Phú Châu, Xã Vật Lại"
         }
       ]
     },
@@ -401,7 +849,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["156000", "156999"],
+      "postal_code": [
+        "156000",
+        "156999"
+      ],
       "wards": [
         {
           "id": "HN-CM-TT",
@@ -418,6 +869,46 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "156200"
+        },
+        {
+          "id": "HN-CM-XM",
+          "code": "XM",
+          "name": "Xuân Mai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Xuân Mai, Xã Nam Phương Tiến, Xã Thủy Xuân Tiên, Xã Tân Tiến"
+        },
+        {
+          "id": "HN-CM-CM",
+          "code": "CM",
+          "name": "Chương Mỹ",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Phường Biên Giang, Thị trấn Chúc Sơn, Xã Đại Yên, Xã Ngọc Hòa, Xã Phụng Châu, Xã Tiên Phương, Xã Thuỵ Hương, Phường Đồng Mai (phần còn lại sau khi sáp nhập vào phường Yên Nghĩa)"
+        },
+        {
+          "id": "HN-CM-PN",
+          "code": "PN",
+          "name": "Phú Nghĩa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đông Phương Yên, Xã Đông Sơn, Xã Thanh Bình, Xã Trung Hòa, Xã Trường Yên, Xã Phú Nghĩa"
+        },
+        {
+          "id": "HN-CM-QB",
+          "code": "QB",
+          "name": "Quảng Bị",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hoàng Diệu, Xã Hợp Đồng, Xã Quảng Bị, Xã Tốt Động, Xã Lam Điền (phần còn lại sau khi sáp nhập vào xã Bình Minh)"
+        },
+        {
+          "id": "HN-CM-TP",
+          "code": "TP",
+          "name": "Trần Phú",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hoàng Văn Thụ, Xã Hữu Văn, Xã Mỹ Lương, Xã Trần Phú, Xã Đồng Tâm (phần còn lại sau khi sáp nhập vào xã Phúc Sơn), Xã Tân Tiến (phần còn lại sau khi sáp nhập vào xã Xuân Mai)"
         }
       ]
     },
@@ -428,7 +919,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["152800", "152999"],
+      "postal_code": [
+        "152800",
+        "152999"
+      ],
       "wards": [
         {
           "id": "HN-DP-TT",
@@ -445,6 +939,30 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "152820"
+        },
+        {
+          "id": "HN-DP-ĐP",
+          "code": "ĐP",
+          "name": "Đan Phượng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Phùng, Xã Đồng Tháp, Xã Song Phượng, Xã Thượng Mỗ, Xã Đan Phượng"
+        },
+        {
+          "id": "HN-DP-LM",
+          "code": "LM",
+          "name": "Liên Minh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phương Đình, Xã Trung Châu, Xã Thọ Xuân, Xã Thọ An, Xã Hồng Hà, Xã Tiến Thịnh"
+        },
+        {
+          "id": "HN-DP-ÔD",
+          "code": "ÔD",
+          "name": "Ô Diên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hạ Mỗ, Xã Tân Hội, Xã Liên Hà (huyện Đan Phượng), Xã Hồng Hà, Xã Liên Hồng, Xã Liên Trung, Phường Tây Tựu (phần còn lại sau khi sáp nhập vào phường Tây Tựu, phường Đông Ngạc, phường Thượng Cát, xã Hoài Đức), Xã Tân Lập (phần còn lại sau khi sáp nhập vào xã Hoài Đức)"
         }
       ]
     },
@@ -455,7 +973,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["136000", "136999"],
+      "postal_code": [
+        "136000",
+        "136999"
+      ],
       "wards": [
         {
           "id": "HN-DA-TT",
@@ -472,6 +993,46 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "136200"
+        },
+        {
+          "id": "HN-DA-VT",
+          "code": "VT",
+          "name": "Vĩnh Thanh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tàm Xá (phần còn lại sau khi sáp nhập vào xã Đông Anh), Xã Xuân Canh (phần còn lại sau khi sáp nhập vào xã Đông Anh), Xã Vĩnh Ngọc (phần còn lại sau khi sáp nhập vào xã Đông Anh, xã Phúc Thịnh), Xã Kim Chung (huyện Đông Anh) (phần còn lại sau khi sáp nhập vào xã Thiên Lộc), Xã Hải Bối (phần còn lại sau khi sáp nhập vào xã Thiên Lộc), Xã Kim Nỗ (phần còn lại sau khi sáp nhập vào xã Thiên Lộc)"
+        },
+        {
+          "id": "HN-DA-ĐA",
+          "code": "ĐA",
+          "name": "Đông Anh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cổ Loa, Xã Đông Hội, Xã Mai Lâm, Thị trấn Đông Anh, Xã Tàm Xá, Xã Tiên Dương, Xã Vĩnh Ngọc, Xã Xuân Canh, Xã Liên Hà (huyện Đông Anh) (phần còn lại sau khi sáp nhập vào xã Thư Lâm), Xã Dục Tú (phần còn lại sau khi sáp nhập vào xã Thư Lâm), Xã Uy Nỗ (phần còn lại sau khi sáp nhập vào xã Thư Lâm), Xã Việt Hùng (phần còn lại sau khi sáp nhập vào xã Thư Lâm)"
+        },
+        {
+          "id": "HN-DA-PT",
+          "code": "PT",
+          "name": "Phúc Thịnh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bắc Hồng, Xã Nam Hồng, Xã Vân Nội, Xã Vĩnh Ngọc, Xã Nguyên Khê (phần còn lại sau khi sáp nhập vào xã Thư Lâm), Xã Xuân Nộn (phần còn lại sau khi sáp nhập vào xã Thư Lâm), Xã Tiên Dương (phần còn lại sau khi sáp nhập vào xã Đông Anh), Thị trấn Đông Anh (phần còn lại sau khi sáp nhập vào xã Thư Lâm, xã Đông Anh)"
+        },
+        {
+          "id": "HN-DA-TL",
+          "code": "TL",
+          "name": "Thiên Lộc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Võng La, Xã Kim Chung (huyện Đông Anh), Xã Đại Mạch, Xã Kim Nỗ, Xã Tiền Phong (huyện Mê Linh), Xã Hải Bối"
+        },
+        {
+          "id": "HN-DA-TL",
+          "code": "TL",
+          "name": "Thư Lâm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thụy Lâm, Xã Vân Hà, Xã Xuân Nộn, Thị trấn Đông Anh, Xã Liên Hà (huyện Đông Anh), Xã Dục Tú, Xã Nguyên Khê, Xã Uy Nỗ, Xã Việt Hùng"
         }
       ]
     },
@@ -482,7 +1043,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["138000", "138999"],
+      "postal_code": [
+        "138000",
+        "138999"
+      ],
       "wards": [
         {
           "id": "HN-GL-TT",
@@ -498,7 +1062,32 @@
           "name": "Bát Tràng",
           "type": "Xã",
           "type_code": "COMMUNE",
-          "postal_code": "138200"
+          "postal_code": "138200",
+          "note": "Xã Kim Đức, Phường Cự Khối (phần còn lại sau khi sáp nhập vào phường Long Biên), Phường Thạch Bàn (phần còn lại sau khi sáp nhập vào phường Long Biên, phường Phúc Lợi, xã Gia Lâm), Thị trấn Trâu Quỳ (phần còn lại sau khi sáp nhập vào xã Gia Lâm), Xã Đa Tốn (phần còn lại sau khi sáp nhập vào xã Gia Lâm), Xã Bát Tràng (phần còn lại sau khi sáp nhập vào phường Long Biên, xã Gia Lâm)"
+        },
+        {
+          "id": "HN-GL-GL",
+          "code": "GL",
+          "name": "Gia Lâm",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Dương Xá, Xã Kiêu Kỵ, Thị trấn Trâu Quỳ, Phường Thạch Bàn, Xã Phú Sơn (huyện Gia Lâm), Xã Cổ Bi, Xã Đa Tốn, Xã Bát Tràng"
+        },
+        {
+          "id": "HN-GL-PĐ",
+          "code": "PĐ",
+          "name": "Phù Đổng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Yên Viên, Xã Ninh Hiệp, Xã Phù Đổng, Xã Thiên Đức, Xã Yên Thường, Xã Yên Viên, Xã Cổ Bi (phần còn lại sau khi sáp nhập vào phường Phúc Lợi, xã Gia Lâm), Xã Đặng Xá (phần còn lại sau khi sáp nhập vào xã Thuận An)"
+        },
+        {
+          "id": "HN-GL-TA",
+          "code": "TA",
+          "name": "Thuận An",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Dương Quang, Xã Lệ Chi, Xã Đặng Xá, Xã Phú Sơn (huyện Gia Lâm) (phần còn lại sau khi sáp nhập vào xã Gia Lâm)"
         }
       ]
     },
@@ -509,7 +1098,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["152000", "152999"],
+      "postal_code": [
+        "152000",
+        "152999"
+      ],
       "wards": [
         {
           "id": "HN-HDi-TT",
@@ -536,7 +1128,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["135000", "135999"],
+      "postal_code": [
+        "135000",
+        "135999"
+      ],
       "wards": [
         {
           "id": "HN-ML-TT",
@@ -553,6 +1148,38 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "135200"
+        },
+        {
+          "id": "HN-ML-YL",
+          "code": "YL",
+          "name": "Yên Lãng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chu Phan, Xã Hoàng Kim, Xã Liên Mạc, Xã Thạch Đà, Xã Văn Khê, Xã Tiến Thịnh (phần còn lại sau khi sáp nhập vào xã Liên Minh), Xã Trung Châu (phần còn lại sau khi sáp nhập vào xã Liên Minh), Xã Thọ Xuân (phần còn lại sau khi sáp nhập vào xã Liên Minh), Xã Thọ An (phần còn lại sau khi sáp nhập vào xã Liên Minh), Xã Hồng Hà (phần còn lại sau khi sáp nhập vào xã Liên Minh, xã Mê Linh)"
+        },
+        {
+          "id": "HN-ML-ML",
+          "code": "ML",
+          "name": "Mê Linh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tráng Việt, Xã Tiền Phong (huyện Mê Linh), Xã Văn Khê, Xã Mê Linh, Xã Đại Thịnh, Xã Hồng Hà, Xã Liên Hà (huyện Đan Phượng) (phần còn lại sau khi sáp nhập vào xã Ô Diên), Xã Liên Hồng (phần còn lại sau khi sáp nhập vào xã Ô Diên), Xã Liên Trung (phần còn lại sau khi sáp nhập vào xã Ô Diên), Xã Đại Mạch (phần còn lại sau khi sáp nhập vào xã Thiên Lộc)"
+        },
+        {
+          "id": "HN-ML-QM",
+          "code": "QM",
+          "name": "Quang Minh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Chi Đông, Thị trấn Quang Minh, Xã Mê Linh (phần còn lại sau khi sáp nhập vào xã Mê Linh), Xã Tiền Phong (huyện Mê Linh) (phần còn lại sau khi sáp nhập vào xã Thiên Lộc, xã Mê Linh), Xã Đại Thịnh (phần còn lại sau khi sáp nhập vào xã Mê Linh, xã Tiến Thắng), Xã Kim Hoa (phần còn lại sau khi sáp nhập vào xã Tiến Thắng), Xã Thanh Lâm (phần còn lại sau khi sáp nhập vào xã Tiến Thắng)"
+        },
+        {
+          "id": "HN-ML-TT",
+          "code": "TT",
+          "name": "Tiến Thắng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tam Đồng, Xã Tiến Thắng, Xã Tự Lập, Xã Đại Thịnh, Xã Kim Hoa, Xã Thanh Lâm, Xã Văn Khê (phần còn lại sau khi sáp nhập vào xã Ô Diên, xã Mê Linh, xã Yên Lãng), Xã Thạch Đà (phần còn lại sau khi sáp nhập vào xã Yên Lãng)"
         }
       ]
     },
@@ -563,7 +1190,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["159000", "159999"],
+      "postal_code": [
+        "159000",
+        "159999"
+      ],
       "wards": [
         {
           "id": "HN-MD-TT",
@@ -579,7 +1209,32 @@
           "name": "Hương Sơn",
           "type": "Xã",
           "type_code": "COMMUNE",
-          "postal_code": "159200"
+          "postal_code": "159200",
+          "note": "Xã An Tiến, Xã Hùng Tiến, Xã Vạn Tín, Xã Hương Sơn"
+        },
+        {
+          "id": "HN-MD-HS",
+          "code": "HS",
+          "name": "Hồng Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phùng Xá (huyện Mỹ Đức), Xã An Mỹ, Xã Hợp Tiến, Xã Lê Thanh, Xã Xuy Xá, Xã Hồng Sơn"
+        },
+        {
+          "id": "HN-MD-MĐ",
+          "code": "MĐ",
+          "name": "Mỹ Đức",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Đại Nghĩa, Xã An Phú, Xã Đại Hưng, Xã Hợp Thanh, Xã Phù Lưu Tế"
+        },
+        {
+          "id": "HN-MD-PS",
+          "code": "PS",
+          "name": "Phúc Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mỹ Xuyên, Xã Phúc Lâm, Xã Thượng Lâm, Xã Tuy Lai, Xã Đồng Tâm"
         }
       ]
     },
@@ -590,7 +1245,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["158000", "158999"],
+      "postal_code": [
+        "158000",
+        "158999"
+      ],
       "wards": [
         {
           "id": "HN-PX-TT",
@@ -606,7 +1264,32 @@
           "name": "Chuyên Mỹ",
           "type": "Xã",
           "type_code": "COMMUNE",
-          "postal_code": "158200"
+          "postal_code": "158200",
+          "note": "Xã Tân Dân (huyện Phú Xuyên), Xã Châu Can, Xã Phú Yên, Xã Vân Từ, Xã Chuyên Mỹ"
+        },
+        {
+          "id": "HN-PX-ĐX",
+          "code": "ĐX",
+          "name": "Đại Xuyên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bạch Hạ, Xã Khai Thái, Xã Minh Tân, Xã Phúc Tiến, Xã Quang Lãng, Xã Tri Thủy, Xã Đại Xuyên"
+        },
+        {
+          "id": "HN-PX-PX",
+          "code": "PX",
+          "name": "Phú Xuyên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Phú Minh, Thị trấn Phú Xuyên, Xã Hồng Thái, Xã Minh Cường, Xã Nam Phong, Xã Nam Tiến, Xã Quang Hà, Xã Văn Tự, Xã Tô Hiệu (phần còn lại sau khi sáp nhập vào xã Chương Dương), Xã Vạn Nhất (phần còn lại sau khi sáp nhập vào xã Chương Dương)"
+        },
+        {
+          "id": "HN-PX-PD",
+          "code": "PD",
+          "name": "Phượng Dực",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hoàng Long, Xã Hồng Minh, Xã Phú Túc, Xã Văn Hoàng, Xã Phượng Dực"
         }
       ]
     },
@@ -617,7 +1300,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["153000", "153999"],
+      "postal_code": [
+        "153000",
+        "153999"
+      ],
       "wards": [
         {
           "id": "HN-PT-TT",
@@ -634,6 +1320,30 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "153200"
+        },
+        {
+          "id": "HN-PT-HM",
+          "code": "HM",
+          "name": "Hát Môn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tam Hiệp (huyện Phúc Thọ), Xã Hiệp Thuận, Xã Liên Hiệp, Xã Ngọc Tảo, Xã Tam Thuấn, Xã Thanh Đa, Xã Hát Môn"
+        },
+        {
+          "id": "HN-PT-PL",
+          "code": "PL",
+          "name": "Phúc Lộc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Nam Hà, Xã Sen Phương, Xã Vân Phúc, Xã Võng Xuyên, Xã Xuân Đình"
+        },
+        {
+          "id": "HN-PT-PT",
+          "code": "PT",
+          "name": "Phúc Thọ",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Phúc Thọ, Xã Long Thượng, Xã Phúc Hòa, Xã Phụng Thượng, Xã Tích Lộc, Xã Trạch Mỹ Lộc"
         }
       ]
     },
@@ -644,7 +1354,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["153300", "153999"],
+      "postal_code": [
+        "153300",
+        "153999"
+      ],
       "wards": [
         {
           "id": "HN-QO-TT",
@@ -661,6 +1374,46 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "153320"
+        },
+        {
+          "id": "HN-QO-YX",
+          "code": "YX",
+          "name": "Yên Xuân",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đông Xuân (huyện Quốc Oai), Xã Yên Bình, Xã Yên Trung, Xã Tiến Xuân (phần còn lại sau khi sáp nhập vào xã Hòa Lạc), Xã Thạch Hòa (phần còn lại sau khi sáp nhập vào xã Yên Bài, xã Hòa Lạc)"
+        },
+        {
+          "id": "HN-QO-ĐP",
+          "code": "ĐP",
+          "name": "Đoài Phương",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Kim Sơn, Xã Sơn Đông, Xã Cổ Đông"
+        },
+        {
+          "id": "HN-QO-HĐ",
+          "code": "HĐ",
+          "name": "Hưng Đạo",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cộng Hoà, Xã Đồng Quang, Xã Hưng Đạo"
+        },
+        {
+          "id": "HN-QO-PC",
+          "code": "PC",
+          "name": "Phú Cát",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đông Yên, Xã Hoà Thạch, Xã Phú Mãn, Xã Phú Cát (phần còn lại sau khi sáp nhập vào xã Hạ Bằng)"
+        },
+        {
+          "id": "HN-QO-QO",
+          "code": "QO",
+          "name": "Quốc Oai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Thạch Thán, Xã Sài Sơn, Xã Ngọc Mỹ, Thị trấn Quốc Oai (phần còn lại sau khi sáp nhập vào xã Tây Phương), Xã Phượng Sơn (phần còn lại sau khi sáp nhập vào xã Tây Phương)"
         }
       ]
     },
@@ -671,7 +1424,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["150000", "150999"],
+      "postal_code": [
+        "150000",
+        "150999"
+      ],
       "wards": [
         {
           "id": "HN-SS-TT",
@@ -688,6 +1444,46 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "150200"
+        },
+        {
+          "id": "HN-SS-ĐP",
+          "code": "ĐP",
+          "name": "Đa Phúc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bắc Phú, Xã Đức Hoà, Xã Kim Lũ, Xã Tân Hưng, Xã Việt Long, Xã Xuân Giang, Xã Xuân Thu"
+        },
+        {
+          "id": "HN-SS-KA",
+          "code": "KA",
+          "name": "Kim Anh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Dân (huyện Sóc Sơn), Xã Minh Phú, Xã Minh Trí"
+        },
+        {
+          "id": "HN-SS-NB",
+          "code": "NB",
+          "name": "Nội Bài",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phú Cường (huyện Sóc Sơn), Xã Hiền Ninh, Xã Thanh Xuân, Xã Mai Đình (phần còn lại sau khi sáp nhập vào xã Sóc Sơn), Xã Phú Minh (phần còn lại sau khi sáp nhập vào xã Sóc Sơn), Xã Quang Tiến (phần còn lại sau khi sáp nhập vào xã Sóc Sơn)"
+        },
+        {
+          "id": "HN-SS-SS",
+          "code": "SS",
+          "name": "Sóc Sơn",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Sóc Sơn, Xã Tân Minh, Xã Đông Xuân (huyện Sóc Sơn), Xã Phù Lỗ, Xã Phù Linh, Xã Tiên Dược, Xã Mai Đình, Xã Phú Minh, Xã Quang Tiến"
+        },
+        {
+          "id": "HN-SS-TG",
+          "code": "TG",
+          "name": "Trung Giã",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bắc Sơn, Xã Hồng Kỳ, Xã Nam Sơn, Xã Trung Giã"
         }
       ]
     },
@@ -698,7 +1494,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["153500", "153999"],
+      "postal_code": [
+        "153500",
+        "153999"
+      ],
       "wards": [
         {
           "id": "HN-ThT-TT",
@@ -715,6 +1514,46 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "153520"
+        },
+        {
+          "id": "HN-ThT-HB",
+          "code": "HB",
+          "name": "Hạ Bằng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cần Kiệm, Xã Đồng Trúc, Xã Bình Yên, Xã Hạ Bằng, Xã Tân Xã, Xã Phú Cát"
+        },
+        {
+          "id": "HN-ThT-HL",
+          "code": "HL",
+          "name": "Hòa Lạc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tiến Xuân, Xã Thạch Hòa, Xã Cổ Đông (phần còn lại sau khi sáp nhập vào xã Đoài Phương), Xã Bình Yên (phần còn lại sau khi sáp nhập vào xã Hạ Bằng), Xã Hạ Bằng (phần còn lại sau khi sáp nhập vào xã Hạ Bằng), Xã Tân Xã (phần còn lại sau khi sáp nhập vào xã Hạ Bằng)"
+        },
+        {
+          "id": "HN-ThT-KP",
+          "code": "KP",
+          "name": "Kiều Phú",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cấn Hữu, Xã Liệp Nghĩa, Xã Tuyết Nghĩa, Xã Ngọc Liệp (phần còn lại sau khi sáp nhập vào xã Tây Phương), Xã Quang Trung (phần còn lại sau khi sáp nhập vào xã Tây Phương), Xã Ngọc Mỹ (phần còn lại sau khi sáp nhập vào xã Quốc Oai)"
+        },
+        {
+          "id": "HN-ThT-TP",
+          "code": "TP",
+          "name": "Tây Phương",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Phùng Xá (huyện Thạch Thất), Xã Hương Ngải, Xã Lam Sơn, Xã Thạch Xá, Xã Quang Trung, Thị trấn Quốc Oai, Xã Ngọc Liệp, Xã Phượng Sơn"
+        },
+        {
+          "id": "HN-ThT-TT",
+          "code": "TT",
+          "name": "Thạch Thất",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Liên Quan, Xã Cẩm Yên, Xã Đại Đồng, Xã Kim Quan, Xã Lại Thượng, Xã Phú Kim"
         }
       ]
     },
@@ -725,7 +1564,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["157000", "157999"],
+      "postal_code": [
+        "157000",
+        "157999"
+      ],
       "wards": [
         {
           "id": "HN-TO-TT",
@@ -742,6 +1584,38 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "157200"
+        },
+        {
+          "id": "HN-TO-BM",
+          "code": "BM",
+          "name": "Bình Minh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Bích Hòa, Xã Bình Minh, Xã Cao Viên, Xã Thanh Cao, Xã Lam Điền, Xã Cự Khê (phần còn lại sau khi sáp nhập vào phường Phú Lương), Phường Phú Lương (phần còn lại sau khi sáp nhập vào phường Phú Lương, phường Kiến Hưng)"
+        },
+        {
+          "id": "HN-TO-DH",
+          "code": "DH",
+          "name": "Dân Hòa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Cao Xuân Dương, Xã Hồng Dương, Xã Liên Châu, Xã Tân Ước, Xã Dân Hòa"
+        },
+        {
+          "id": "HN-TO-TH",
+          "code": "TH",
+          "name": "Tam Hưng",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Mỹ Hưng, Xã Thanh Thùy, Xã Thanh Văn, Xã Tam Hưng"
+        },
+        {
+          "id": "HN-TO-TO",
+          "code": "TO",
+          "name": "Thanh Oai",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Kim Bài, Xã Đỗ Động, Xã Kim An, Xã Phương Trung, Xã Thanh Mai, Xã Kim Thư"
         }
       ]
     },
@@ -752,7 +1626,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["134000", "134999"],
+      "postal_code": [
+        "134000",
+        "134999"
+      ],
       "wards": [
         {
           "id": "HN-TTr-TT",
@@ -769,6 +1646,46 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "134200"
+        },
+        {
+          "id": "HN-TTr-ĐT",
+          "code": "ĐT",
+          "name": "Đại Thanh",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tam Hiệp (huyện Thanh Trì) (phần còn lại sau khi sáp nhập vào phường Hoàng Liệt), Xã Hữu Hòa (phần còn lại sau khi sáp nhập vào phường Phú Lương), Phường Kiến Hưng (phần còn lại sau khi sáp nhập vào phường Phú Lương, phường Kiến Hưng), Thị trấn Văn Điển (phần còn lại sau khi sáp nhập vào phường Hoàng Liệt, xã Thanh Trì), Xã Tả Thanh Oai (phần còn lại sau khi sáp nhập vào phường Thanh Liệt), Xã Vĩnh Quỳnh (phần còn lại sau khi sáp nhập vào xã Thanh Trì)"
+        },
+        {
+          "id": "HN-TTr-NP",
+          "code": "NP",
+          "name": "Nam Phù",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Vạn Phúc, Xã Liên Ninh, Xã Ninh Sở, Xã Đông Mỹ, Xã Duyên Thái, Xã Ngũ Hiệp (phần còn lại sau khi sáp nhập vào xã Thanh Trì), Xã Yên Mỹ (phần còn lại sau khi sáp nhập vào xã Thanh Trì), Xã Duyên Hà (phần còn lại sau khi sáp nhập vào xã Thanh Trì)"
+        },
+        {
+          "id": "HN-TTr-NH",
+          "code": "NH",
+          "name": "Ngọc Hồi",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Ngọc Hồi, Xã Duyên Thái, Xã Đại Áng, Xã Khánh Hà, Xã Liên Ninh (phần còn lại sau khi sáp nhập vào xã Nam Phù)"
+        },
+        {
+          "id": "HN-TTr-TL",
+          "code": "TL",
+          "name": "Thanh Liệt",
+          "type": "Phường",
+          "type_code": "WARD",
+          "note": "Xã Tả Thanh Oai, Phường Đại Kim (phần còn lại sau khi sáp nhập vào phường Định Công, phường Hoàng Liệt, phường Khương Đình), Phường Thanh Xuân Bắc (phần còn lại sau khi sáp nhập vào phường Thanh Xuân), Phường Hạ Đình (phần còn lại sau khi sáp nhập vào phường Khương Đình), Phường Văn Quán (phần còn lại sau khi sáp nhập vào phường Hà Đông), Xã Thanh Liệt (phần còn lại sau khi sáp nhập vào phường Định Công, phường Hoàng Liệt), Xã Tân Triều (phần còn lại sau khi sáp nhập vào phường Định Công, phường Khương Đình, phường Hà Đông)"
+        },
+        {
+          "id": "HN-TTr-TT",
+          "code": "TT",
+          "name": "Thanh Trì",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Văn Điển, Xã Ngũ Hiệp, Xã Vĩnh Quỳnh, Xã Yên Mỹ, Xã Duyên Hà, Xã Tứ Hiệp (phần còn lại sau khi sáp nhập vào phường Yên Sở), Phường Yên Sở (phần còn lại sau khi sáp nhập vào phường Lĩnh Nam, phường Hoàng Mai, phường Yên Sở)"
         }
       ]
     },
@@ -779,7 +1696,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["158500", "158999"],
+      "postal_code": [
+        "158500",
+        "158999"
+      ],
       "wards": [
         {
           "id": "HN-ThuT-TT",
@@ -796,6 +1716,38 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "158520"
+        },
+        {
+          "id": "HN-ThuT-CD",
+          "code": "CD",
+          "name": "Chương Dương",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Chương Dương, Xã Lê Lợi, Xã Thắng Lợi, Xã Tự Nhiên, Xã Tô Hiệu, Xã Vạn Nhất"
+        },
+        {
+          "id": "HN-ThuT-HV",
+          "code": "HV",
+          "name": "Hồng Vân",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hà Hồi, Xã Hồng Vân, Xã Liên Phương, Xã Vân Tảo, Xã Duyên Thái (phần còn lại sau khi sáp nhập vào xã Nam Phù, xã Ngọc Hồi), Xã Ninh Sở (phần còn lại sau khi sáp nhập vào xã Nam Phù), Xã Đông Mỹ (phần còn lại sau khi sáp nhập vào xã Nam Phù)"
+        },
+        {
+          "id": "HN-ThuT-TP",
+          "code": "TP",
+          "name": "Thượng Phúc",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Tân Minh (huyện Thường Tín), Xã Dũng Tiến, Xã Quất Động, Xã Nghiêm Xuyên, Xã Nguyễn Trãi"
+        },
+        {
+          "id": "HN-ThuT-TT",
+          "code": "TT",
+          "name": "Thường Tín",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Thường Tín, Xã Tiền Phong (huyện Thường Tín), Xã Hiền Giang, Xã Hòa Bình, Xã Nhị Khê, Xã Văn Bình, Xã Văn Phú, Xã Đại Áng (phần còn lại sau khi sáp nhập vào xã Ngọc Hồi), Xã Khánh Hà (phần còn lại sau khi sáp nhập vào xã Ngọc Hồi)"
         }
       ]
     },
@@ -806,7 +1758,10 @@
       "type": "Huyện",
       "type_code": "RURAL_DISTRICT",
       "area_code": "024",
-      "postal_code": ["160000", "160999"],
+      "postal_code": [
+        "160000",
+        "160999"
+      ],
       "wards": [
         {
           "id": "HN-UH-TT",
@@ -823,6 +1778,46 @@
           "type": "Xã",
           "type_code": "COMMUNE",
           "postal_code": "160200"
+        },
+        {
+          "id": "HN-UH-HP",
+          "code": "HP",
+          "name": "Hòa Phú",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hòa Phú (huyện Chương Mỹ), Xã Đồng Lạc, Xã Hồng Phú, Xã Thượng Vực, Xã Văn Võ, Xã Kim Thư (phần còn lại sau khi sáp nhập vào xã Thanh Oai)"
+        },
+        {
+          "id": "HN-UH-HX",
+          "code": "HX",
+          "name": "Hòa Xá",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hòa Phú, Xã Thái Hòa (huyện Ứng Hòa), Xã Bình Lưu Quang, Xã Phù Lưu"
+        },
+        {
+          "id": "HN-UH-ỨH",
+          "code": "ỨH",
+          "name": "Ứng Hòa",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Đại Cường, Xã Đại Hùng, Xã Đông Lỗ, Xã Đồng Tân, Xã Kim Đường, Xã Minh Đức, Xã Trầm Lộng, Xã Trung Tú"
+        },
+        {
+          "id": "HN-UH-ỨT",
+          "code": "ỨT",
+          "name": "Ứng Thiên",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Xã Hoa Viên, Xã Liên Bạt, Xã Quảng Phú Cầu, Xã Trường Thịnh"
+        },
+        {
+          "id": "HN-UH-VĐ",
+          "code": "VĐ",
+          "name": "Vân Đình",
+          "type": "Xã",
+          "type_code": "COMMUNE",
+          "note": "Thị trấn Vân Đình, Xã Cao Sơn Tiến, Xã Phương Tú, Xã Tảo Dương Văn"
         }
       ]
     }
